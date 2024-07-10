@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://w3id.org/def/drug-trafficking-ontology/"
+     xml:base="https://w3id.org/def/drug-trafficking-ontology/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:v1="http://docs.oasis-open.org/legalruleml/ns/v1.0/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:v11="http://www.loc.gov/mads/rdf/v1#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:lmss="http://lmss.sali.org/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
+     xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+     xmlns:terms="http://purl.org/dc/terms/">
+    <owl:Ontology rdf:about="https://w3id.org/def/nyon#">
+        <dc:publisher rdf:resource="http://shodhguru.epizy.com/"/>
+        <terms:created>2024-07-10</terms:created>
+        <terms:creator>Sanju Tiwari</terms:creator>
+        <terms:creator>Mayank Kejriwal</terms:creator>
+        <terms:creator>Nandana Mihindukulasooriya</terms:creator>
+        <terms:description xml:lang="en">An ontology that represents concepts in the drug trafficking domain.</terms:description>
+        <terms:license rdf:resource="http://purl.org/NET/rdflicense/cc-by4.0"/>
+        <terms:modified>2024-07-10</terms:modified>
+        <terms:title xml:lang="en">An ontology that represents concepts in the drug trafficking domain.</terms:title>
+        <vann:preferredNamespacePrefix>drug</vann:preferredNamespacePrefix>
+        <vann:preferredNamespaceUri rdf:resource="https://w3id.org/def/drug-trafficking-ontology/"/>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</owl:versionInfo>
+    </owl:Ontology>
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <!-- http://docs.oasis-open.org/legalruleml/ns/v1.0/FactualStatement -->
+
+    <owl:AnnotationProperty rdf:about="http://docs.oasis-open.org/legalruleml/ns/v1.0/FactualStatement"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/publisher -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/publisher"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/created -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/created"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/modified -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/modified"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+    
+
+
+    <!-- http://purl.org/vocab/vann/preferredNamespacePrefix -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespacePrefix"/>
+    
+
+
+    <!-- http://purl.org/vocab/vann/preferredNamespaceUri -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespaceUri"/>
+    
+
+
+    <!-- http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled -->
+
+    <owl:AnnotationProperty rdf:about="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#sameAs -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2002/07/owl#sameAs"/>
+
+
+    <owl:Class rdf:about="https://w3id.org/def/drug-trafficking-ontology/Police">
+        <rdfs:comment xml:lang="en">represents the police.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/def/drug-trafficking-ontology/</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Police</rdfs:label>
+    </owl:Class>
+
+    <owl:Class rdf:about="https://w3id.org/def/drug-trafficking-ontology/Assest">
+        <rdfs:comment xml:lang="en">represents the assest.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/def/drug-trafficking-ontology/</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Assest</rdfs:label>
+    </owl:Class>
+
+
+ </rdf:RDF>   
