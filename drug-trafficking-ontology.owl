@@ -1,22 +1,23 @@
 <?xml version="1.0"?>
-<Ontology xmlns="http://www.w3.org/2002/07/owl#"
-     xml:base="http://www.semanticweb.org/iceth/ontologies/2024/1/untitled-ontology-40"
+<rdf:RDF xmlns="https://w3id.org/def/drug-trafficking-onto#"
+     xml:base="https://w3id.org/def/drug-trafficking-onto#"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:v1="http://docs.oasis-open.org/legalruleml/ns/v1.0/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:v11="http://www.loc.gov/mads/rdf/v1#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:lmss="http://lmss.sali.org/"
+     xmlns:drugonto="https://w3id.org/def/drug-trafficking-onto#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     ontologyIRI="http://www.semanticweb.org/iceth/ontologies/2024/1/untitled-ontology-40">
-    <Prefix name="" IRI="http://www.semanticweb.org/iceth/ontologies/2024/1/untitled-ontology-40"/>
-    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
-    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
-    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
-    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
-    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
-    <Prefix name="terms" IRI="http://purl.org/dc/terms/"/>
-    <Prefix name="dc" IRI="http://purl.org/dc/elements/1.1/"/>
-    <Prefix name="vann" IRI="http://purl.org/vocab/vann/"/>
-
-
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
+     xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+     xmlns:terms="http://purl.org/dc/terms/">
+    <owl:Ontology rdf:about="https://w3id.org/def/nyon#">
     <dc:publisher rdf:resource="http://shodhguru.epizy.com/"/>
     <terms:created>2024-07-10</terms:created>
     <terms:creator>Sanju Tiwari</terms:creator>
@@ -26,503 +27,35 @@
     <terms:license rdf:resource="http://purl.org/NET/rdflicense/cc-by4.0"/>
     <terms:modified>2024-07-10</terms:modified>
     <terms:title xml:lang="en">An ontology that represents concepts in the drug trafficking domain.</terms:title>
-    <vann:preferredNamespacePrefix>drug</vann:preferredNamespacePrefix>
-    <vann:preferredNamespaceUri rdf:resource="https://w3id.org/def/drug-trafficking-ontology/"/>
+    <vann:preferredNamespacePrefix>drugonto</vann:preferredNamespacePrefix>
+    <vann:preferredNamespaceUri rdf:resource="https://w3id.org/def/drug-trafficking-onto#"/>
     <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</owl:versionInfo>
+    </owl:Ontology>
 
-    <Declaration>
-        <Class IRI="https://schema.org/Arrest"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://schema.org/Asset"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://schema.org/Bank_fraud_case"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://schema.org/Bank_loan_fraud"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://schema.org/Booking_under_law"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://schema.org/Border_checkpoints"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://schema.org/Bulk_drugs"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://schema.org/Case"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://schema.org/Central_bureau_of_investigation"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://schema.org/Contraband"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://schema.org/Crackdown_on_narcotics_inflow"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://schema.org/Currency"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://schema.org/Drug_company"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://schema.org/Drug_haul_case"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://schema.org/Drug_intermediaries"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://schema.org/Drug_trafficking"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://schema.org/Enforcement_directorate"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://schema.org/Farmhouse"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://schema.org/Gold"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://schema.org/Government_schools_and_colleges"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://schema.org/Illegal_action"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://schema.org/Infrastructure"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://schema.org/Legal_action"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://schema.org/Legal_entity"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://schema.org/Manufacturing"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://schema.org/Organization"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://schema.org/Person"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://schema.org/Plots_of_land"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://schema.org/Police"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://schema.org/Possession"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://schema.org/Product"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://schema.org/Raid"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://schema.org/Real_estate"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://schema.org/Resolution_of_boundary_disputes"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://schema.org/Search"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://schema.org/Seizing"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://schema.org/Smuggling"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://schema.org/Sports_academy"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://schema.org/Syndicate"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://schema.org/University"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="https://schema.org/amassedThrough"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="https://schema.org/conductsInvestigation"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="https://schema.org/hasArrested"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="https://schema.org/hasLiabilityTowards"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="https://schema.org/hasRegisteredCase"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="https://schema.org/hasSeized"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="https://schema.org/isAccusedOf"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="https://schema.org/isArrestedBy"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="https://schema.org/isArrestedFor"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="https://schema.org/isFoundingMemberOf"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="https://schema.org/isInvolvedIn"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="https://schema.org/isLocatedIn"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="https://schema.org/isMemberOf"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="https://schema.org/isOwnedBy"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="https://schema.org/isWorth"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="https://schema.org/possesses"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="https://schema.org/produces"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="https://schema.org/resultsFrom"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="https://schema.org/searchesLocation"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="https://schema.org/securesReleaseOf"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="https://schema.org/smuggles"/>
-    </Declaration>
-    <SubClassOf>
-        <Class IRI="https://schema.org/Arrest"/>
-        <Class IRI="https://schema.org/Legal_action"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="https://schema.org/Bank_fraud_case"/>
-        <Class IRI="https://schema.org/Case"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="https://schema.org/Bank_loan_fraud"/>
-        <Class IRI="https://schema.org/Illegal_action"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="https://schema.org/Booking_under_law"/>
-        <Class IRI="https://schema.org/Legal_action"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="https://schema.org/Border_checkpoints"/>
-        <Class IRI="https://schema.org/Infrastructure"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="https://schema.org/Bulk_drugs"/>
-        <Class IRI="https://schema.org/Product"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="https://schema.org/Central_bureau_of_investigation"/>
-        <Class IRI="https://schema.org/Legal_entity"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="https://schema.org/Crackdown_on_narcotics_inflow"/>
-        <Class IRI="https://schema.org/Legal_action"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="https://schema.org/Drug_company"/>
-        <Class IRI="https://schema.org/Organization"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="https://schema.org/Drug_haul_case"/>
-        <Class IRI="https://schema.org/Case"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="https://schema.org/Drug_intermediaries"/>
-        <Class IRI="https://schema.org/Product"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="https://schema.org/Drug_trafficking"/>
-        <Class IRI="https://schema.org/Illegal_action"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="https://schema.org/Enforcement_directorate"/>
-        <Class IRI="https://schema.org/Legal_entity"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="https://schema.org/Farmhouse"/>
-        <Class IRI="https://schema.org/Real_estate"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="https://schema.org/Gold"/>
-        <Class IRI="https://schema.org/Asset"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="https://schema.org/Government_schools_and_colleges"/>
-        <Class IRI="https://schema.org/Infrastructure"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="https://schema.org/Manufacturing"/>
-        <Class IRI="https://schema.org/Illegal_action"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="https://schema.org/Plots_of_land"/>
-        <Class IRI="https://schema.org/Real_estate"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="https://schema.org/Police"/>
-        <Class IRI="https://schema.org/Organization"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="https://schema.org/Possession"/>
-        <Class IRI="https://schema.org/Illegal_action"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="https://schema.org/Raid"/>
-        <Class IRI="https://schema.org/Legal_action"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="https://schema.org/Real_estate"/>
-        <Class IRI="https://schema.org/Asset"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="https://schema.org/Resolution_of_boundary_disputes"/>
-        <Class IRI="https://schema.org/Legal_action"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="https://schema.org/Search"/>
-        <Class IRI="https://schema.org/Legal_action"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="https://schema.org/Seizing"/>
-        <Class IRI="https://schema.org/Legal_action"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="https://schema.org/Smuggling"/>
-        <Class IRI="https://schema.org/Illegal_action"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="https://schema.org/Sports_academy"/>
-        <Class IRI="https://schema.org/Infrastructure"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="https://schema.org/Syndicate"/>
-        <Class IRI="https://schema.org/Organization"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="https://schema.org/University"/>
-        <Class IRI="https://schema.org/Organization"/>
-    </SubClassOf>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="https://schema.org/amassedThrough"/>
-        <Class IRI="https://schema.org/Asset"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="https://schema.org/conductsInvestigation"/>
-        <Class IRI="https://schema.org/Legal_entity"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="https://schema.org/hasArrested"/>
-        <Class IRI="https://schema.org/Police"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="https://schema.org/hasLiabilityTowards"/>
-        <Class IRI="https://schema.org/Organization"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="https://schema.org/hasRegisteredCase"/>
-        <Class IRI="https://schema.org/Legal_entity"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="https://schema.org/hasSeized"/>
-        <Class IRI="https://schema.org/Police"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="https://schema.org/isAccusedOf"/>
-        <Class IRI="https://schema.org/Person"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="https://schema.org/isArrestedBy"/>
-        <Class IRI="https://schema.org/Person"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="https://schema.org/isArrestedFor"/>
-        <Class IRI="https://schema.org/Person"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="https://schema.org/isFoundingMemberOf"/>
-        <Class IRI="https://schema.org/Person"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="https://schema.org/isInvolvedIn"/>
-        <Class IRI="https://schema.org/Person"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="https://schema.org/isLocatedIn"/>
-        <Class IRI="https://schema.org/Asset"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="https://schema.org/isLocatedIn"/>
-        <Class IRI="https://schema.org/Contraband"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="https://schema.org/isLocatedIn"/>
-        <Class IRI="https://schema.org/Illegal_action"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="https://schema.org/isLocatedIn"/>
-        <Class IRI="https://schema.org/Infrastructure"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="https://schema.org/isLocatedIn"/>
-        <Class IRI="https://schema.org/Legal_action"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="https://schema.org/isLocatedIn"/>
-        <Class IRI="https://schema.org/Organization"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="https://schema.org/isLocatedIn"/>
-        <Class IRI="https://schema.org/Person"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="https://schema.org/isMemberOf"/>
-        <Class IRI="https://schema.org/Person"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="https://schema.org/isOwnedBy"/>
-        <Class IRI="https://schema.org/Asset"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="https://schema.org/isWorth"/>
-        <Class IRI="https://schema.org/Asset"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="https://schema.org/isWorth"/>
-        <Class IRI="https://schema.org/Contraband"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="https://schema.org/possesses"/>
-        <Class IRI="https://schema.org/Person"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="https://schema.org/produces"/>
-        <Class IRI="https://schema.org/Organization"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="https://schema.org/resultsFrom"/>
-        <Class IRI="https://schema.org/Asset"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="https://schema.org/searchesLocation"/>
-        <Class IRI="https://schema.org/Search"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="https://schema.org/securesReleaseOf"/>
-        <Class IRI="https://schema.org/Person"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="https://schema.org/smuggles"/>
-        <Class IRI="https://schema.org/Person"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="https://schema.org/amassedThrough"/>
-        <Class IRI="https://schema.org/Illegal_action"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="https://schema.org/conductsInvestigation"/>
-        <Class IRI="https://schema.org/Case"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="https://schema.org/hasArrested"/>
-        <Class IRI="https://schema.org/Person"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="https://schema.org/hasLiabilityTowards"/>
-        <Class IRI="https://schema.org/Person"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="https://schema.org/hasRegisteredCase"/>
-        <Class IRI="https://schema.org/Case"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="https://schema.org/hasSeized"/>
-        <Class IRI="https://schema.org/Contraband"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="https://schema.org/isAccusedOf"/>
-        <Class IRI="https://schema.org/Legal_action"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="https://schema.org/isArrestedBy"/>
-        <Class IRI="https://schema.org/Person"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="https://schema.org/isArrestedFor"/>
-        <Class IRI="https://schema.org/Illegal_action"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="https://schema.org/isFoundingMemberOf"/>
-        <Class IRI="https://schema.org/Organization"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="https://schema.org/isInvolvedIn"/>
-        <Class IRI="https://schema.org/Case"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="https://schema.org/isMemberOf"/>
-        <Class IRI="https://schema.org/Police"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="https://schema.org/isMemberOf"/>
-        <Class IRI="https://schema.org/Syndicate"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="https://schema.org/isOwnedBy"/>
-        <Class IRI="https://schema.org/Person"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="https://schema.org/isWorth"/>
-        <Class IRI="https://schema.org/Currency"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="https://schema.org/possesses"/>
-        <Class IRI="https://schema.org/Contraband"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="https://schema.org/produces"/>
-        <Class IRI="https://schema.org/Product"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="https://schema.org/resultsFrom"/>
-        <Class IRI="https://schema.org/Illegal_action"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="https://schema.org/searchesLocation"/>
-        <Class IRI="https://schema.org/Person"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="https://schema.org/securesReleaseOf"/>
-        <Class IRI="https://schema.org/Person"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="https://schema.org/smuggles"/>
-        <Class IRI="https://schema.org/Contraband"/>
-    </ObjectPropertyRange>
-</Ontology>
+
+
+
+    <!-- https://w3id.org/def/drug-trafficking-onto#Arrest -->
+
+    <owl:Class rdf:about="https://w3id.org/def/drug-trafficking-onto#Arrest"/>
+    
+
+
+    <!-- https://w3id.org/def/drug-trafficking-onto#Asset -->
+
+    <owl:Class rdf:about="https://w3id.org/def/drug-trafficking-onto#Asset"/>
+    
+
+
+    <!-- http://www.semanticweb.org/nandana/ontologies/2024/6/untitled-ontology-4#BankLoanFraud -->
+
+    <owl:Class rdf:about="https://w3id.org/def/drug-trafficking-onto#BankLoanFraud">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/def/drug-trafficking-onto#Fraud"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/def/drug-trafficking-onto#Fraud -->
+
+    <owl:Class rdf:about="https://w3id.org/def/drug-trafficking-onto#Fraud"/>
+</rdf:RDF>
