@@ -4,14 +4,30 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dc11: <http://purl.org/dc/elements/1.1/> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix ns0: <http://purl.org/vocab/vann/> .
 @base <http://www.semanticweb.org/iceth/ontologies/2024/1/untitled-ontology-40> .
 
-<http://www.semanticweb.org/iceth/ontologies/2024/1/untitled-ontology-40> rdf:type owl:Ontology ;
+
+<http://www.semanticweb.org/iceth/ontologies/2024/1/untitled-ontology-40>   a owl:Ontology ;
                                                                            rdfs:comment "A drug trafficking ontology is a structured representation of concepts, relationships, and entities related to the illegal trade, distribution, and transportation of drugs, typically used for analysis and understanding within law enforcement or research contexts." ;
                                                                            rdfs:isDefinedBy """Sanju Tiwari
 Mayank Kejariwal
 Nandana Mihindukoolasuriya""" ;
-                                                                           rdfs:label "Drug Trafficking Ontology" .
+                                                                            dc11:publisher <http://shodhguru.epizy.com/> ;
+                                                                            dc:created "2024-07-10" ;
+                                                                            dc:creator "Sanju Tiwari" ;
+                                                                            dc:creator "Mayank Kejariwal" ;
+                                                                            dc:creator "Nandana Mihindukoolasuriya" ;
+                                                                            dc:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
+                                                                            dc:modified "2024-07-10" ;
+                                                                            dc:title "An ontology that represents concepts in the drug trafficking domain."@en ;
+                                                                            ns0:preferredNamespacePrefix "dtfo" ;
+                                                                            ns0:preferredNamespaceUri <https://w3id.org/def/drug-trafficking-onto#> ;
+                                                                            owl:versionInfo 2.0;                                                                           
+                                                                            rdfs:label "Drug Trafficking Ontology" .
+
 
 #################################################################
 #    Object Properties
