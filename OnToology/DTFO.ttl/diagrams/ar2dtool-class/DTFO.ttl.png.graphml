@@ -5,7 +5,88 @@
    <key for="edge" id="d2" yfiles.type="edgegraphics" />
    <key attr.name="description" attr.type="string" for="edge" id="d3" />
    <key for="graphml" id="d4" yfiles.type="resources" />
-   <graph edgedefault="directed" id="G" parse.edges="21" parse.nodes="13" parse.order="free">
+   <graph edgedefault="directed" id="G" parse.edges="24" parse.nodes="17" parse.order="free">
+      <node id="nid_http://www.semanticweb.org/iceth/ontologies/2024/1/untitled-ontology-40">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="710.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://www.semanticweb.org/iceth/ontologies/2024/1/untitled-ontology-40</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+      <node id="nid_http://shodhguru.epizy.com/">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="270.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://shodhguru.epizy.com/</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_dc11:publisher0" source="nid_http://www.semanticweb.org/iceth/ontologies/2024/1/untitled-ontology-40" target="nid_http://shodhguru.epizy.com/">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">dc11:publisher</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://purl.org/NET/rdflicense/cc-by4.0">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="390.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://purl.org/NET/rdflicense/cc-by4.0</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_dc:license1" source="nid_http://www.semanticweb.org/iceth/ontologies/2024/1/untitled-ontology-40" target="nid_http://purl.org/NET/rdflicense/cc-by4.0">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">dc:license</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_https://w3id.org/def/drug-trafficking-onto#">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="430.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">https://w3id.org/def/drug-trafficking-onto#</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_ns0:preferredNamespaceUri2" source="nid_http://www.semanticweb.org/iceth/ontologies/2024/1/untitled-ontology-40" target="nid_https://w3id.org/def/drug-trafficking-onto#">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">ns0:preferredNamespaceUri</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
       <node id="nid_https://schema.org/Person">
          <data key="d0">
             <y:ShapeNode>
@@ -30,7 +111,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_https://schema.org/isMemberOf0" source="nid_https://schema.org/Person" target="nid_https://schema.org/Police">
+    <edge id="eid_https://schema.org/isMemberOf3" source="nid_https://schema.org/Person" target="nid_https://schema.org/Police">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -53,7 +134,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_https://schema.org/hasLiabilityTowards1" source="nid_https://schema.org/Organization" target="nid_https://schema.org/Person">
+    <edge id="eid_https://schema.org/hasLiabilityTowards4" source="nid_https://schema.org/Organization" target="nid_https://schema.org/Person">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -76,7 +157,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_https://schema.org/smuggles2" source="nid_https://schema.org/Person" target="nid_https://schema.org/Contraband">
+    <edge id="eid_https://schema.org/smuggles5" source="nid_https://schema.org/Person" target="nid_https://schema.org/Contraband">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -99,7 +180,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_https://schema.org/isOwnedBy3" source="nid_https://schema.org/Asset" target="nid_https://schema.org/Person">
+    <edge id="eid_https://schema.org/isOwnedBy6" source="nid_https://schema.org/Asset" target="nid_https://schema.org/Person">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -110,7 +191,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_https://schema.org/hasArrested4" source="nid_https://schema.org/Police" target="nid_https://schema.org/Person">
+    <edge id="eid_https://schema.org/hasArrested7" source="nid_https://schema.org/Police" target="nid_https://schema.org/Person">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -121,7 +202,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_https://schema.org/securesReleaseOf5" source="nid_https://schema.org/Person" target="nid_https://schema.org/Person">
+    <edge id="eid_https://schema.org/securesReleaseOf8" source="nid_https://schema.org/Person" target="nid_https://schema.org/Person">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -144,7 +225,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_https://schema.org/resultsFrom6" source="nid_https://schema.org/Asset" target="nid_https://schema.org/Illegal_action">
+    <edge id="eid_https://schema.org/resultsFrom9" source="nid_https://schema.org/Asset" target="nid_https://schema.org/Illegal_action">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -167,7 +248,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_https://schema.org/isAccusedOf7" source="nid_https://schema.org/Person" target="nid_https://schema.org/Legal_action">
+    <edge id="eid_https://schema.org/isAccusedOf10" source="nid_https://schema.org/Person" target="nid_https://schema.org/Legal_action">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -202,7 +283,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_https://schema.org/conductsInvestigation8" source="nid_https://schema.org/Legal_entity" target="nid_https://schema.org/Case">
+    <edge id="eid_https://schema.org/conductsInvestigation11" source="nid_https://schema.org/Legal_entity" target="nid_https://schema.org/Case">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -213,7 +294,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_https://schema.org/possesses9" source="nid_https://schema.org/Person" target="nid_https://schema.org/Contraband">
+    <edge id="eid_https://schema.org/possesses12" source="nid_https://schema.org/Person" target="nid_https://schema.org/Contraband">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -224,7 +305,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_https://schema.org/isFoundingMemberOf10" source="nid_https://schema.org/Person" target="nid_https://schema.org/Organization">
+    <edge id="eid_https://schema.org/isFoundingMemberOf13" source="nid_https://schema.org/Person" target="nid_https://schema.org/Organization">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -235,7 +316,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_https://schema.org/isArrestedBy11" source="nid_https://schema.org/Person" target="nid_https://schema.org/Person">
+    <edge id="eid_https://schema.org/isArrestedBy14" source="nid_https://schema.org/Person" target="nid_https://schema.org/Person">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -246,7 +327,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_https://schema.org/hasRegisteredCase12" source="nid_https://schema.org/Legal_entity" target="nid_https://schema.org/Case">
+    <edge id="eid_https://schema.org/hasRegisteredCase15" source="nid_https://schema.org/Legal_entity" target="nid_https://schema.org/Case">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -257,7 +338,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_https://schema.org/hasSeized13" source="nid_https://schema.org/Police" target="nid_https://schema.org/Contraband">
+    <edge id="eid_https://schema.org/hasSeized16" source="nid_https://schema.org/Police" target="nid_https://schema.org/Contraband">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -268,7 +349,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_https://schema.org/isArrestedFor14" source="nid_https://schema.org/Person" target="nid_https://schema.org/Illegal_action">
+    <edge id="eid_https://schema.org/isArrestedFor17" source="nid_https://schema.org/Person" target="nid_https://schema.org/Illegal_action">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -291,7 +372,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_https://schema.org/produces15" source="nid_https://schema.org/Organization" target="nid_https://schema.org/Product">
+    <edge id="eid_https://schema.org/produces18" source="nid_https://schema.org/Organization" target="nid_https://schema.org/Product">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -302,7 +383,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_https://schema.org/amassedThrough16" source="nid_https://schema.org/Asset" target="nid_https://schema.org/Illegal_action">
+    <edge id="eid_https://schema.org/amassedThrough19" source="nid_https://schema.org/Asset" target="nid_https://schema.org/Illegal_action">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -325,7 +406,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_https://schema.org/isWorth17" source="nid_https://schema.org/Asset" target="nid_https://schema.org/Currency">
+    <edge id="eid_https://schema.org/isWorth20" source="nid_https://schema.org/Asset" target="nid_https://schema.org/Currency">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -348,7 +429,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_https://schema.org/searchesLocation18" source="nid_https://schema.org/Search" target="nid_https://schema.org/Person">
+    <edge id="eid_https://schema.org/searchesLocation21" source="nid_https://schema.org/Search" target="nid_https://schema.org/Person">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -359,7 +440,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_https://schema.org/isInvolvedIn19" source="nid_https://schema.org/Person" target="nid_https://schema.org/Case">
+    <edge id="eid_https://schema.org/isInvolvedIn22" source="nid_https://schema.org/Person" target="nid_https://schema.org/Case">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -382,7 +463,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_https://schema.org/isLocatedIn20" source="nid_https://schema.org/Asset" target="nid_owl:Thing">
+    <edge id="eid_https://schema.org/isLocatedIn23" source="nid_https://schema.org/Asset" target="nid_owl:Thing">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
