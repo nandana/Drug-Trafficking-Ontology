@@ -61,7 +61,7 @@
     "@value" : "Sanju Tiwari\nMayank Kejariwal\nNandana Mihindukoolasuriya"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "Drug Trafficking Ontology"
+    "@value" : "DTFO: Drug Trafficking Ontology"
   } ],
   "http://www.w3.org/2002/07/owl#versionInfo" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#decimal",

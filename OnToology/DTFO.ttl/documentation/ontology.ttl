@@ -21,7 +21,7 @@
                                                                            rdfs:isDefinedBy """Sanju Tiwari
 Mayank Kejariwal
 Nandana Mihindukoolasuriya""" ;
-                                                                           rdfs:label "Drug Trafficking Ontology" ;
+                                                                           rdfs:label "DTFO: Drug Trafficking Ontology" ;
                                                                            owl:versionInfo 2.0 .
 
 #################################################################
