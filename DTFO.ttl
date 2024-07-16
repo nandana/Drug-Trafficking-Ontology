@@ -26,7 +26,7 @@ Nandana Mihindukoolasuriya""" ;
                                                                             ns0:preferredNamespacePrefix "dtfo" ;
                                                                             ns0:preferredNamespaceUri <https://w3id.org/def/drug-trafficking-onto#> ;
                                                                             owl:versionInfo 2.0;                                                                           
-                                                                            rdfs:label "Drug Trafficking Ontology" .
+                                                                            rdfs:label "DTFO: Drug Trafficking Ontology" .
 
 
 #################################################################
