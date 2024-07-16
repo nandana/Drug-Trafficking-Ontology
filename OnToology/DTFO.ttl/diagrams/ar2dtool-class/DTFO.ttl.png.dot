@@ -1,0 +1,27 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1501"
+node [shape = rectangle, color="orange"]; "https://schema.org/Legal_entity" "https://schema.org/Illegal_action" "https://schema.org/Legal_action" "https://schema.org/Police" "https://schema.org/Currency" "https://schema.org/Product" "https://schema.org/Contraband" "https://schema.org/Person" "https://schema.org/Search" "https://schema.org/Organization" "https://schema.org/Asset" "https://schema.org/Case" ; /*classes style*/
+	"https://schema.org/Person" -> "https://schema.org/Police" [ label = "https://schema.org/isMemberOf" ];
+	"https://schema.org/Organization" -> "https://schema.org/Person" [ label = "https://schema.org/hasLiabilityTowards" ];
+	"https://schema.org/Person" -> "https://schema.org/Contraband" [ label = "https://schema.org/smuggles" ];
+	"https://schema.org/Asset" -> "https://schema.org/Person" [ label = "https://schema.org/isOwnedBy" ];
+	"https://schema.org/Police" -> "https://schema.org/Person" [ label = "https://schema.org/hasArrested" ];
+	"https://schema.org/Person" -> "https://schema.org/Person" [ label = "https://schema.org/securesReleaseOf" ];
+	"https://schema.org/Asset" -> "https://schema.org/Illegal_action" [ label = "https://schema.org/resultsFrom" ];
+	"https://schema.org/Person" -> "https://schema.org/Legal_action" [ label = "https://schema.org/isAccusedOf" ];
+	"https://schema.org/Legal_entity" -> "https://schema.org/Case" [ label = "https://schema.org/conductsInvestigation" ];
+	"https://schema.org/Person" -> "https://schema.org/Contraband" [ label = "https://schema.org/possesses" ];
+	"https://schema.org/Person" -> "https://schema.org/Organization" [ label = "https://schema.org/isFoundingMemberOf" ];
+	"https://schema.org/Person" -> "https://schema.org/Person" [ label = "https://schema.org/isArrestedBy" ];
+	"https://schema.org/Legal_entity" -> "https://schema.org/Case" [ label = "https://schema.org/hasRegisteredCase" ];
+	"https://schema.org/Police" -> "https://schema.org/Contraband" [ label = "https://schema.org/hasSeized" ];
+	"https://schema.org/Person" -> "https://schema.org/Illegal_action" [ label = "https://schema.org/isArrestedFor" ];
+	"https://schema.org/Organization" -> "https://schema.org/Product" [ label = "https://schema.org/produces" ];
+	"https://schema.org/Asset" -> "https://schema.org/Illegal_action" [ label = "https://schema.org/amassedThrough" ];
+	"https://schema.org/Asset" -> "https://schema.org/Currency" [ label = "https://schema.org/isWorth" ];
+	"https://schema.org/Search" -> "https://schema.org/Person" [ label = "https://schema.org/searchesLocation" ];
+	"https://schema.org/Person" -> "https://schema.org/Case" [ label = "https://schema.org/isInvolvedIn" ];
+	"https://schema.org/Asset" -> "owl:Thing" [ label = "https://schema.org/isLocatedIn" ];
+
+}

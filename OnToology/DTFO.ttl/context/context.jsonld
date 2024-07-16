@@ -1,0 +1,217 @@
+{
+  "@context" : {
+    "University" : {
+      "@id" : "https://schema.org/University"
+    },
+    "conductsInvestigation" : {
+      "@id" : "https://schema.org/conductsInvestigation",
+      "@type" : "@id"
+    },
+    "Case" : {
+      "@id" : "https://schema.org/Case"
+    },
+    "Government_schools_and_colleges" : {
+      "@id" : "https://schema.org/Government_schools_and_colleges"
+    },
+    "Bulk_drugs" : {
+      "@id" : "https://schema.org/Bulk_drugs"
+    },
+    "Police" : {
+      "@id" : "https://schema.org/Police"
+    },
+    "Asset" : {
+      "@id" : "https://schema.org/Asset"
+    },
+    "Infrastructure" : {
+      "@id" : "https://schema.org/Infrastructure"
+    },
+    "Organization" : {
+      "@id" : "https://schema.org/Organization"
+    },
+    "Manufacturing" : {
+      "@id" : "https://schema.org/Manufacturing"
+    },
+    "smuggles" : {
+      "@id" : "https://schema.org/smuggles",
+      "@type" : "@id"
+    },
+    "hasSeized" : {
+      "@id" : "https://schema.org/hasSeized",
+      "@type" : "@id"
+    },
+    "Product" : {
+      "@id" : "https://schema.org/Product"
+    },
+    "hasLiabilityTowards" : {
+      "@id" : "https://schema.org/hasLiabilityTowards",
+      "@type" : "@id"
+    },
+    "Smuggling" : {
+      "@id" : "https://schema.org/Smuggling"
+    },
+    "securesReleaseOf" : {
+      "@id" : "https://schema.org/securesReleaseOf",
+      "@type" : "@id"
+    },
+    "isFoundingMemberOf" : {
+      "@id" : "https://schema.org/isFoundingMemberOf",
+      "@type" : "@id"
+    },
+    "Legal_entity" : {
+      "@id" : "https://schema.org/Legal_entity"
+    },
+    "Syndicate" : {
+      "@id" : "https://schema.org/Syndicate"
+    },
+    "Gold" : {
+      "@id" : "https://schema.org/Gold"
+    },
+    "hasRegisteredCase" : {
+      "@id" : "https://schema.org/hasRegisteredCase",
+      "@type" : "@id"
+    },
+    "resultsFrom" : {
+      "@id" : "https://schema.org/resultsFrom",
+      "@type" : "@id"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "Farmhouse" : {
+      "@id" : "https://schema.org/Farmhouse"
+    },
+    "Contraband" : {
+      "@id" : "https://schema.org/Contraband"
+    },
+    "Bank_loan_fraud" : {
+      "@id" : "https://schema.org/Bank_loan_fraud"
+    },
+    "hasArrested" : {
+      "@id" : "https://schema.org/hasArrested",
+      "@type" : "@id"
+    },
+    "isMemberOf" : {
+      "@id" : "https://schema.org/isMemberOf",
+      "@type" : "@id"
+    },
+    "Person" : {
+      "@id" : "https://schema.org/Person"
+    },
+    "Legal_action" : {
+      "@id" : "https://schema.org/Legal_action"
+    },
+    "isWorth" : {
+      "@id" : "https://schema.org/isWorth",
+      "@type" : "@id"
+    },
+    "Plots_of_land" : {
+      "@id" : "https://schema.org/Plots_of_land"
+    },
+    "searchesLocation" : {
+      "@id" : "https://schema.org/searchesLocation",
+      "@type" : "@id"
+    },
+    "Border_checkpoints" : {
+      "@id" : "https://schema.org/Border_checkpoints"
+    },
+    "Resolution_of_boundary_disputes" : {
+      "@id" : "https://schema.org/Resolution_of_boundary_disputes"
+    },
+    "Crackdown_on_narcotics_inflow" : {
+      "@id" : "https://schema.org/Crackdown_on_narcotics_inflow"
+    },
+    "possesses" : {
+      "@id" : "https://schema.org/possesses",
+      "@type" : "@id"
+    },
+    "isDefinedBy" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy"
+    },
+    "isInvolvedIn" : {
+      "@id" : "https://schema.org/isInvolvedIn",
+      "@type" : "@id"
+    },
+    "produces" : {
+      "@id" : "https://schema.org/produces",
+      "@type" : "@id"
+    },
+    "Real_estate" : {
+      "@id" : "https://schema.org/Real_estate"
+    },
+    "Bank_fraud_case" : {
+      "@id" : "https://schema.org/Bank_fraud_case"
+    },
+    "Drug_company" : {
+      "@id" : "https://schema.org/Drug_company"
+    },
+    "isAccusedOf" : {
+      "@id" : "https://schema.org/isAccusedOf",
+      "@type" : "@id"
+    },
+    "Booking_under_law" : {
+      "@id" : "https://schema.org/Booking_under_law"
+    },
+    "amassedThrough" : {
+      "@id" : "https://schema.org/amassedThrough",
+      "@type" : "@id"
+    },
+    "Central_bureau_of_investigation" : {
+      "@id" : "https://schema.org/Central_bureau_of_investigation"
+    },
+    "Currency" : {
+      "@id" : "https://schema.org/Currency"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "Illegal_action" : {
+      "@id" : "https://schema.org/Illegal_action"
+    },
+    "Arrest" : {
+      "@id" : "https://schema.org/Arrest"
+    },
+    "Raid" : {
+      "@id" : "https://schema.org/Raid"
+    },
+    "isOwnedBy" : {
+      "@id" : "https://schema.org/isOwnedBy",
+      "@type" : "@id"
+    },
+    "Drug_intermediaries" : {
+      "@id" : "https://schema.org/Drug_intermediaries"
+    },
+    "Drug_trafficking" : {
+      "@id" : "https://schema.org/Drug_trafficking"
+    },
+    "Drug_haul_case" : {
+      "@id" : "https://schema.org/Drug_haul_case"
+    },
+    "Enforcement_directorate" : {
+      "@id" : "https://schema.org/Enforcement_directorate"
+    },
+    "Possession" : {
+      "@id" : "https://schema.org/Possession"
+    },
+    "isArrestedBy" : {
+      "@id" : "https://schema.org/isArrestedBy",
+      "@type" : "@id"
+    },
+    "isArrestedFor" : {
+      "@id" : "https://schema.org/isArrestedFor",
+      "@type" : "@id"
+    },
+    "Search" : {
+      "@id" : "https://schema.org/Search"
+    },
+    "Sports_academy" : {
+      "@id" : "https://schema.org/Sports_academy"
+    },
+    "isLocatedIn" : {
+      "@id" : "https://schema.org/isLocatedIn",
+      "@type" : "@id"
+    },
+    "Seizing" : {
+      "@id" : "https://schema.org/Seizing"
+    }
+  }
+}

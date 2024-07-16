@@ -1,0 +1,35 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "https://schema.org/Drug_intermediaries" "https://schema.org/Bulk_drugs" "https://schema.org/Seizing" "https://schema.org/Legal_entity" "https://schema.org/Illegal_action" "https://schema.org/Possession" "https://schema.org/Gold" "https://schema.org/Farmhouse" "https://schema.org/Syndicate" "https://schema.org/Raid" "https://schema.org/Drug_haul_case" "https://schema.org/Legal_action" "https://schema.org/Police" "https://schema.org/Manufacturing" "https://schema.org/Product" "https://schema.org/Drug_company" "https://schema.org/Plots_of_land" "https://schema.org/Real_estate" "https://schema.org/University" "https://schema.org/Search" "https://schema.org/Crackdown_on_narcotics_inflow" "https://schema.org/Central_bureau_of_investigation" "https://schema.org/Smuggling" "https://schema.org/Organization" "https://schema.org/Sports_academy" "https://schema.org/Bank_fraud_case" "https://schema.org/Asset" "https://schema.org/Drug_trafficking" "https://schema.org/Resolution_of_boundary_disputes" "https://schema.org/Enforcement_directorate" "https://schema.org/Case" "https://schema.org/Border_checkpoints" "https://schema.org/Booking_under_law" "https://schema.org/Arrest" "https://schema.org/Infrastructure" "https://schema.org/Bank_loan_fraud" "https://schema.org/Government_schools_and_colleges" ; /*classes style*/
+	"https://schema.org/Plots_of_land" -> "https://schema.org/Real_estate" [ label = "rdfs:subClassOf" ];
+	"https://schema.org/Sports_academy" -> "https://schema.org/Infrastructure" [ label = "rdfs:subClassOf" ];
+	"https://schema.org/Smuggling" -> "https://schema.org/Illegal_action" [ label = "rdfs:subClassOf" ];
+	"https://schema.org/Drug_trafficking" -> "https://schema.org/Illegal_action" [ label = "rdfs:subClassOf" ];
+	"https://schema.org/Seizing" -> "https://schema.org/Legal_action" [ label = "rdfs:subClassOf" ];
+	"https://schema.org/Bank_loan_fraud" -> "https://schema.org/Illegal_action" [ label = "rdfs:subClassOf" ];
+	"https://schema.org/Crackdown_on_narcotics_inflow" -> "https://schema.org/Legal_action" [ label = "rdfs:subClassOf" ];
+	"https://schema.org/Government_schools_and_colleges" -> "https://schema.org/Infrastructure" [ label = "rdfs:subClassOf" ];
+	"https://schema.org/Booking_under_law" -> "https://schema.org/Legal_action" [ label = "rdfs:subClassOf" ];
+	"https://schema.org/University" -> "https://schema.org/Organization" [ label = "rdfs:subClassOf" ];
+	"https://schema.org/Drug_company" -> "https://schema.org/Organization" [ label = "rdfs:subClassOf" ];
+	"https://schema.org/Border_checkpoints" -> "https://schema.org/Infrastructure" [ label = "rdfs:subClassOf" ];
+	"https://schema.org/Syndicate" -> "https://schema.org/Organization" [ label = "rdfs:subClassOf" ];
+	"https://schema.org/Police" -> "https://schema.org/Organization" [ label = "rdfs:subClassOf" ];
+	"https://schema.org/Drug_haul_case" -> "https://schema.org/Case" [ label = "rdfs:subClassOf" ];
+	"https://schema.org/Manufacturing" -> "https://schema.org/Illegal_action" [ label = "rdfs:subClassOf" ];
+	"https://schema.org/Possession" -> "https://schema.org/Illegal_action" [ label = "rdfs:subClassOf" ];
+	"https://schema.org/Resolution_of_boundary_disputes" -> "https://schema.org/Legal_action" [ label = "rdfs:subClassOf" ];
+	"https://schema.org/Raid" -> "https://schema.org/Legal_action" [ label = "rdfs:subClassOf" ];
+	"https://schema.org/Bulk_drugs" -> "https://schema.org/Product" [ label = "rdfs:subClassOf" ];
+	"https://schema.org/Real_estate" -> "https://schema.org/Asset" [ label = "rdfs:subClassOf" ];
+	"https://schema.org/Enforcement_directorate" -> "https://schema.org/Legal_entity" [ label = "rdfs:subClassOf" ];
+	"https://schema.org/Search" -> "https://schema.org/Legal_action" [ label = "rdfs:subClassOf" ];
+	"https://schema.org/Farmhouse" -> "https://schema.org/Real_estate" [ label = "rdfs:subClassOf" ];
+	"https://schema.org/Central_bureau_of_investigation" -> "https://schema.org/Legal_entity" [ label = "rdfs:subClassOf" ];
+	"https://schema.org/Arrest" -> "https://schema.org/Legal_action" [ label = "rdfs:subClassOf" ];
+	"https://schema.org/Gold" -> "https://schema.org/Asset" [ label = "rdfs:subClassOf" ];
+	"https://schema.org/Bank_fraud_case" -> "https://schema.org/Case" [ label = "rdfs:subClassOf" ];
+	"https://schema.org/Drug_intermediaries" -> "https://schema.org/Product" [ label = "rdfs:subClassOf" ];
+
+}
