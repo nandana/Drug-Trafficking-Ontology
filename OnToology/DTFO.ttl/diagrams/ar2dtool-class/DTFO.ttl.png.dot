@@ -2,6 +2,9 @@ digraph ar2dtool_diagram {
 rankdir=LR;
 size="1501"
 node [shape = rectangle, color="orange"]; "https://schema.org/Legal_entity" "https://schema.org/Illegal_action" "https://schema.org/Legal_action" "https://schema.org/Police" "https://schema.org/Currency" "https://schema.org/Product" "https://schema.org/Contraband" "https://schema.org/Person" "https://schema.org/Search" "https://schema.org/Organization" "https://schema.org/Asset" "https://schema.org/Case" ; /*classes style*/
+	"http://www.semanticweb.org/iceth/ontologies/2024/1/untitled-ontology-40" -> "http://shodhguru.epizy.com/" [ label = "dc11:publisher" ];
+	"http://www.semanticweb.org/iceth/ontologies/2024/1/untitled-ontology-40" -> "http://purl.org/NET/rdflicense/cc-by4.0" [ label = "dc:license" ];
+	"http://www.semanticweb.org/iceth/ontologies/2024/1/untitled-ontology-40" -> "https://w3id.org/def/drug-trafficking-onto#" [ label = "ns0:preferredNamespaceUri" ];
 	"https://schema.org/Person" -> "https://schema.org/Police" [ label = "https://schema.org/isMemberOf" ];
 	"https://schema.org/Organization" -> "https://schema.org/Person" [ label = "https://schema.org/hasLiabilityTowards" ];
 	"https://schema.org/Person" -> "https://schema.org/Contraband" [ label = "https://schema.org/smuggles" ];

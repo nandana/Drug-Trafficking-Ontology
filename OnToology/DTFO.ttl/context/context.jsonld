@@ -13,8 +13,17 @@
     "Government_schools_and_colleges" : {
       "@id" : "https://schema.org/Government_schools_and_colleges"
     },
+    "versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
+    },
+    "created" : {
+      "@id" : "http://purl.org/dc/terms/created"
+    },
     "Bulk_drugs" : {
       "@id" : "https://schema.org/Bulk_drugs"
+    },
+    "license" : {
+      "@id" : "http://purl.org/dc/terms/license"
     },
     "Police" : {
       "@id" : "https://schema.org/Police"
@@ -104,6 +113,9 @@
       "@id" : "https://schema.org/isWorth",
       "@type" : "@id"
     },
+    "creator" : {
+      "@id" : "http://purl.org/dc/terms/creator"
+    },
     "Plots_of_land" : {
       "@id" : "https://schema.org/Plots_of_land"
     },
@@ -116,6 +128,9 @@
     },
     "Resolution_of_boundary_disputes" : {
       "@id" : "https://schema.org/Resolution_of_boundary_disputes"
+    },
+    "preferredNamespacePrefix" : {
+      "@id" : "http://purl.org/vocab/vann/preferredNamespacePrefix"
     },
     "Crackdown_on_narcotics_inflow" : {
       "@id" : "https://schema.org/Crackdown_on_narcotics_inflow"
@@ -135,6 +150,12 @@
       "@id" : "https://schema.org/produces",
       "@type" : "@id"
     },
+    "title" : {
+      "@id" : "http://purl.org/dc/terms/title"
+    },
+    "publisher" : {
+      "@id" : "http://purl.org/dc/elements/1.1/publisher"
+    },
     "Real_estate" : {
       "@id" : "https://schema.org/Real_estate"
     },
@@ -143,6 +164,9 @@
     },
     "Drug_company" : {
       "@id" : "https://schema.org/Drug_company"
+    },
+    "modified" : {
+      "@id" : "http://purl.org/dc/terms/modified"
     },
     "isAccusedOf" : {
       "@id" : "https://schema.org/isAccusedOf",
@@ -209,6 +233,9 @@
     "isLocatedIn" : {
       "@id" : "https://schema.org/isLocatedIn",
       "@type" : "@id"
+    },
+    "preferredNamespaceUri" : {
+      "@id" : "http://purl.org/vocab/vann/preferredNamespaceUri"
     },
     "Seizing" : {
       "@id" : "https://schema.org/Seizing"
