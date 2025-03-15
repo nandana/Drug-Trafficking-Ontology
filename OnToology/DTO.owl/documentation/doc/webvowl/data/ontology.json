@@ -1,0 +1,1427 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en", "undefined" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.w3.org/2000/01/rdf-schema", "https://w3id.org/def/DTO", "http://www.w3.org/2001/XMLSchema" ],
+    "title" : {
+      "en" : "An ontology that represents concepts in the drug trafficking domain."
+    },
+    "iri" : "https://w3id.org/def/DTO/",
+    "version" : "2.0",
+    "author" : [ "Mihindukoolasuriya, Nandana", "Kejariwal, Mayank", "Tiwari, Sanju" ],
+    "labels" : {
+      "undefined" : "DTO: Drug Trafficking Ontology"
+    },
+    "comments" : {
+      "undefined" : "A drug trafficking ontology is a structured representation of concepts, relationships, and entities related to the illegal trade, distribution, and transportation of drugs, typically used for analysis and understanding within law enforcement or research contexts."
+    },
+    "other" : {
+      "license" : [ {
+        "identifier" : "license",
+        "language" : "undefined",
+        "value" : "http://purl.org/NET/rdflicense/cc-by4.0",
+        "type" : "iri"
+      } ],
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "Kejariwal, Mayank",
+        "type" : "label"
+      }, {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "Mihindukoolasuriya, Nandana",
+        "type" : "label"
+      }, {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "Tiwari, Sanju",
+        "type" : "label"
+      } ],
+      "created" : [ {
+        "identifier" : "created",
+        "language" : "undefined",
+        "value" : "2025-03-10",
+        "type" : "label"
+      } ],
+      "preferredNamespacePrefix" : [ {
+        "identifier" : "preferredNamespacePrefix",
+        "language" : "undefined",
+        "value" : "dto",
+        "type" : "label"
+      } ],
+      "modified" : [ {
+        "identifier" : "modified",
+        "language" : "undefined",
+        "value" : "2025-03-10",
+        "type" : "label"
+      } ],
+      "publisher" : [ {
+        "identifier" : "publisher",
+        "language" : "undefined",
+        "value" : "http://shodhguru.epizy.com/",
+        "type" : "iri"
+      } ],
+      "preferredNamespaceUri" : [ {
+        "identifier" : "preferredNamespaceUri",
+        "language" : "undefined",
+        "value" : "https://w3id.org/def/DTO/",
+        "type" : "iri"
+      } ],
+      "versionInfo" : [ {
+        "identifier" : "versionInfo",
+        "language" : "undefined",
+        "value" : "2.0",
+        "type" : "label"
+      } ],
+      "title" : [ {
+        "identifier" : "title",
+        "language" : "en",
+        "value" : "An ontology that represents concepts in the drug trafficking domain.",
+        "type" : "label"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "0",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "26",
+    "type" : "owl:Class"
+  }, {
+    "id" : "29",
+    "type" : "owl:Class"
+  }, {
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "35",
+    "type" : "owl:Class"
+  }, {
+    "id" : "25",
+    "type" : "owl:Class"
+  }, {
+    "id" : "49",
+    "type" : "owl:Class"
+  }, {
+    "id" : "15",
+    "type" : "owl:Class"
+  }, {
+    "id" : "36",
+    "type" : "owl:Class"
+  }, {
+    "id" : "55",
+    "type" : "owl:Class"
+  }, {
+    "id" : "56",
+    "type" : "owl:Class"
+  }, {
+    "id" : "21",
+    "type" : "owl:Class"
+  }, {
+    "id" : "52",
+    "type" : "owl:Class"
+  }, {
+    "id" : "64",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "57",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "69",
+    "type" : "owl:Class"
+  }, {
+    "id" : "23",
+    "type" : "owl:Class"
+  }, {
+    "id" : "47",
+    "type" : "owl:Class"
+  }, {
+    "id" : "68",
+    "type" : "owl:Class"
+  }, {
+    "id" : "45",
+    "type" : "owl:Class"
+  }, {
+    "id" : "30",
+    "type" : "owl:Class"
+  }, {
+    "id" : "42",
+    "type" : "owl:Class"
+  }, {
+    "id" : "40",
+    "type" : "owl:Class"
+  }, {
+    "id" : "74",
+    "type" : "owl:Class"
+  }, {
+    "id" : "63",
+    "type" : "owl:Class"
+  }, {
+    "id" : "54",
+    "type" : "owl:Class"
+  }, {
+    "id" : "19",
+    "type" : "owl:Class"
+  }, {
+    "id" : "28",
+    "type" : "owl:Class"
+  }, {
+    "id" : "17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "73",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "72",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "78",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "66",
+    "type" : "owl:Class"
+  }, {
+    "id" : "60",
+    "type" : "owl:Class"
+  }, {
+    "id" : "32",
+    "type" : "owl:Class"
+  }, {
+    "id" : "38",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "https://w3id.org/def/DTO/Contraband",
+    "baseIri" : "https://w3id.org/def/DTO",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "Drug trafficking is a global illicit trade involving the cultivation, manufacture, distribution and sale of substances which are subject to drug prohibition laws.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Contraband"
+    },
+    "id" : "0"
+  }, {
+    "iri" : "https://w3id.org/def/DTO/Government_schools_and_colleges",
+    "baseIri" : "https://w3id.org/def/DTO",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "Government schools and colleges are educational institutions funded and managed by the government to provide free or subsidized education to the public",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Government_schools_and_colleges"
+    },
+    "id" : "1",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://w3id.org/def/DTO/Drug_intermediaries",
+    "baseIri" : "https://w3id.org/def/DTO",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "Drug intermediaries are entities or individuals involved in the distribution, trade, or sale of pharmaceutical products between manufacturers and end-users, such as wholesalers or distributors",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Drug_intermediaries"
+    },
+    "id" : "10",
+    "superClasses" : [ "11" ]
+  }, {
+    "iri" : "https://w3id.org/def/DTO/Plots_of_land",
+    "baseIri" : "https://w3id.org/def/DTO",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "any piece of land held by a single occupier, or held in common by several co-occupiers",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Plots_of_land"
+    },
+    "id" : "26",
+    "superClasses" : [ "25" ]
+  }, {
+    "iri" : "https://w3id.org/def/DTO/Drug_company",
+    "baseIri" : "https://w3id.org/def/DTO",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "A drug company is an organization that researches, develops, manufactures, and markets pharmaceutical products",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Drug_company"
+    },
+    "id" : "29",
+    "superClasses" : [ "30" ]
+  }, {
+    "iri" : "https://w3id.org/def/DTO/Crackdown_on_narcotics_inflow",
+    "baseIri" : "https://w3id.org/def/DTO",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "A crackdown on narcotics inflow is a concerted effort by law enforcement to aggressively reduce the illegal importation and distribution of drugs",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Crackdown_on_narcotics_inflow"
+    },
+    "id" : "13",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "https://w3id.org/def/DTO/Possession",
+    "baseIri" : "https://w3id.org/def/DTO",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "Possession is the act of having or owning something, whether tangible or intangible",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Possession"
+    },
+    "id" : "35",
+    "superClasses" : [ "36" ]
+  }, {
+    "iri" : "https://w3id.org/def/DTO/Real_estate",
+    "baseIri" : "https://w3id.org/def/DTO",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "Real estate is property consisting of land and the buildings",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Real_estate"
+    },
+    "subClasses" : [ "26", "42" ],
+    "id" : "25",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "https://w3id.org/def/DTO/Police",
+    "baseIri" : "https://w3id.org/def/DTO",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "Police are government agencies responsible for maintaining public order, enforcing laws, and investigating crimes within a jurisdiction",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Police"
+    },
+    "id" : "49",
+    "superClasses" : [ "30" ]
+  }, {
+    "iri" : "https://w3id.org/def/DTO/Search",
+    "baseIri" : "https://w3id.org/def/DTO",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "A search is the act of systematically looking for something, often conducted by authorities to find evidence or contraband",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Search"
+    },
+    "id" : "15",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "https://w3id.org/def/DTO/Illegal_action",
+    "baseIri" : "https://w3id.org/def/DTO",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "An action is considered illegal when it goes against a specific law passed by a legislative authority",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Illegal_action"
+    },
+    "subClasses" : [ "47", "45", "38", "35", "40" ],
+    "id" : "36"
+  }, {
+    "iri" : "https://w3id.org/def/DTO/Currency",
+    "baseIri" : "https://w3id.org/def/DTO",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "a medium of exchange for the supply of goods and services.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Currency"
+    },
+    "id" : "55"
+  }, {
+    "iri" : "https://w3id.org/def/DTO/Bank_fraud_case",
+    "baseIri" : "https://w3id.org/def/DTO",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "Bank fraud is the illegal act of obtaining money or assets from a bank or financial institution",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Bank_fraud_case"
+    },
+    "id" : "56",
+    "superClasses" : [ "57" ]
+  }, {
+    "iri" : "https://w3id.org/def/DTO/Resolution_of_boundary_disputes",
+    "baseIri" : "https://w3id.org/def/DTO",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "Resolution of a boundary dispute is the settlement of conflicting claims over territorial borders between two or more parties",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Resolution_of_boundary_disputes"
+    },
+    "id" : "21",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "https://w3id.org/def/DTO/Syndicate",
+    "baseIri" : "https://w3id.org/def/DTO",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "A syndicate is a group of individuals or organizations formed to carry out a specific enterprise, often involving collaboration for mutual benefit or profit",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Syndicate"
+    },
+    "id" : "52",
+    "superClasses" : [ "30" ]
+  }, {
+    "iri" : "https://w3id.org/def/DTO/Border_checkpoints",
+    "baseIri" : "https://w3id.org/def/DTO",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "Border checkpoints are designated locations where authorities inspect people, goods, and vehicles crossing national or regional borders",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Border_checkpoints"
+    },
+    "id" : "64",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://w3id.org/def/DTO/Booking_under_law",
+    "baseIri" : "https://w3id.org/def/DTO",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "Booking under law refers to the official process of recording details of an arrestee into police records, including personal information and the charges filed against them",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Booking_under_law"
+    },
+    "id" : "4",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "https://w3id.org/def/DTO/Case",
+    "baseIri" : "https://w3id.org/def/DTO",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "A case is a specific instance or example of something",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Case"
+    },
+    "subClasses" : [ "56", "69" ],
+    "id" : "57"
+  }, {
+    "iri" : "https://w3id.org/def/DTO/Person",
+    "baseIri" : "https://w3id.org/def/DTO",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "A person is a human being, typically regarded as an individual with distinct characteristics, rights, and responsibilities",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Person"
+    },
+    "id" : "7"
+  }, {
+    "iri" : "https://w3id.org/def/DTO/Infrastructure",
+    "baseIri" : "https://w3id.org/def/DTO",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "Infrastructure is the basic facilities and system serving a country, region, or community",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Infrastructure"
+    },
+    "subClasses" : [ "1", "74", "64" ],
+    "id" : "2"
+  }, {
+    "iri" : "https://w3id.org/def/DTO/Drug_haul_case",
+    "baseIri" : "https://w3id.org/def/DTO",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "A drug haul case is a legal incident involving the seizure of a significant quantity of illegal drugs by law enforcement authorities.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Drug_haul_case"
+    },
+    "id" : "69",
+    "superClasses" : [ "57" ]
+  }, {
+    "iri" : "https://w3id.org/def/DTO/Arrest",
+    "baseIri" : "https://w3id.org/def/DTO",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "Arrest is the legal action of taking someone into custody, typically by law enforcement, for alleged criminal activity",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Arrest"
+    },
+    "id" : "23",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "https://w3id.org/def/DTO/Drug_trafficking",
+    "baseIri" : "https://w3id.org/def/DTO",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "Drug trafficking is a global illicit trade involving the cultivation, manufacture, distribution and sale of substances which are subject to drug prohibition laws",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Drug_trafficking"
+    },
+    "id" : "47",
+    "superClasses" : [ "36" ]
+  }, {
+    "iri" : "https://w3id.org/def/DTO/Enforcement_directorate",
+    "baseIri" : "https://w3id.org/def/DTO",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "The Enforcement Directorate (ED) is an Indian law enforcement and economic intelligence agency responsible for enforcing economic laws and regulations, combating financial crimes, and investigating money laundering",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Enforcement_directorate"
+    },
+    "id" : "68",
+    "superClasses" : [ "60" ]
+  }, {
+    "iri" : "https://w3id.org/def/DTO/Manufacturing",
+    "baseIri" : "https://w3id.org/def/DTO",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "Manufacturing is the process of converting raw materials into finished products through the use of machinery, tools, and labor",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Manufacturing"
+    },
+    "id" : "45",
+    "superClasses" : [ "36" ]
+  }, {
+    "iri" : "https://w3id.org/def/DTO/Organization",
+    "baseIri" : "https://w3id.org/def/DTO",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "An organization is a structured entity formed to achieve specific goals or objectives, often through coordinated efforts and resources",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Organization"
+    },
+    "subClasses" : [ "78", "49", "52", "29" ],
+    "id" : "30"
+  }, {
+    "iri" : "https://w3id.org/def/DTO/Farmhouse",
+    "baseIri" : "https://w3id.org/def/DTO",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "A farmhouse means a residential area amid beautiful landscapes",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Farmhouse"
+    },
+    "id" : "42",
+    "superClasses" : [ "25" ]
+  }, {
+    "iri" : "https://w3id.org/def/DTO/Bank_loan_fraud",
+    "baseIri" : "https://w3id.org/def/DTO",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "Bank loan fraud is the act of obtaining funds from a bank through deceptive means or false information",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Bank_loan_fraud"
+    },
+    "id" : "40",
+    "superClasses" : [ "36" ]
+  }, {
+    "iri" : "https://w3id.org/def/DTO/Sports_academy",
+    "baseIri" : "https://w3id.org/def/DTO",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "A sports academy is a specialized institution that provides training, coaching, and development programs for athletes in various sports disciplines",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Sports_academy"
+    },
+    "id" : "74",
+    "superClasses" : [ "2" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "0", "9" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "63"
+  }, {
+    "instances" : 0,
+    "union" : [ "49", "52" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "54"
+  }, {
+    "iri" : "https://w3id.org/def/DTO/Seizing",
+    "baseIri" : "https://w3id.org/def/DTO",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "Seizing is the legal act of taking possession of property, often by authorities, due to suspicion of illegal activity or as evidence",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Seizing"
+    },
+    "id" : "19",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "https://w3id.org/def/DTO/Gold",
+    "baseIri" : "https://w3id.org/def/DTO",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "a precious yellow metal that is used for making coins, jewellery.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Gold"
+    },
+    "id" : "28",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "https://w3id.org/def/DTO/Raid",
+    "baseIri" : "https://w3id.org/def/DTO",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "A raid is a sudden and organized law enforcement operation to search premises, often to seize illegal goods or arrest suspects",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Raid"
+    },
+    "id" : "17",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "73",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "0", "5", "7", "2", "9", "36", "30" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "72"
+  }, {
+    "iri" : "https://w3id.org/def/DTO/Asset",
+    "baseIri" : "https://w3id.org/def/DTO",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "an asset is any valuable item, such as money, property, or goods, that is obtained or used in illegal trade activities.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Asset"
+    },
+    "subClasses" : [ "28", "25" ],
+    "id" : "9"
+  }, {
+    "iri" : "https://w3id.org/def/DTO/Product",
+    "baseIri" : "https://w3id.org/def/DTO",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "A product is a tangible or intangible item created through a process to satisfy a specific need or want in the market",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Product"
+    },
+    "subClasses" : [ "10", "32" ],
+    "id" : "11"
+  }, {
+    "iri" : "https://w3id.org/def/DTO/University",
+    "baseIri" : "https://w3id.org/def/DTO",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "A university is an institution of higher education that offers academic degrees and conducts research across various fields of study",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "University"
+    },
+    "id" : "78",
+    "superClasses" : [ "30" ]
+  }, {
+    "iri" : "https://w3id.org/def/DTO/Legal_action",
+    "baseIri" : "https://w3id.org/def/DTO",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "Legal action is the process of using the judicial system to enforce or defend a legal right",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Legal_action"
+    },
+    "subClasses" : [ "19", "17", "23", "21", "15", "13", "4" ],
+    "id" : "5"
+  }, {
+    "iri" : "https://w3id.org/def/DTO/Central_bureau_of_investigation",
+    "baseIri" : "https://w3id.org/def/DTO",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "The Central Bureau of Investigation (CBI) is India's premier investigative agency responsible for probing high-profile and sensitive cases, under the jurisdiction of the Government of India",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Central_bureau_of_investigation"
+    },
+    "id" : "66",
+    "superClasses" : [ "60" ]
+  }, {
+    "iri" : "https://w3id.org/def/DTO/Legal_entity",
+    "baseIri" : "https://w3id.org/def/DTO",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "A legal entity is an organization or individual that has legal rights and obligations",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Legal_entity"
+    },
+    "subClasses" : [ "68", "66" ],
+    "id" : "60"
+  }, {
+    "iri" : "https://w3id.org/def/DTO/Bulk_drugs",
+    "baseIri" : "https://w3id.org/def/DTO",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "Bulk drug refers to a pharmaceutical substance produced in large quantities, typically used as an active ingredient in drug formulations",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Bulk_drugs"
+    },
+    "id" : "32",
+    "superClasses" : [ "11" ]
+  }, {
+    "iri" : "https://w3id.org/def/DTO/Smuggling",
+    "baseIri" : "https://w3id.org/def/DTO",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "Smuggling is the illegal transportation of goods or people across borders to avoid customs duties or import/export restrictions",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Smuggling"
+    },
+    "id" : "38",
+    "superClasses" : [ "36" ]
+  } ],
+  "property" : [ {
+    "id" : "3",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "6",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "8",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "12",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "14",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "16",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "18",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "20",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "22",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "24",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "27",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "31",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "33",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "34",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "37",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "39",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "41",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "43",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "44",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "46",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "48",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "50",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "51",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "53",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "58",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "59",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "61",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "62",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "65",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "67",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "70",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "71",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "75",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "76",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "77",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "79",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "80",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "81",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "82",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "83",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "84",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "85",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "86",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "87",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "88",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "89",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "90",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "91",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "92",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "93",
+    "type" : "owl:objectProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "range" : "5",
+    "domain" : "4",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "3"
+  }, {
+    "iri" : "https://w3id.org/def/DTO/isAccusedOf",
+    "baseIri" : "https://w3id.org/def/DTO",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "isAccusedOf"
+    },
+    "domain" : "7",
+    "attributes" : [ "object" ],
+    "id" : "6"
+  }, {
+    "iri" : "https://w3id.org/def/DTO/isOwnedBy",
+    "baseIri" : "https://w3id.org/def/DTO",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "isOwnedBy"
+    },
+    "domain" : "9",
+    "attributes" : [ "object" ],
+    "id" : "8"
+  }, {
+    "range" : "5",
+    "domain" : "13",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "12"
+  }, {
+    "range" : "5",
+    "domain" : "15",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "14"
+  }, {
+    "range" : "5",
+    "domain" : "17",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "16"
+  }, {
+    "range" : "5",
+    "domain" : "19",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "18"
+  }, {
+    "range" : "5",
+    "domain" : "21",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "20"
+  }, {
+    "range" : "5",
+    "domain" : "23",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "22"
+  }, {
+    "range" : "9",
+    "domain" : "25",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "24"
+  }, {
+    "range" : "9",
+    "domain" : "28",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "27"
+  }, {
+    "range" : "11",
+    "domain" : "32",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "31"
+  }, {
+    "range" : "11",
+    "domain" : "10",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "33"
+  }, {
+    "range" : "36",
+    "domain" : "35",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "34"
+  }, {
+    "range" : "36",
+    "domain" : "38",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "37"
+  }, {
+    "range" : "36",
+    "domain" : "40",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "39"
+  }, {
+    "range" : "25",
+    "domain" : "42",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "41"
+  }, {
+    "range" : "25",
+    "domain" : "26",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "43"
+  }, {
+    "range" : "36",
+    "domain" : "45",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "44"
+  }, {
+    "range" : "36",
+    "domain" : "47",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "46"
+  }, {
+    "range" : "30",
+    "domain" : "49",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "48"
+  }, {
+    "range" : "30",
+    "domain" : "29",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "50"
+  }, {
+    "range" : "30",
+    "domain" : "52",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "51"
+  }, {
+    "iri" : "https://w3id.org/def/DTO/isMemberOf",
+    "baseIri" : "https://w3id.org/def/DTO",
+    "range" : "54",
+    "label" : {
+      "IRI-based" : "isMemberOf"
+    },
+    "domain" : "7",
+    "attributes" : [ "object" ],
+    "id" : "53"
+  }, {
+    "iri" : "https://w3id.org/def/DTO/isInvolvedIn",
+    "baseIri" : "https://w3id.org/def/DTO",
+    "range" : "57",
+    "label" : {
+      "IRI-based" : "isInvolvedIn"
+    },
+    "domain" : "7",
+    "attributes" : [ "object" ],
+    "id" : "58"
+  }, {
+    "iri" : "https://w3id.org/def/DTO/hasRegisteredCase",
+    "baseIri" : "https://w3id.org/def/DTO",
+    "range" : "57",
+    "label" : {
+      "IRI-based" : "hasRegisteredCase"
+    },
+    "domain" : "60",
+    "attributes" : [ "object" ],
+    "id" : "59"
+  }, {
+    "iri" : "https://w3id.org/def/DTO/amassedThrough",
+    "baseIri" : "https://w3id.org/def/DTO",
+    "range" : "36",
+    "label" : {
+      "IRI-based" : "amassedThrough"
+    },
+    "domain" : "9",
+    "attributes" : [ "object" ],
+    "id" : "61"
+  }, {
+    "iri" : "https://w3id.org/def/DTO/isWorth",
+    "baseIri" : "https://w3id.org/def/DTO",
+    "range" : "55",
+    "label" : {
+      "IRI-based" : "isWorth"
+    },
+    "domain" : "63",
+    "attributes" : [ "object" ],
+    "id" : "62"
+  }, {
+    "range" : "60",
+    "domain" : "66",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "65"
+  }, {
+    "range" : "60",
+    "domain" : "68",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "67"
+  }, {
+    "iri" : "https://w3id.org/def/DTO/hasSeized",
+    "baseIri" : "https://w3id.org/def/DTO",
+    "range" : "0",
+    "label" : {
+      "IRI-based" : "hasSeized"
+    },
+    "domain" : "49",
+    "attributes" : [ "object" ],
+    "id" : "70"
+  }, {
+    "iri" : "https://w3id.org/def/DTO/isLocatedIn",
+    "baseIri" : "https://w3id.org/def/DTO",
+    "range" : "73",
+    "label" : {
+      "IRI-based" : "isLocatedIn"
+    },
+    "domain" : "72",
+    "attributes" : [ "object" ],
+    "id" : "71"
+  }, {
+    "iri" : "https://w3id.org/def/DTO/searchesLocation",
+    "baseIri" : "https://w3id.org/def/DTO",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "searchesLocation"
+    },
+    "domain" : "15",
+    "attributes" : [ "object" ],
+    "id" : "75"
+  }, {
+    "iri" : "https://w3id.org/def/DTO/hasArrested",
+    "baseIri" : "https://w3id.org/def/DTO",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "hasArrested"
+    },
+    "domain" : "49",
+    "attributes" : [ "object" ],
+    "id" : "76"
+  }, {
+    "iri" : "https://w3id.org/def/DTO/smuggles",
+    "baseIri" : "https://w3id.org/def/DTO",
+    "range" : "0",
+    "label" : {
+      "IRI-based" : "smuggles"
+    },
+    "domain" : "7",
+    "attributes" : [ "object" ],
+    "id" : "77"
+  }, {
+    "iri" : "https://w3id.org/def/DTO/isArrestedFor",
+    "baseIri" : "https://w3id.org/def/DTO",
+    "range" : "36",
+    "label" : {
+      "IRI-based" : "isArrestedFor"
+    },
+    "domain" : "7",
+    "attributes" : [ "object" ],
+    "id" : "79"
+  }, {
+    "iri" : "https://w3id.org/def/DTO/produces",
+    "baseIri" : "https://w3id.org/def/DTO",
+    "range" : "11",
+    "label" : {
+      "IRI-based" : "produces"
+    },
+    "domain" : "30",
+    "attributes" : [ "object" ],
+    "id" : "80"
+  }, {
+    "range" : "57",
+    "domain" : "56",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "81"
+  }, {
+    "range" : "57",
+    "domain" : "69",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "82"
+  }, {
+    "range" : "2",
+    "domain" : "1",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "83"
+  }, {
+    "range" : "2",
+    "domain" : "74",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "84"
+  }, {
+    "range" : "2",
+    "domain" : "64",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "85"
+  }, {
+    "range" : "30",
+    "domain" : "78",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "86"
+  }, {
+    "iri" : "https://w3id.org/def/DTO/isArrestedBy",
+    "baseIri" : "https://w3id.org/def/DTO",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "isArrestedBy"
+    },
+    "domain" : "7",
+    "attributes" : [ "object" ],
+    "id" : "87"
+  }, {
+    "iri" : "https://w3id.org/def/DTO/securesReleaseOf",
+    "baseIri" : "https://w3id.org/def/DTO",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "securesReleaseOf"
+    },
+    "domain" : "7",
+    "attributes" : [ "object" ],
+    "id" : "88"
+  }, {
+    "iri" : "https://w3id.org/def/DTO/conductsInvestigation",
+    "baseIri" : "https://w3id.org/def/DTO",
+    "range" : "57",
+    "label" : {
+      "IRI-based" : "conductsInvestigation"
+    },
+    "domain" : "60",
+    "attributes" : [ "object" ],
+    "id" : "89"
+  }, {
+    "iri" : "https://w3id.org/def/DTO/isFoundingMemberOf",
+    "baseIri" : "https://w3id.org/def/DTO",
+    "range" : "30",
+    "label" : {
+      "IRI-based" : "isFoundingMemberOf"
+    },
+    "domain" : "7",
+    "attributes" : [ "object" ],
+    "id" : "90"
+  }, {
+    "iri" : "https://w3id.org/def/DTO/resultsFrom",
+    "baseIri" : "https://w3id.org/def/DTO",
+    "range" : "36",
+    "label" : {
+      "IRI-based" : "resultsFrom"
+    },
+    "domain" : "9",
+    "attributes" : [ "object" ],
+    "id" : "91"
+  }, {
+    "iri" : "https://w3id.org/def/DTO/hasLiabilityTowards",
+    "baseIri" : "https://w3id.org/def/DTO",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "hasLiabilityTowards"
+    },
+    "domain" : "30",
+    "attributes" : [ "object" ],
+    "id" : "92"
+  }, {
+    "iri" : "https://w3id.org/def/DTO/possesses",
+    "baseIri" : "https://w3id.org/def/DTO",
+    "range" : "0",
+    "label" : {
+      "IRI-based" : "possesses"
+    },
+    "domain" : "7",
+    "attributes" : [ "object" ],
+    "id" : "93"
+  } ]
+}
