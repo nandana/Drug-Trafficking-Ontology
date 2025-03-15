@@ -25,7 +25,7 @@
       "creator" : [ {
         "identifier" : "creator",
         "language" : "undefined",
-        "value" : "Sanju Tiwari",
+        "value" : "Mayank Kejariwal",
         "type" : "label"
       }, {
         "identifier" : "creator",
@@ -35,7 +35,7 @@
       }, {
         "identifier" : "creator",
         "language" : "undefined",
-        "value" : "Mayank Kejariwal",
+        "value" : "Sanju Tiwari",
         "type" : "label"
       } ],
       "created" : [ {
@@ -62,17 +62,17 @@
         "value" : "http://shodhguru.epizy.com/",
         "type" : "iri"
       } ],
-      "versionInfo" : [ {
-        "identifier" : "versionInfo",
-        "language" : "undefined",
-        "value" : "2.0",
-        "type" : "label"
-      } ],
       "preferredNamespaceUri" : [ {
         "identifier" : "preferredNamespaceUri",
         "language" : "undefined",
         "value" : "https://w3id.org/DTFO/",
         "type" : "iri"
+      } ],
+      "versionInfo" : [ {
+        "identifier" : "versionInfo",
+        "language" : "undefined",
+        "value" : "2.0",
+        "type" : "label"
       } ],
       "title" : [ {
         "identifier" : "title",
@@ -90,10 +90,10 @@
     "id" : "8",
     "type" : "owl:Class"
   }, {
-    "id" : "12",
+    "id" : "10",
     "type" : "owl:Class"
   }, {
-    "id" : "14",
+    "id" : "12",
     "type" : "owl:Class"
   }, {
     "id" : "15",
@@ -114,7 +114,7 @@
     "id" : "47",
     "type" : "owl:Class"
   }, {
-    "id" : "11",
+    "id" : "14",
     "type" : "owl:Class"
   }, {
     "id" : "9",
@@ -147,10 +147,10 @@
     "id" : "24",
     "type" : "owl:Class"
   }, {
-    "id" : "73",
+    "id" : "58",
     "type" : "owl:Class"
   }, {
-    "id" : "58",
+    "id" : "73",
     "type" : "owl:Class"
   }, {
     "id" : "35",
@@ -165,7 +165,7 @@
     "id" : "16",
     "type" : "owl:Class"
   }, {
-    "id" : "13",
+    "id" : "11",
     "type" : "owl:Class"
   }, {
     "id" : "26",
@@ -177,7 +177,7 @@
     "id" : "48",
     "type" : "owl:Class"
   }, {
-    "id" : "83",
+    "id" : "82",
     "type" : "owl:Class"
   }, {
     "id" : "20",
@@ -251,6 +251,23 @@
     "id" : "8",
     "superClasses" : [ "9" ]
   }, {
+    "iri" : "https://w3id.org/DTFO/Government_schools_and_colleges",
+    "baseIri" : "https://w3id.org/DTFO",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "Government schools and colleges are educational institutions funded and managed by the government to provide free or subsidized education to the public",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Government_schools_and_colleges"
+    },
+    "id" : "10",
+    "superClasses" : [ "11" ]
+  }, {
     "iri" : "https://w3id.org/DTFO/Border_checkpoints",
     "baseIri" : "https://w3id.org/DTFO",
     "instances" : 0,
@@ -266,24 +283,7 @@
       "IRI-based" : "Border_checkpoints"
     },
     "id" : "12",
-    "superClasses" : [ "13" ]
-  }, {
-    "iri" : "https://w3id.org/DTFO/Government_schools_and_colleges",
-    "baseIri" : "https://w3id.org/DTFO",
-    "instances" : 0,
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "Government schools and colleges are educational institutions funded and managed by the government to provide free or subsidized education to the public",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "Government_schools_and_colleges"
-    },
-    "id" : "14",
-    "superClasses" : [ "13" ]
+    "superClasses" : [ "11" ]
   }, {
     "iri" : "https://w3id.org/DTFO/Drug_company",
     "baseIri" : "https://w3id.org/DTFO",
@@ -401,7 +401,7 @@
     "label" : {
       "IRI-based" : "Contraband"
     },
-    "id" : "11"
+    "id" : "14"
   }, {
     "iri" : "https://w3id.org/DTFO/Real_estate",
     "baseIri" : "https://w3id.org/DTFO",
@@ -470,7 +470,7 @@
       "IRI-based" : "Sports_academy"
     },
     "id" : "63",
-    "superClasses" : [ "13" ]
+    "superClasses" : [ "11" ]
   }, {
     "iri" : "https://w3id.org/DTFO/Asset",
     "baseIri" : "https://w3id.org/DTFO",
@@ -573,23 +573,6 @@
     "id" : "24",
     "superClasses" : [ "2" ]
   }, {
-    "iri" : "https://w3id.org/DTFO/Drug_haul_case",
-    "baseIri" : "https://w3id.org/DTFO",
-    "instances" : 0,
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "A drug haul case is a legal incident involving the seizure of a significant quantity of illegal drugs by law enforcement authorities.",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "Drug_haul_case"
-    },
-    "id" : "73",
-    "superClasses" : [ "41" ]
-  }, {
     "iri" : "https://w3id.org/DTFO/Bank_loan_fraud",
     "baseIri" : "https://w3id.org/DTFO",
     "instances" : 0,
@@ -606,6 +589,23 @@
     },
     "id" : "58",
     "superClasses" : [ "48" ]
+  }, {
+    "iri" : "https://w3id.org/DTFO/Drug_haul_case",
+    "baseIri" : "https://w3id.org/DTFO",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "A drug haul case is a legal incident involving the seizure of a significant quantity of illegal drugs by law enforcement authorities.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Drug_haul_case"
+    },
+    "id" : "73",
+    "superClasses" : [ "41" ]
   }, {
     "iri" : "https://w3id.org/DTFO/Bulk_drugs",
     "baseIri" : "https://w3id.org/DTFO",
@@ -689,8 +689,8 @@
     "label" : {
       "IRI-based" : "Infrastructure"
     },
-    "subClasses" : [ "63", "12", "14" ],
-    "id" : "13"
+    "subClasses" : [ "63", "12", "10" ],
+    "id" : "11"
   }, {
     "iri" : "https://w3id.org/DTFO/Resolution_of_boundary_disputes",
     "baseIri" : "https://w3id.org/DTFO",
@@ -745,7 +745,7 @@
     "instances" : 0,
     "union" : [ "29", "78" ],
     "attributes" : [ "anonymous", "union" ],
-    "id" : "83"
+    "id" : "82"
   }, {
     "iri" : "https://w3id.org/DTFO/Raid",
     "baseIri" : "https://w3id.org/DTFO",
@@ -765,7 +765,7 @@
     "superClasses" : [ "2" ]
   }, {
     "instances" : 0,
-    "union" : [ "2", "4", "48", "11", "16", "5", "13" ],
+    "union" : [ "2", "4", "48", "14", "16", "5", "11" ],
     "attributes" : [ "anonymous", "union" ],
     "id" : "75"
   }, {
@@ -811,7 +811,7 @@
     "superClasses" : [ "2" ]
   }, {
     "instances" : 0,
-    "union" : [ "4", "11" ],
+    "union" : [ "4", "14" ],
     "attributes" : [ "anonymous", "union" ],
     "id" : "38"
   }, {
@@ -924,7 +924,7 @@
     "id" : "3",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "10",
+    "id" : "13",
     "type" : "owl:objectProperty"
   }, {
     "id" : "17",
@@ -1035,7 +1035,7 @@
     "id" : "81",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "82",
+    "id" : "83",
     "type" : "owl:objectProperty"
   }, {
     "id" : "84",
@@ -1086,13 +1086,13 @@
   }, {
     "iri" : "https://w3id.org/DTFO/possesses",
     "baseIri" : "https://w3id.org/DTFO",
-    "range" : "11",
+    "range" : "14",
     "label" : {
       "IRI-based" : "possesses"
     },
     "domain" : "5",
     "attributes" : [ "object" ],
-    "id" : "10"
+    "id" : "13"
   }, {
     "range" : "2",
     "domain" : "18",
@@ -1229,13 +1229,13 @@
     "attributes" : [ "object" ],
     "id" : "61"
   }, {
-    "range" : "13",
+    "range" : "11",
     "domain" : "63",
     "attributes" : [ "anonymous", "object" ],
     "id" : "62"
   }, {
-    "range" : "13",
-    "domain" : "14",
+    "range" : "11",
+    "domain" : "10",
     "attributes" : [ "anonymous", "object" ],
     "id" : "64"
   }, {
@@ -1249,7 +1249,7 @@
     "attributes" : [ "object" ],
     "id" : "65"
   }, {
-    "range" : "13",
+    "range" : "11",
     "domain" : "12",
     "attributes" : [ "anonymous", "object" ],
     "id" : "66"
@@ -1276,7 +1276,7 @@
   }, {
     "iri" : "https://w3id.org/DTFO/smuggles",
     "baseIri" : "https://w3id.org/DTFO",
-    "range" : "11",
+    "range" : "14",
     "label" : {
       "IRI-based" : "smuggles"
     },
@@ -1334,6 +1334,16 @@
     "attributes" : [ "object" ],
     "id" : "80"
   }, {
+    "iri" : "https://w3id.org/DTFO/isMemberOf",
+    "baseIri" : "https://w3id.org/DTFO",
+    "range" : "82",
+    "label" : {
+      "IRI-based" : "isMemberOf"
+    },
+    "domain" : "5",
+    "attributes" : [ "object" ],
+    "id" : "81"
+  }, {
     "iri" : "https://w3id.org/DTFO/isFoundingMemberOf",
     "baseIri" : "https://w3id.org/DTFO",
     "range" : "16",
@@ -1342,17 +1352,7 @@
     },
     "domain" : "5",
     "attributes" : [ "object" ],
-    "id" : "81"
-  }, {
-    "iri" : "https://w3id.org/DTFO/isMemberOf",
-    "baseIri" : "https://w3id.org/DTFO",
-    "range" : "83",
-    "label" : {
-      "IRI-based" : "isMemberOf"
-    },
-    "domain" : "5",
-    "attributes" : [ "object" ],
-    "id" : "82"
+    "id" : "83"
   }, {
     "iri" : "https://w3id.org/DTFO/produces",
     "baseIri" : "https://w3id.org/DTFO",
@@ -1416,7 +1416,7 @@
   }, {
     "iri" : "https://w3id.org/DTFO/hasSeized",
     "baseIri" : "https://w3id.org/DTFO",
-    "range" : "11",
+    "range" : "14",
     "label" : {
       "IRI-based" : "hasSeized"
     },
