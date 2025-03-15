@@ -1,0 +1,244 @@
+{
+  "@context" : {
+    "University" : {
+      "@id" : "https://w3id.org/def/DTO/University"
+    },
+    "conductsInvestigation" : {
+      "@id" : "https://w3id.org/def/DTO/conductsInvestigation",
+      "@type" : "@id"
+    },
+    "Case" : {
+      "@id" : "https://w3id.org/def/DTO/Case"
+    },
+    "Government_schools_and_colleges" : {
+      "@id" : "https://w3id.org/def/DTO/Government_schools_and_colleges"
+    },
+    "versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
+    },
+    "created" : {
+      "@id" : "http://purl.org/dc/terms/created"
+    },
+    "Bulk_drugs" : {
+      "@id" : "https://w3id.org/def/DTO/Bulk_drugs"
+    },
+    "license" : {
+      "@id" : "http://purl.org/dc/terms/license"
+    },
+    "Police" : {
+      "@id" : "https://w3id.org/def/DTO/Police"
+    },
+    "Asset" : {
+      "@id" : "https://w3id.org/def/DTO/Asset"
+    },
+    "Infrastructure" : {
+      "@id" : "https://w3id.org/def/DTO/Infrastructure"
+    },
+    "Organization" : {
+      "@id" : "https://w3id.org/def/DTO/Organization"
+    },
+    "Manufacturing" : {
+      "@id" : "https://w3id.org/def/DTO/Manufacturing"
+    },
+    "smuggles" : {
+      "@id" : "https://w3id.org/def/DTO/smuggles",
+      "@type" : "@id"
+    },
+    "hasSeized" : {
+      "@id" : "https://w3id.org/def/DTO/hasSeized",
+      "@type" : "@id"
+    },
+    "Product" : {
+      "@id" : "https://w3id.org/def/DTO/Product"
+    },
+    "hasLiabilityTowards" : {
+      "@id" : "https://w3id.org/def/DTO/hasLiabilityTowards",
+      "@type" : "@id"
+    },
+    "Smuggling" : {
+      "@id" : "https://w3id.org/def/DTO/Smuggling"
+    },
+    "securesReleaseOf" : {
+      "@id" : "https://w3id.org/def/DTO/securesReleaseOf",
+      "@type" : "@id"
+    },
+    "isFoundingMemberOf" : {
+      "@id" : "https://w3id.org/def/DTO/isFoundingMemberOf",
+      "@type" : "@id"
+    },
+    "Legal_entity" : {
+      "@id" : "https://w3id.org/def/DTO/Legal_entity"
+    },
+    "Syndicate" : {
+      "@id" : "https://w3id.org/def/DTO/Syndicate"
+    },
+    "Gold" : {
+      "@id" : "https://w3id.org/def/DTO/Gold"
+    },
+    "hasRegisteredCase" : {
+      "@id" : "https://w3id.org/def/DTO/hasRegisteredCase",
+      "@type" : "@id"
+    },
+    "resultsFrom" : {
+      "@id" : "https://w3id.org/def/DTO/resultsFrom",
+      "@type" : "@id"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "Farmhouse" : {
+      "@id" : "https://w3id.org/def/DTO/Farmhouse"
+    },
+    "Contraband" : {
+      "@id" : "https://w3id.org/def/DTO/Contraband"
+    },
+    "Bank_loan_fraud" : {
+      "@id" : "https://w3id.org/def/DTO/Bank_loan_fraud"
+    },
+    "hasArrested" : {
+      "@id" : "https://w3id.org/def/DTO/hasArrested",
+      "@type" : "@id"
+    },
+    "isMemberOf" : {
+      "@id" : "https://w3id.org/def/DTO/isMemberOf",
+      "@type" : "@id"
+    },
+    "Person" : {
+      "@id" : "https://w3id.org/def/DTO/Person"
+    },
+    "Legal_action" : {
+      "@id" : "https://w3id.org/def/DTO/Legal_action"
+    },
+    "isWorth" : {
+      "@id" : "https://w3id.org/def/DTO/isWorth",
+      "@type" : "@id"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/terms/creator"
+    },
+    "Plots_of_land" : {
+      "@id" : "https://w3id.org/def/DTO/Plots_of_land"
+    },
+    "searchesLocation" : {
+      "@id" : "https://w3id.org/def/DTO/searchesLocation",
+      "@type" : "@id"
+    },
+    "Border_checkpoints" : {
+      "@id" : "https://w3id.org/def/DTO/Border_checkpoints"
+    },
+    "Resolution_of_boundary_disputes" : {
+      "@id" : "https://w3id.org/def/DTO/Resolution_of_boundary_disputes"
+    },
+    "preferredNamespacePrefix" : {
+      "@id" : "http://purl.org/vocab/vann/preferredNamespacePrefix"
+    },
+    "Crackdown_on_narcotics_inflow" : {
+      "@id" : "https://w3id.org/def/DTO/Crackdown_on_narcotics_inflow"
+    },
+    "possesses" : {
+      "@id" : "https://w3id.org/def/DTO/possesses",
+      "@type" : "@id"
+    },
+    "isDefinedBy" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy"
+    },
+    "isInvolvedIn" : {
+      "@id" : "https://w3id.org/def/DTO/isInvolvedIn",
+      "@type" : "@id"
+    },
+    "produces" : {
+      "@id" : "https://w3id.org/def/DTO/produces",
+      "@type" : "@id"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/terms/title"
+    },
+    "publisher" : {
+      "@id" : "http://purl.org/dc/elements/1.1/publisher"
+    },
+    "Real_estate" : {
+      "@id" : "https://w3id.org/def/DTO/Real_estate"
+    },
+    "Bank_fraud_case" : {
+      "@id" : "https://w3id.org/def/DTO/Bank_fraud_case"
+    },
+    "Drug_company" : {
+      "@id" : "https://w3id.org/def/DTO/Drug_company"
+    },
+    "modified" : {
+      "@id" : "http://purl.org/dc/terms/modified"
+    },
+    "isAccusedOf" : {
+      "@id" : "https://w3id.org/def/DTO/isAccusedOf",
+      "@type" : "@id"
+    },
+    "Booking_under_law" : {
+      "@id" : "https://w3id.org/def/DTO/Booking_under_law"
+    },
+    "amassedThrough" : {
+      "@id" : "https://w3id.org/def/DTO/amassedThrough",
+      "@type" : "@id"
+    },
+    "Central_bureau_of_investigation" : {
+      "@id" : "https://w3id.org/def/DTO/Central_bureau_of_investigation"
+    },
+    "Currency" : {
+      "@id" : "https://w3id.org/def/DTO/Currency"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "Illegal_action" : {
+      "@id" : "https://w3id.org/def/DTO/Illegal_action"
+    },
+    "Arrest" : {
+      "@id" : "https://w3id.org/def/DTO/Arrest"
+    },
+    "Raid" : {
+      "@id" : "https://w3id.org/def/DTO/Raid"
+    },
+    "isOwnedBy" : {
+      "@id" : "https://w3id.org/def/DTO/isOwnedBy",
+      "@type" : "@id"
+    },
+    "Drug_intermediaries" : {
+      "@id" : "https://w3id.org/def/DTO/Drug_intermediaries"
+    },
+    "Drug_trafficking" : {
+      "@id" : "https://w3id.org/def/DTO/Drug_trafficking"
+    },
+    "Drug_haul_case" : {
+      "@id" : "https://w3id.org/def/DTO/Drug_haul_case"
+    },
+    "Enforcement_directorate" : {
+      "@id" : "https://w3id.org/def/DTO/Enforcement_directorate"
+    },
+    "Possession" : {
+      "@id" : "https://w3id.org/def/DTO/Possession"
+    },
+    "isArrestedBy" : {
+      "@id" : "https://w3id.org/def/DTO/isArrestedBy",
+      "@type" : "@id"
+    },
+    "isArrestedFor" : {
+      "@id" : "https://w3id.org/def/DTO/isArrestedFor",
+      "@type" : "@id"
+    },
+    "Search" : {
+      "@id" : "https://w3id.org/def/DTO/Search"
+    },
+    "Sports_academy" : {
+      "@id" : "https://w3id.org/def/DTO/Sports_academy"
+    },
+    "isLocatedIn" : {
+      "@id" : "https://w3id.org/def/DTO/isLocatedIn",
+      "@type" : "@id"
+    },
+    "preferredNamespaceUri" : {
+      "@id" : "http://purl.org/vocab/vann/preferredNamespaceUri"
+    },
+    "Seizing" : {
+      "@id" : "https://w3id.org/def/DTO/Seizing"
+    }
+  }
+}
