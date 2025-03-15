@@ -1,30 +1,30 @@
 digraph ar2dtool_diagram { 
 rankdir=LR;
 size="1501"
-node [shape = rectangle, color="orange"]; "https://schema.org/Legal_entity" "https://schema.org/Illegal_action" "https://schema.org/Legal_action" "https://schema.org/Police" "https://schema.org/Currency" "https://schema.org/Product" "https://schema.org/Contraband" "https://schema.org/Person" "https://schema.org/Search" "https://schema.org/Organization" "https://schema.org/Asset" "https://schema.org/Case" ; /*classes style*/
-	"http://www.semanticweb.org/iceth/ontologies/2024/1/untitled-ontology-40" -> "http://shodhguru.epizy.com/" [ label = "dc11:publisher" ];
-	"http://www.semanticweb.org/iceth/ontologies/2024/1/untitled-ontology-40" -> "http://purl.org/NET/rdflicense/cc-by4.0" [ label = "dc:license" ];
-	"http://www.semanticweb.org/iceth/ontologies/2024/1/untitled-ontology-40" -> "https://w3id.org/def/drug-trafficking-onto#" [ label = "ns0:preferredNamespaceUri" ];
-	"https://schema.org/Person" -> "https://schema.org/Police" [ label = "https://schema.org/isMemberOf" ];
-	"https://schema.org/Organization" -> "https://schema.org/Person" [ label = "https://schema.org/hasLiabilityTowards" ];
-	"https://schema.org/Person" -> "https://schema.org/Contraband" [ label = "https://schema.org/smuggles" ];
-	"https://schema.org/Asset" -> "https://schema.org/Person" [ label = "https://schema.org/isOwnedBy" ];
-	"https://schema.org/Police" -> "https://schema.org/Person" [ label = "https://schema.org/hasArrested" ];
-	"https://schema.org/Person" -> "https://schema.org/Person" [ label = "https://schema.org/securesReleaseOf" ];
-	"https://schema.org/Asset" -> "https://schema.org/Illegal_action" [ label = "https://schema.org/resultsFrom" ];
-	"https://schema.org/Person" -> "https://schema.org/Legal_action" [ label = "https://schema.org/isAccusedOf" ];
-	"https://schema.org/Legal_entity" -> "https://schema.org/Case" [ label = "https://schema.org/conductsInvestigation" ];
-	"https://schema.org/Person" -> "https://schema.org/Contraband" [ label = "https://schema.org/possesses" ];
-	"https://schema.org/Person" -> "https://schema.org/Organization" [ label = "https://schema.org/isFoundingMemberOf" ];
-	"https://schema.org/Person" -> "https://schema.org/Person" [ label = "https://schema.org/isArrestedBy" ];
-	"https://schema.org/Legal_entity" -> "https://schema.org/Case" [ label = "https://schema.org/hasRegisteredCase" ];
-	"https://schema.org/Police" -> "https://schema.org/Contraband" [ label = "https://schema.org/hasSeized" ];
-	"https://schema.org/Person" -> "https://schema.org/Illegal_action" [ label = "https://schema.org/isArrestedFor" ];
-	"https://schema.org/Organization" -> "https://schema.org/Product" [ label = "https://schema.org/produces" ];
-	"https://schema.org/Asset" -> "https://schema.org/Illegal_action" [ label = "https://schema.org/amassedThrough" ];
-	"https://schema.org/Asset" -> "https://schema.org/Currency" [ label = "https://schema.org/isWorth" ];
-	"https://schema.org/Search" -> "https://schema.org/Person" [ label = "https://schema.org/searchesLocation" ];
-	"https://schema.org/Person" -> "https://schema.org/Case" [ label = "https://schema.org/isInvolvedIn" ];
-	"https://schema.org/Asset" -> "owl:Thing" [ label = "https://schema.org/isLocatedIn" ];
+node [shape = rectangle, color="orange"]; "dtfo:Asset" "dtfo:Case" "dtfo:Organization" "dtfo:Person" "dtfo:Contraband" "dtfo:Currency" "dtfo:Legal_entity" "dtfo:Legal_action" "dtfo:Illegal_action" "dtfo:Product" "dtfo:Search" "dtfo:Police" ; /*classes style*/
+	"dtfo:" -> "https://w3id.org/def/drug-trafficking-onto#" [ label = "ns0:preferredNamespaceUri" ];
+	"dtfo:" -> "http://shodhguru.epizy.com/" [ label = "dc11:publisher" ];
+	"dtfo:" -> "http://purl.org/NET/rdflicense/cc-by4.0" [ label = "dc:license" ];
+	"dtfo:Legal_entity" -> "dtfo:Case" [ label = "dtfo:conductsInvestigation" ];
+	"dtfo:Person" -> "dtfo:Case" [ label = "dtfo:isInvolvedIn" ];
+	"dtfo:Police" -> "dtfo:Person" [ label = "dtfo:hasArrested" ];
+	"dtfo:Person" -> "dtfo:Contraband" [ label = "dtfo:possesses" ];
+	"dtfo:Asset" -> "dtfo:Person" [ label = "dtfo:isOwnedBy" ];
+	"dtfo:Person" -> "dtfo:Contraband" [ label = "dtfo:smuggles" ];
+	"dtfo:Legal_entity" -> "dtfo:Case" [ label = "dtfo:hasRegisteredCase" ];
+	"dtfo:Organization" -> "dtfo:Person" [ label = "dtfo:hasLiabilityTowards" ];
+	"dtfo:Person" -> "dtfo:Organization" [ label = "dtfo:isFoundingMemberOf" ];
+	"dtfo:Asset" -> "owl:Thing" [ label = "dtfo:isLocatedIn" ];
+	"dtfo:Search" -> "dtfo:Person" [ label = "dtfo:searchesLocation" ];
+	"dtfo:Police" -> "dtfo:Contraband" [ label = "dtfo:hasSeized" ];
+	"dtfo:Person" -> "dtfo:Person" [ label = "dtfo:securesReleaseOf" ];
+	"dtfo:Person" -> "dtfo:Person" [ label = "dtfo:isArrestedBy" ];
+	"dtfo:Asset" -> "dtfo:Illegal_action" [ label = "dtfo:amassedThrough" ];
+	"dtfo:Asset" -> "dtfo:Currency" [ label = "dtfo:isWorth" ];
+	"dtfo:Person" -> "dtfo:Legal_action" [ label = "dtfo:isAccusedOf" ];
+	"dtfo:Asset" -> "dtfo:Illegal_action" [ label = "dtfo:resultsFrom" ];
+	"dtfo:Person" -> "dtfo:Illegal_action" [ label = "dtfo:isArrestedFor" ];
+	"dtfo:Organization" -> "dtfo:Product" [ label = "dtfo:produces" ];
+	"dtfo:Person" -> "dtfo:Police" [ label = "dtfo:isMemberOf" ];
 
 }

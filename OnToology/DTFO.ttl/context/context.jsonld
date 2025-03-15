@@ -1,17 +1,17 @@
 {
   "@context" : {
     "University" : {
-      "@id" : "https://schema.org/University"
+      "@id" : "https://w3id.org/DTFO/University"
     },
     "conductsInvestigation" : {
-      "@id" : "https://schema.org/conductsInvestigation",
+      "@id" : "https://w3id.org/DTFO/conductsInvestigation",
       "@type" : "@id"
     },
     "Case" : {
-      "@id" : "https://schema.org/Case"
+      "@id" : "https://w3id.org/DTFO/Case"
     },
     "Government_schools_and_colleges" : {
-      "@id" : "https://schema.org/Government_schools_and_colleges"
+      "@id" : "https://w3id.org/DTFO/Government_schools_and_colleges"
     },
     "versionInfo" : {
       "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
@@ -20,134 +20,134 @@
       "@id" : "http://purl.org/dc/terms/created"
     },
     "Bulk_drugs" : {
-      "@id" : "https://schema.org/Bulk_drugs"
+      "@id" : "https://w3id.org/DTFO/Bulk_drugs"
     },
     "license" : {
       "@id" : "http://purl.org/dc/terms/license"
     },
     "Police" : {
-      "@id" : "https://schema.org/Police"
+      "@id" : "https://w3id.org/DTFO/Police"
     },
     "Asset" : {
-      "@id" : "https://schema.org/Asset"
+      "@id" : "https://w3id.org/DTFO/Asset"
     },
     "Infrastructure" : {
-      "@id" : "https://schema.org/Infrastructure"
+      "@id" : "https://w3id.org/DTFO/Infrastructure"
     },
     "Organization" : {
-      "@id" : "https://schema.org/Organization"
+      "@id" : "https://w3id.org/DTFO/Organization"
     },
     "Manufacturing" : {
-      "@id" : "https://schema.org/Manufacturing"
+      "@id" : "https://w3id.org/DTFO/Manufacturing"
     },
     "smuggles" : {
-      "@id" : "https://schema.org/smuggles",
+      "@id" : "https://w3id.org/DTFO/smuggles",
       "@type" : "@id"
     },
     "hasSeized" : {
-      "@id" : "https://schema.org/hasSeized",
+      "@id" : "https://w3id.org/DTFO/hasSeized",
       "@type" : "@id"
     },
     "Product" : {
-      "@id" : "https://schema.org/Product"
+      "@id" : "https://w3id.org/DTFO/Product"
     },
     "hasLiabilityTowards" : {
-      "@id" : "https://schema.org/hasLiabilityTowards",
+      "@id" : "https://w3id.org/DTFO/hasLiabilityTowards",
       "@type" : "@id"
     },
     "Smuggling" : {
-      "@id" : "https://schema.org/Smuggling"
+      "@id" : "https://w3id.org/DTFO/Smuggling"
     },
     "securesReleaseOf" : {
-      "@id" : "https://schema.org/securesReleaseOf",
+      "@id" : "https://w3id.org/DTFO/securesReleaseOf",
       "@type" : "@id"
     },
     "isFoundingMemberOf" : {
-      "@id" : "https://schema.org/isFoundingMemberOf",
+      "@id" : "https://w3id.org/DTFO/isFoundingMemberOf",
       "@type" : "@id"
     },
     "Legal_entity" : {
-      "@id" : "https://schema.org/Legal_entity"
+      "@id" : "https://w3id.org/DTFO/Legal_entity"
     },
     "Syndicate" : {
-      "@id" : "https://schema.org/Syndicate"
+      "@id" : "https://w3id.org/DTFO/Syndicate"
     },
     "Gold" : {
-      "@id" : "https://schema.org/Gold"
+      "@id" : "https://w3id.org/DTFO/Gold"
     },
     "hasRegisteredCase" : {
-      "@id" : "https://schema.org/hasRegisteredCase",
+      "@id" : "https://w3id.org/DTFO/hasRegisteredCase",
       "@type" : "@id"
     },
     "resultsFrom" : {
-      "@id" : "https://schema.org/resultsFrom",
+      "@id" : "https://w3id.org/DTFO/resultsFrom",
       "@type" : "@id"
     },
     "label" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "Farmhouse" : {
-      "@id" : "https://schema.org/Farmhouse"
+      "@id" : "https://w3id.org/DTFO/Farmhouse"
     },
     "Contraband" : {
-      "@id" : "https://schema.org/Contraband"
+      "@id" : "https://w3id.org/DTFO/Contraband"
     },
     "Bank_loan_fraud" : {
-      "@id" : "https://schema.org/Bank_loan_fraud"
+      "@id" : "https://w3id.org/DTFO/Bank_loan_fraud"
     },
     "hasArrested" : {
-      "@id" : "https://schema.org/hasArrested",
+      "@id" : "https://w3id.org/DTFO/hasArrested",
       "@type" : "@id"
     },
     "isMemberOf" : {
-      "@id" : "https://schema.org/isMemberOf",
+      "@id" : "https://w3id.org/DTFO/isMemberOf",
       "@type" : "@id"
     },
     "Person" : {
-      "@id" : "https://schema.org/Person"
+      "@id" : "https://w3id.org/DTFO/Person"
     },
     "Legal_action" : {
-      "@id" : "https://schema.org/Legal_action"
+      "@id" : "https://w3id.org/DTFO/Legal_action"
     },
     "isWorth" : {
-      "@id" : "https://schema.org/isWorth",
+      "@id" : "https://w3id.org/DTFO/isWorth",
       "@type" : "@id"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/terms/creator"
     },
     "Plots_of_land" : {
-      "@id" : "https://schema.org/Plots_of_land"
+      "@id" : "https://w3id.org/DTFO/Plots_of_land"
     },
     "searchesLocation" : {
-      "@id" : "https://schema.org/searchesLocation",
+      "@id" : "https://w3id.org/DTFO/searchesLocation",
       "@type" : "@id"
     },
     "Border_checkpoints" : {
-      "@id" : "https://schema.org/Border_checkpoints"
+      "@id" : "https://w3id.org/DTFO/Border_checkpoints"
     },
     "Resolution_of_boundary_disputes" : {
-      "@id" : "https://schema.org/Resolution_of_boundary_disputes"
+      "@id" : "https://w3id.org/DTFO/Resolution_of_boundary_disputes"
     },
     "preferredNamespacePrefix" : {
       "@id" : "http://purl.org/vocab/vann/preferredNamespacePrefix"
     },
     "Crackdown_on_narcotics_inflow" : {
-      "@id" : "https://schema.org/Crackdown_on_narcotics_inflow"
+      "@id" : "https://w3id.org/DTFO/Crackdown_on_narcotics_inflow"
     },
     "possesses" : {
-      "@id" : "https://schema.org/possesses",
+      "@id" : "https://w3id.org/DTFO/possesses",
       "@type" : "@id"
     },
     "isDefinedBy" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy"
     },
     "isInvolvedIn" : {
-      "@id" : "https://schema.org/isInvolvedIn",
+      "@id" : "https://w3id.org/DTFO/isInvolvedIn",
       "@type" : "@id"
     },
     "produces" : {
-      "@id" : "https://schema.org/produces",
+      "@id" : "https://w3id.org/DTFO/produces",
       "@type" : "@id"
     },
     "title" : {
@@ -157,88 +157,88 @@
       "@id" : "http://purl.org/dc/elements/1.1/publisher"
     },
     "Real_estate" : {
-      "@id" : "https://schema.org/Real_estate"
+      "@id" : "https://w3id.org/DTFO/Real_estate"
     },
     "Bank_fraud_case" : {
-      "@id" : "https://schema.org/Bank_fraud_case"
+      "@id" : "https://w3id.org/DTFO/Bank_fraud_case"
     },
     "Drug_company" : {
-      "@id" : "https://schema.org/Drug_company"
+      "@id" : "https://w3id.org/DTFO/Drug_company"
     },
     "modified" : {
       "@id" : "http://purl.org/dc/terms/modified"
     },
     "isAccusedOf" : {
-      "@id" : "https://schema.org/isAccusedOf",
+      "@id" : "https://w3id.org/DTFO/isAccusedOf",
       "@type" : "@id"
     },
     "Booking_under_law" : {
-      "@id" : "https://schema.org/Booking_under_law"
+      "@id" : "https://w3id.org/DTFO/Booking_under_law"
     },
     "amassedThrough" : {
-      "@id" : "https://schema.org/amassedThrough",
+      "@id" : "https://w3id.org/DTFO/amassedThrough",
       "@type" : "@id"
     },
     "Central_bureau_of_investigation" : {
-      "@id" : "https://schema.org/Central_bureau_of_investigation"
+      "@id" : "https://w3id.org/DTFO/Central_bureau_of_investigation"
     },
     "Currency" : {
-      "@id" : "https://schema.org/Currency"
+      "@id" : "https://w3id.org/DTFO/Currency"
     },
     "comment" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
     },
     "Illegal_action" : {
-      "@id" : "https://schema.org/Illegal_action"
+      "@id" : "https://w3id.org/DTFO/Illegal_action"
     },
     "Arrest" : {
-      "@id" : "https://schema.org/Arrest"
+      "@id" : "https://w3id.org/DTFO/Arrest"
     },
     "Raid" : {
-      "@id" : "https://schema.org/Raid"
+      "@id" : "https://w3id.org/DTFO/Raid"
     },
     "isOwnedBy" : {
-      "@id" : "https://schema.org/isOwnedBy",
+      "@id" : "https://w3id.org/DTFO/isOwnedBy",
       "@type" : "@id"
     },
     "Drug_intermediaries" : {
-      "@id" : "https://schema.org/Drug_intermediaries"
+      "@id" : "https://w3id.org/DTFO/Drug_intermediaries"
     },
     "Drug_trafficking" : {
-      "@id" : "https://schema.org/Drug_trafficking"
+      "@id" : "https://w3id.org/DTFO/Drug_trafficking"
     },
     "Drug_haul_case" : {
-      "@id" : "https://schema.org/Drug_haul_case"
+      "@id" : "https://w3id.org/DTFO/Drug_haul_case"
     },
     "Enforcement_directorate" : {
-      "@id" : "https://schema.org/Enforcement_directorate"
+      "@id" : "https://w3id.org/DTFO/Enforcement_directorate"
     },
     "Possession" : {
-      "@id" : "https://schema.org/Possession"
+      "@id" : "https://w3id.org/DTFO/Possession"
     },
     "isArrestedBy" : {
-      "@id" : "https://schema.org/isArrestedBy",
+      "@id" : "https://w3id.org/DTFO/isArrestedBy",
       "@type" : "@id"
     },
     "isArrestedFor" : {
-      "@id" : "https://schema.org/isArrestedFor",
+      "@id" : "https://w3id.org/DTFO/isArrestedFor",
       "@type" : "@id"
     },
     "Search" : {
-      "@id" : "https://schema.org/Search"
+      "@id" : "https://w3id.org/DTFO/Search"
     },
     "Sports_academy" : {
-      "@id" : "https://schema.org/Sports_academy"
+      "@id" : "https://w3id.org/DTFO/Sports_academy"
     },
     "isLocatedIn" : {
-      "@id" : "https://schema.org/isLocatedIn",
+      "@id" : "https://w3id.org/DTFO/isLocatedIn",
       "@type" : "@id"
     },
     "preferredNamespaceUri" : {
       "@id" : "http://purl.org/vocab/vann/preferredNamespaceUri"
     },
     "Seizing" : {
-      "@id" : "https://schema.org/Seizing"
+      "@id" : "https://w3id.org/DTFO/Seizing"
     }
   }
 }
