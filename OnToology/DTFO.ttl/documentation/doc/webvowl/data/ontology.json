@@ -25,7 +25,7 @@
       "creator" : [ {
         "identifier" : "creator",
         "language" : "undefined",
-        "value" : "Mayank Kejariwal",
+        "value" : "Sanju Tiwari",
         "type" : "label"
       }, {
         "identifier" : "creator",
@@ -35,7 +35,7 @@
       }, {
         "identifier" : "creator",
         "language" : "undefined",
-        "value" : "Sanju Tiwari",
+        "value" : "Mayank Kejariwal",
         "type" : "label"
       } ],
       "created" : [ {
@@ -62,17 +62,17 @@
         "value" : "http://shodhguru.epizy.com/",
         "type" : "iri"
       } ],
-      "preferredNamespaceUri" : [ {
-        "identifier" : "preferredNamespaceUri",
-        "language" : "undefined",
-        "value" : "https://w3id.org/DTFO/",
-        "type" : "iri"
-      } ],
       "versionInfo" : [ {
         "identifier" : "versionInfo",
         "language" : "undefined",
         "value" : "2.0",
         "type" : "label"
+      } ],
+      "preferredNamespaceUri" : [ {
+        "identifier" : "preferredNamespaceUri",
+        "language" : "undefined",
+        "value" : "https://w3id.org/DTFO/",
+        "type" : "iri"
       } ],
       "title" : [ {
         "identifier" : "title",
@@ -105,7 +105,7 @@
     "id" : "40",
     "type" : "owl:Class"
   }, {
-    "id" : "41",
+    "id" : "42",
     "type" : "owl:Class"
   }, {
     "id" : "44",
@@ -159,7 +159,7 @@
     "id" : "18",
     "type" : "owl:Class"
   }, {
-    "id" : "42",
+    "id" : "41",
     "type" : "owl:Class"
   }, {
     "id" : "16",
@@ -177,7 +177,7 @@
     "id" : "48",
     "type" : "owl:Class"
   }, {
-    "id" : "82",
+    "id" : "83",
     "type" : "owl:Class"
   }, {
     "id" : "20",
@@ -319,23 +319,6 @@
     "id" : "29",
     "superClasses" : [ "16" ]
   }, {
-    "iri" : "https://w3id.org/DTFO/University",
-    "baseIri" : "https://w3id.org/DTFO",
-    "instances" : 0,
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "A university is an institution of higher education that offers academic degrees and conducts research across various fields of study",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "University"
-    },
-    "id" : "40",
-    "superClasses" : [ "16" ]
-  }, {
     "iri" : "https://w3id.org/DTFO/Bank_fraud_case",
     "baseIri" : "https://w3id.org/DTFO",
     "instances" : 0,
@@ -350,8 +333,25 @@
     "label" : {
       "IRI-based" : "Bank_fraud_case"
     },
-    "id" : "41",
-    "superClasses" : [ "42" ]
+    "id" : "40",
+    "superClasses" : [ "41" ]
+  }, {
+    "iri" : "https://w3id.org/DTFO/University",
+    "baseIri" : "https://w3id.org/DTFO",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "A university is an institution of higher education that offers academic degrees and conducts research across various fields of study",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "University"
+    },
+    "id" : "42",
+    "superClasses" : [ "16" ]
   }, {
     "iri" : "https://w3id.org/DTFO/Legal_entity",
     "baseIri" : "https://w3id.org/DTFO",
@@ -588,7 +588,7 @@
       "IRI-based" : "Drug_haul_case"
     },
     "id" : "73",
-    "superClasses" : [ "42" ]
+    "superClasses" : [ "41" ]
   }, {
     "iri" : "https://w3id.org/DTFO/Bank_loan_fraud",
     "baseIri" : "https://w3id.org/DTFO",
@@ -655,8 +655,8 @@
     "label" : {
       "IRI-based" : "Case"
     },
-    "subClasses" : [ "73", "41" ],
-    "id" : "42"
+    "subClasses" : [ "73", "40" ],
+    "id" : "41"
   }, {
     "iri" : "https://w3id.org/DTFO/Organization",
     "baseIri" : "https://w3id.org/DTFO",
@@ -672,7 +672,7 @@
     "label" : {
       "IRI-based" : "Organization"
     },
-    "subClasses" : [ "15", "40", "29", "78" ],
+    "subClasses" : [ "15", "42", "29", "78" ],
     "id" : "16"
   }, {
     "iri" : "https://w3id.org/DTFO/Infrastructure",
@@ -745,7 +745,7 @@
     "instances" : 0,
     "union" : [ "29", "78" ],
     "attributes" : [ "anonymous", "union" ],
-    "id" : "82"
+    "id" : "83"
   }, {
     "iri" : "https://w3id.org/DTFO/Raid",
     "baseIri" : "https://w3id.org/DTFO",
@@ -1035,7 +1035,7 @@
     "id" : "81",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "83",
+    "id" : "82",
     "type" : "owl:objectProperty"
   }, {
     "id" : "84",
@@ -1241,7 +1241,7 @@
   }, {
     "iri" : "https://w3id.org/DTFO/hasRegisteredCase",
     "baseIri" : "https://w3id.org/DTFO",
-    "range" : "42",
+    "range" : "41",
     "label" : {
       "IRI-based" : "hasRegisteredCase"
     },
@@ -1326,23 +1326,13 @@
   }, {
     "iri" : "https://w3id.org/DTFO/conductsInvestigation",
     "baseIri" : "https://w3id.org/DTFO",
-    "range" : "42",
+    "range" : "41",
     "label" : {
       "IRI-based" : "conductsInvestigation"
     },
     "domain" : "44",
     "attributes" : [ "object" ],
     "id" : "80"
-  }, {
-    "iri" : "https://w3id.org/DTFO/isMemberOf",
-    "baseIri" : "https://w3id.org/DTFO",
-    "range" : "82",
-    "label" : {
-      "IRI-based" : "isMemberOf"
-    },
-    "domain" : "5",
-    "attributes" : [ "object" ],
-    "id" : "81"
   }, {
     "iri" : "https://w3id.org/DTFO/isFoundingMemberOf",
     "baseIri" : "https://w3id.org/DTFO",
@@ -1352,7 +1342,17 @@
     },
     "domain" : "5",
     "attributes" : [ "object" ],
-    "id" : "83"
+    "id" : "81"
+  }, {
+    "iri" : "https://w3id.org/DTFO/isMemberOf",
+    "baseIri" : "https://w3id.org/DTFO",
+    "range" : "83",
+    "label" : {
+      "IRI-based" : "isMemberOf"
+    },
+    "domain" : "5",
+    "attributes" : [ "object" ],
+    "id" : "82"
   }, {
     "iri" : "https://w3id.org/DTFO/produces",
     "baseIri" : "https://w3id.org/DTFO",
@@ -1374,13 +1374,13 @@
     "attributes" : [ "object" ],
     "id" : "85"
   }, {
-    "range" : "42",
+    "range" : "41",
     "domain" : "73",
     "attributes" : [ "anonymous", "object" ],
     "id" : "86"
   }, {
-    "range" : "42",
-    "domain" : "41",
+    "range" : "41",
+    "domain" : "40",
     "attributes" : [ "anonymous", "object" ],
     "id" : "87"
   }, {
@@ -1390,7 +1390,7 @@
     "id" : "88"
   }, {
     "range" : "16",
-    "domain" : "40",
+    "domain" : "42",
     "attributes" : [ "anonymous", "object" ],
     "id" : "89"
   }, {
@@ -1406,7 +1406,7 @@
   }, {
     "iri" : "https://w3id.org/DTFO/isInvolvedIn",
     "baseIri" : "https://w3id.org/DTFO",
-    "range" : "42",
+    "range" : "41",
     "label" : {
       "IRI-based" : "isInvolvedIn"
     },
