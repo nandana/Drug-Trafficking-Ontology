@@ -1,0 +1,35 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "dto:Bank_fraud_case" "dto:Raid" "dto:Drug_trafficking" "dto:Enforcement_directorate" "dto:Search" "dto:Crackdown_on_narcotics_inflow" "dto:Seizing" "dto:Resolution_of_boundary_disputes" "dto:Booking_under_law" "dto:Drug_company" "dto:Case" "dto:Organization" "dto:Arrest" "dto:Bank_loan_fraud" "dto:Product" "dto:Legal_entity" "dto:Manufacturing" "dto:Legal_action" "dto:Syndicate" "dto:Illegal_action" "dto:Drug_haul_case" "dto:Possession" "dto:Asset" "dto:Smuggling" "dto:Police" "dto:Government_schools_and_colleges" "dto:Real_estate" "dto:Central_bureau_of_investigation" "dto:Sports_academy" "dto:Gold" "dto:Infrastructure" "dto:Drug_intermediaries" "dto:Farmhouse" "dto:Plots_of_land" "dto:University" "dto:Bulk_drugs" "dto:Border_checkpoints" ; /*classes style*/
+	"dto:Raid" -> "dto:Legal_action" [ label = "rdfs:subClassOf" ];
+	"dto:Plots_of_land" -> "dto:Real_estate" [ label = "rdfs:subClassOf" ];
+	"dto:Government_schools_and_colleges" -> "dto:Infrastructure" [ label = "rdfs:subClassOf" ];
+	"dto:Enforcement_directorate" -> "dto:Legal_entity" [ label = "rdfs:subClassOf" ];
+	"dto:Drug_intermediaries" -> "dto:Product" [ label = "rdfs:subClassOf" ];
+	"dto:Drug_company" -> "dto:Organization" [ label = "rdfs:subClassOf" ];
+	"dto:Resolution_of_boundary_disputes" -> "dto:Legal_action" [ label = "rdfs:subClassOf" ];
+	"dto:Crackdown_on_narcotics_inflow" -> "dto:Legal_action" [ label = "rdfs:subClassOf" ];
+	"dto:University" -> "dto:Organization" [ label = "rdfs:subClassOf" ];
+	"dto:Syndicate" -> "dto:Organization" [ label = "rdfs:subClassOf" ];
+	"dto:Bank_fraud_case" -> "dto:Case" [ label = "rdfs:subClassOf" ];
+	"dto:Police" -> "dto:Organization" [ label = "rdfs:subClassOf" ];
+	"dto:Sports_academy" -> "dto:Infrastructure" [ label = "rdfs:subClassOf" ];
+	"dto:Gold" -> "dto:Asset" [ label = "rdfs:subClassOf" ];
+	"dto:Seizing" -> "dto:Legal_action" [ label = "rdfs:subClassOf" ];
+	"dto:Central_bureau_of_investigation" -> "dto:Legal_entity" [ label = "rdfs:subClassOf" ];
+	"dto:Possession" -> "dto:Illegal_action" [ label = "rdfs:subClassOf" ];
+	"dto:Drug_trafficking" -> "dto:Illegal_action" [ label = "rdfs:subClassOf" ];
+	"dto:Search" -> "dto:Legal_action" [ label = "rdfs:subClassOf" ];
+	"dto:Border_checkpoints" -> "dto:Infrastructure" [ label = "rdfs:subClassOf" ];
+	"dto:Farmhouse" -> "dto:Real_estate" [ label = "rdfs:subClassOf" ];
+	"dto:Bulk_drugs" -> "dto:Product" [ label = "rdfs:subClassOf" ];
+	"dto:Smuggling" -> "dto:Illegal_action" [ label = "rdfs:subClassOf" ];
+	"dto:Arrest" -> "dto:Legal_action" [ label = "rdfs:subClassOf" ];
+	"dto:Bank_loan_fraud" -> "dto:Illegal_action" [ label = "rdfs:subClassOf" ];
+	"dto:Real_estate" -> "dto:Asset" [ label = "rdfs:subClassOf" ];
+	"dto:Drug_haul_case" -> "dto:Case" [ label = "rdfs:subClassOf" ];
+	"dto:Manufacturing" -> "dto:Illegal_action" [ label = "rdfs:subClassOf" ];
+	"dto:Booking_under_law" -> "dto:Legal_action" [ label = "rdfs:subClassOf" ];
+
+}

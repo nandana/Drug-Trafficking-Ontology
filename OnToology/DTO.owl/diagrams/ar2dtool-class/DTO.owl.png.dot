@@ -1,0 +1,30 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1501"
+node [shape = rectangle, color="orange"]; "dto:Search" "dto:Case" "dto:Organization" "dto:Product" "dto:Legal_entity" "dto:Legal_action" "dto:Illegal_action" "dto:Asset" "dto:Police" "dto:Contraband" "dto:Currency" "dto:Person" ; /*classes style*/
+	"dto:" -> "dto:" [ label = "ns0:preferredNamespaceUri" ];
+	"dto:" -> "http://shodhguru.epizy.com/" [ label = "dc11:publisher" ];
+	"dto:" -> "http://purl.org/NET/rdflicense/cc-by4.0" [ label = "dc:license" ];
+	"dto:Person" -> "dto:Legal_action" [ label = "dto:isAccusedOf" ];
+	"dto:Person" -> "dto:Contraband" [ label = "dto:smuggles" ];
+	"dto:Person" -> "dto:Case" [ label = "dto:isInvolvedIn" ];
+	"dto:Organization" -> "dto:Person" [ label = "dto:hasLiabilityTowards" ];
+	"dto:Organization" -> "dto:Product" [ label = "dto:produces" ];
+	"dto:Person" -> "dto:Person" [ label = "dto:securesReleaseOf" ];
+	"dto:Person" -> "dto:Person" [ label = "dto:isArrestedBy" ];
+	"dto:Asset" -> "owl:Thing" [ label = "dto:isLocatedIn" ];
+	"dto:Person" -> "dto:Illegal_action" [ label = "dto:isArrestedFor" ];
+	"dto:Asset" -> "dto:Illegal_action" [ label = "dto:amassedThrough" ];
+	"dto:Legal_entity" -> "dto:Case" [ label = "dto:conductsInvestigation" ];
+	"dto:Person" -> "dto:Contraband" [ label = "dto:possesses" ];
+	"dto:Person" -> "dto:Police" [ label = "dto:isMemberOf" ];
+	"dto:Person" -> "dto:Organization" [ label = "dto:isFoundingMemberOf" ];
+	"dto:Legal_entity" -> "dto:Case" [ label = "dto:hasRegisteredCase" ];
+	"dto:Police" -> "dto:Person" [ label = "dto:hasArrested" ];
+	"dto:Search" -> "dto:Person" [ label = "dto:searchesLocation" ];
+	"dto:Asset" -> "dto:Currency" [ label = "dto:isWorth" ];
+	"dto:Police" -> "dto:Contraband" [ label = "dto:hasSeized" ];
+	"dto:Asset" -> "dto:Illegal_action" [ label = "dto:resultsFrom" ];
+	"dto:Asset" -> "dto:Person" [ label = "dto:isOwnedBy" ];
+
+}
