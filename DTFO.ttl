@@ -11,19 +11,19 @@
 
 
 <https://w3id.org/DTFO/>   a owl:Ontology ;
-                                                                           rdfs:comment "A drug trafficking ontology is a structured representation of concepts, relationships, and entities related to the illegal trade, distribution, and transportation of drugs, typically used for analysis and understanding within law enforcement or research contexts." ;
-                                                                            dc11:publisher <http://shodhguru.epizy.com/> ;
-                                                                            dc:created "2024-07-10" ;
-                                                                            dc:creator "Sanju Tiwari" ;
-                                                                            dc:creator "Mayank Kejariwal" ;
-                                                                            dc:creator "Nandana Mihindukoolasuriya" ;
-                                                                            dc:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
-                                                                            dc:modified "2025-03-10" ;
-                                                                            dc:title "An ontology that represents concepts in the drug trafficking domain."@en ;
-                                                                            ns0:preferredNamespacePrefix "dtfo" ;
-                                                                            ns0:preferredNamespaceUri <https://w3id.org/def/drug-trafficking-onto#> ;
-                                                                            owl:versionInfo 2.0;                                                                           
-                                                                            rdfs:label "DTFO: Drug Trafficking Ontology" .
+    rdfs:comment "A drug trafficking ontology is a structured representation of concepts, relationships, and entities related to the illegal trade, distribution, and transportation of drugs, typically used for analysis and understanding within law enforcement or research contexts." ;
+    dc11:publisher <http://shodhguru.epizy.com/> ;
+    dc:created "2025-03-10" ;
+    dc:creator "Sanju Tiwari" ;
+    dc:creator "Mayank Kejariwal" ;
+    dc:creator "Nandana Mihindukoolasuriya" ;
+    dc:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
+    dc:modified "2025-03-10" ;
+    dc:title "An ontology that represents concepts in the drug trafficking domain."@en ;
+    ns0:preferredNamespacePrefix "dtfo" ;
+    ns0:preferredNamespaceUri <https://w3id.org/DTFO/> ;
+    owl:versionInfo 2.0;                                                                           
+    rdfs:label "DTFO: Drug Trafficking Ontology" .
 
 
 #################################################################
