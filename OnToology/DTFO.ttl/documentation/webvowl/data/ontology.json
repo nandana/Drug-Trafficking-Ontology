@@ -1,0 +1,1427 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en", "undefined" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema", "https://w3id.org/DTFO" ],
+    "title" : {
+      "en" : "An ontology that represents concepts in the drug trafficking domain."
+    },
+    "iri" : "https://w3id.org/DTFO/",
+    "version" : "2.0",
+    "author" : [ "Nandana Mihindukoolasuriya", "Sanju Tiwari", "Mayank Kejariwal" ],
+    "labels" : {
+      "undefined" : "DTFO: Drug Trafficking Ontology"
+    },
+    "comments" : {
+      "undefined" : "A drug trafficking ontology is a structured representation of concepts, relationships, and entities related to the illegal trade, distribution, and transportation of drugs, typically used for analysis and understanding within law enforcement or research contexts."
+    },
+    "other" : {
+      "license" : [ {
+        "identifier" : "license",
+        "language" : "undefined",
+        "value" : "http://purl.org/NET/rdflicense/cc-by4.0",
+        "type" : "iri"
+      } ],
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "Sanju Tiwari",
+        "type" : "label"
+      }, {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "Nandana Mihindukoolasuriya",
+        "type" : "label"
+      }, {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "Mayank Kejariwal",
+        "type" : "label"
+      } ],
+      "created" : [ {
+        "identifier" : "created",
+        "language" : "undefined",
+        "value" : "2024-07-10",
+        "type" : "label"
+      } ],
+      "preferredNamespacePrefix" : [ {
+        "identifier" : "preferredNamespacePrefix",
+        "language" : "undefined",
+        "value" : "dtfo",
+        "type" : "label"
+      } ],
+      "publisher" : [ {
+        "identifier" : "publisher",
+        "language" : "undefined",
+        "value" : "http://shodhguru.epizy.com/",
+        "type" : "iri"
+      } ],
+      "modified" : [ {
+        "identifier" : "modified",
+        "language" : "undefined",
+        "value" : "2025-03-10",
+        "type" : "label"
+      } ],
+      "versionInfo" : [ {
+        "identifier" : "versionInfo",
+        "language" : "undefined",
+        "value" : "2.0",
+        "type" : "label"
+      } ],
+      "preferredNamespaceUri" : [ {
+        "identifier" : "preferredNamespaceUri",
+        "language" : "undefined",
+        "value" : "https://w3id.org/def/drug-trafficking-onto#",
+        "type" : "iri"
+      } ],
+      "title" : [ {
+        "identifier" : "title",
+        "language" : "en",
+        "value" : "An ontology that represents concepts in the drug trafficking domain.",
+        "type" : "label"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "15",
+    "type" : "owl:Class"
+  }, {
+    "id" : "29",
+    "type" : "owl:Class"
+  }, {
+    "id" : "40",
+    "type" : "owl:Class"
+  }, {
+    "id" : "42",
+    "type" : "owl:Class"
+  }, {
+    "id" : "44",
+    "type" : "owl:Class"
+  }, {
+    "id" : "47",
+    "type" : "owl:Class"
+  }, {
+    "id" : "11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "63",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "39",
+    "type" : "owl:Class"
+  }, {
+    "id" : "68",
+    "type" : "owl:Class"
+  }, {
+    "id" : "46",
+    "type" : "owl:Class"
+  }, {
+    "id" : "45",
+    "type" : "owl:Class"
+  }, {
+    "id" : "24",
+    "type" : "owl:Class"
+  }, {
+    "id" : "58",
+    "type" : "owl:Class"
+  }, {
+    "id" : "73",
+    "type" : "owl:Class"
+  }, {
+    "id" : "35",
+    "type" : "owl:Class"
+  }, {
+    "id" : "18",
+    "type" : "owl:Class"
+  }, {
+    "id" : "41",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "26",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "48",
+    "type" : "owl:Class"
+  }, {
+    "id" : "83",
+    "type" : "owl:Class"
+  }, {
+    "id" : "20",
+    "type" : "owl:Class"
+  }, {
+    "id" : "75",
+    "type" : "owl:Class"
+  }, {
+    "id" : "78",
+    "type" : "owl:Class"
+  }, {
+    "id" : "76",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "28",
+    "type" : "owl:Class"
+  }, {
+    "id" : "38",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "52",
+    "type" : "owl:Class"
+  }, {
+    "id" : "50",
+    "type" : "owl:Class"
+  }, {
+    "id" : "60",
+    "type" : "owl:Class"
+  }, {
+    "id" : "22",
+    "type" : "owl:Class"
+  }, {
+    "id" : "32",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "https://w3id.org/DTFO/Drug_intermediaries",
+    "baseIri" : "https://w3id.org/DTFO",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "Drug intermediaries are entities or individuals involved in the distribution, trade, or sale of pharmaceutical products between manufacturers and end-users, such as wholesalers or distributors",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Drug_intermediaries"
+    },
+    "id" : "6",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "https://w3id.org/DTFO/Plots_of_land",
+    "baseIri" : "https://w3id.org/DTFO",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "any piece of land held by a single occupier, or held in common by several co-occupiers",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Plots_of_land"
+    },
+    "id" : "8",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "https://w3id.org/DTFO/Border_checkpoints",
+    "baseIri" : "https://w3id.org/DTFO",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "Border checkpoints are designated locations where authorities inspect people, goods, and vehicles crossing national or regional borders",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Border_checkpoints"
+    },
+    "id" : "12",
+    "superClasses" : [ "13" ]
+  }, {
+    "iri" : "https://w3id.org/DTFO/Government_schools_and_colleges",
+    "baseIri" : "https://w3id.org/DTFO",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "Government schools and colleges are educational institutions funded and managed by the government to provide free or subsidized education to the public",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Government_schools_and_colleges"
+    },
+    "id" : "14",
+    "superClasses" : [ "13" ]
+  }, {
+    "iri" : "https://w3id.org/DTFO/Drug_company",
+    "baseIri" : "https://w3id.org/DTFO",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "A drug company is an organization that researches, develops, manufactures, and markets pharmaceutical products",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Drug_company"
+    },
+    "id" : "15",
+    "superClasses" : [ "16" ]
+  }, {
+    "iri" : "https://w3id.org/DTFO/Syndicate",
+    "baseIri" : "https://w3id.org/DTFO",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "A syndicate is a group of individuals or organizations formed to carry out a specific enterprise, often involving collaboration for mutual benefit or profit",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Syndicate"
+    },
+    "id" : "29",
+    "superClasses" : [ "16" ]
+  }, {
+    "iri" : "https://w3id.org/DTFO/Bank_fraud_case",
+    "baseIri" : "https://w3id.org/DTFO",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "Bank fraud is the illegal act of obtaining money or assets from a bank or financial institution",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Bank_fraud_case"
+    },
+    "id" : "40",
+    "superClasses" : [ "41" ]
+  }, {
+    "iri" : "https://w3id.org/DTFO/University",
+    "baseIri" : "https://w3id.org/DTFO",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "A university is an institution of higher education that offers academic degrees and conducts research across various fields of study",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "University"
+    },
+    "id" : "42",
+    "superClasses" : [ "16" ]
+  }, {
+    "iri" : "https://w3id.org/DTFO/Legal_entity",
+    "baseIri" : "https://w3id.org/DTFO",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "A legal entity is an organization or individual that has legal rights and obligations",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Legal_entity"
+    },
+    "subClasses" : [ "45", "46" ],
+    "id" : "44"
+  }, {
+    "iri" : "https://w3id.org/DTFO/Smuggling",
+    "baseIri" : "https://w3id.org/DTFO",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "Smuggling is the illegal transportation of goods or people across borders to avoid customs duties or import/export restrictions",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Smuggling"
+    },
+    "id" : "47",
+    "superClasses" : [ "48" ]
+  }, {
+    "iri" : "https://w3id.org/DTFO/Contraband",
+    "baseIri" : "https://w3id.org/DTFO",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "Drug trafficking is a global illicit trade involving the cultivation, manufacture, distribution and sale of substances which are subject to drug prohibition laws.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Contraband"
+    },
+    "id" : "11"
+  }, {
+    "iri" : "https://w3id.org/DTFO/Real_estate",
+    "baseIri" : "https://w3id.org/DTFO",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "Real estate is property consisting of land and the buildings",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Real_estate"
+    },
+    "subClasses" : [ "32", "8" ],
+    "id" : "9",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "https://w3id.org/DTFO/Product",
+    "baseIri" : "https://w3id.org/DTFO",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "A product is a tangible or intangible item created through a process to satisfy a specific need or want in the market",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Product"
+    },
+    "subClasses" : [ "6", "35" ],
+    "id" : "7"
+  }, {
+    "iri" : "https://w3id.org/DTFO/Legal_action",
+    "baseIri" : "https://w3id.org/DTFO",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "Legal action is the process of using the judicial system to enforce or defend a legal right",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Legal_action"
+    },
+    "subClasses" : [ "24", "22", "28", "26", "20", "18", "1" ],
+    "id" : "2"
+  }, {
+    "iri" : "https://w3id.org/DTFO/Sports_academy",
+    "baseIri" : "https://w3id.org/DTFO",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "A sports academy is a specialized institution that provides training, coaching, and development programs for athletes in various sports disciplines",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Sports_academy"
+    },
+    "id" : "63",
+    "superClasses" : [ "13" ]
+  }, {
+    "iri" : "https://w3id.org/DTFO/Asset",
+    "baseIri" : "https://w3id.org/DTFO",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "an asset is any valuable item, such as money, property, or goods, that is obtained or used in illegal trade activities.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Asset"
+    },
+    "subClasses" : [ "9", "68" ],
+    "id" : "4"
+  }, {
+    "iri" : "https://w3id.org/DTFO/Currency",
+    "baseIri" : "https://w3id.org/DTFO",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "a medium of exchange for the supply of goods and services.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Currency"
+    },
+    "id" : "39"
+  }, {
+    "iri" : "https://w3id.org/DTFO/Gold",
+    "baseIri" : "https://w3id.org/DTFO",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "a precious yellow metal that is used for making coins, jewellery.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Gold"
+    },
+    "id" : "68",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "https://w3id.org/DTFO/Central_bureau_of_investigation",
+    "baseIri" : "https://w3id.org/DTFO",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "The Central Bureau of Investigation (CBI) is India's premier investigative agency responsible for probing high-profile and sensitive cases, under the jurisdiction of the Government of India",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Central_bureau_of_investigation"
+    },
+    "id" : "46",
+    "superClasses" : [ "44" ]
+  }, {
+    "iri" : "https://w3id.org/DTFO/Enforcement_directorate",
+    "baseIri" : "https://w3id.org/DTFO",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "The Enforcement Directorate (ED) is an Indian law enforcement and economic intelligence agency responsible for enforcing economic laws and regulations, combating financial crimes, and investigating money laundering",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Enforcement_directorate"
+    },
+    "id" : "45",
+    "superClasses" : [ "44" ]
+  }, {
+    "iri" : "https://w3id.org/DTFO/Booking_under_law",
+    "baseIri" : "https://w3id.org/DTFO",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "Booking under law refers to the official process of recording details of an arrestee into police records, including personal information and the charges filed against them",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Booking_under_law"
+    },
+    "id" : "24",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://w3id.org/DTFO/Bank_loan_fraud",
+    "baseIri" : "https://w3id.org/DTFO",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "Bank loan fraud is the act of obtaining funds from a bank through deceptive means or false information",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Bank_loan_fraud"
+    },
+    "id" : "58",
+    "superClasses" : [ "48" ]
+  }, {
+    "iri" : "https://w3id.org/DTFO/Drug_haul_case",
+    "baseIri" : "https://w3id.org/DTFO",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "A drug haul case is a legal incident involving the seizure of a significant quantity of illegal drugs by law enforcement authorities.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Drug_haul_case"
+    },
+    "id" : "73",
+    "superClasses" : [ "41" ]
+  }, {
+    "iri" : "https://w3id.org/DTFO/Bulk_drugs",
+    "baseIri" : "https://w3id.org/DTFO",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "Bulk drug refers to a pharmaceutical substance produced in large quantities, typically used as an active ingredient in drug formulations",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Bulk_drugs"
+    },
+    "id" : "35",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "https://w3id.org/DTFO/Arrest",
+    "baseIri" : "https://w3id.org/DTFO",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "Arrest is the legal action of taking someone into custody, typically by law enforcement, for alleged criminal activity",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Arrest"
+    },
+    "id" : "18",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://w3id.org/DTFO/Case",
+    "baseIri" : "https://w3id.org/DTFO",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "A case is a specific instance or example of something",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Case"
+    },
+    "subClasses" : [ "73", "40" ],
+    "id" : "41"
+  }, {
+    "iri" : "https://w3id.org/DTFO/Organization",
+    "baseIri" : "https://w3id.org/DTFO",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "An organization is a structured entity formed to achieve specific goals or objectives, often through coordinated efforts and resources",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Organization"
+    },
+    "subClasses" : [ "15", "42", "29", "78" ],
+    "id" : "16"
+  }, {
+    "iri" : "https://w3id.org/DTFO/Infrastructure",
+    "baseIri" : "https://w3id.org/DTFO",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "Infrastructure is the basic facilities and system serving a country, region, or community",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Infrastructure"
+    },
+    "subClasses" : [ "63", "12", "14" ],
+    "id" : "13"
+  }, {
+    "iri" : "https://w3id.org/DTFO/Resolution_of_boundary_disputes",
+    "baseIri" : "https://w3id.org/DTFO",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "Resolution of a boundary dispute is the settlement of conflicting claims over territorial borders between two or more parties",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Resolution_of_boundary_disputes"
+    },
+    "id" : "26",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://w3id.org/DTFO/Person",
+    "baseIri" : "https://w3id.org/DTFO",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "A person is a human being, typically regarded as an individual with distinct characteristics, rights, and responsibilities",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Person"
+    },
+    "id" : "5"
+  }, {
+    "iri" : "https://w3id.org/DTFO/Illegal_action",
+    "baseIri" : "https://w3id.org/DTFO",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "An action is considered illegal when it goes against a specific law passed by a legislative authority",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Illegal_action"
+    },
+    "subClasses" : [ "60", "58", "52", "50", "47" ],
+    "id" : "48"
+  }, {
+    "instances" : 0,
+    "union" : [ "29", "78" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "83"
+  }, {
+    "iri" : "https://w3id.org/DTFO/Raid",
+    "baseIri" : "https://w3id.org/DTFO",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "A raid is a sudden and organized law enforcement operation to search premises, often to seize illegal goods or arrest suspects",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Raid"
+    },
+    "id" : "20",
+    "superClasses" : [ "2" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "2", "4", "48", "11", "16", "5", "13" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "75"
+  }, {
+    "iri" : "https://w3id.org/DTFO/Police",
+    "baseIri" : "https://w3id.org/DTFO",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "Police are government agencies responsible for maintaining public order, enforcing laws, and investigating crimes within a jurisdiction",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Police"
+    },
+    "id" : "78",
+    "superClasses" : [ "16" ]
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "76",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "https://w3id.org/DTFO/Search",
+    "baseIri" : "https://w3id.org/DTFO",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "A search is the act of systematically looking for something, often conducted by authorities to find evidence or contraband",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Search"
+    },
+    "id" : "28",
+    "superClasses" : [ "2" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "4", "11" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "38"
+  }, {
+    "iri" : "https://w3id.org/DTFO/Seizing",
+    "baseIri" : "https://w3id.org/DTFO",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "Seizing is the legal act of taking possession of property, often by authorities, due to suspicion of illegal activity or as evidence",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Seizing"
+    },
+    "id" : "1",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://w3id.org/DTFO/Drug_trafficking",
+    "baseIri" : "https://w3id.org/DTFO",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "Drug trafficking is a global illicit trade involving the cultivation, manufacture, distribution and sale of substances which are subject to drug prohibition laws",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Drug_trafficking"
+    },
+    "id" : "52",
+    "superClasses" : [ "48" ]
+  }, {
+    "iri" : "https://w3id.org/DTFO/Manufacturing",
+    "baseIri" : "https://w3id.org/DTFO",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "Manufacturing is the process of converting raw materials into finished products through the use of machinery, tools, and labor",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Manufacturing"
+    },
+    "id" : "50",
+    "superClasses" : [ "48" ]
+  }, {
+    "iri" : "https://w3id.org/DTFO/Possession",
+    "baseIri" : "https://w3id.org/DTFO",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "Possession is the act of having or owning something, whether tangible or intangible",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Possession"
+    },
+    "id" : "60",
+    "superClasses" : [ "48" ]
+  }, {
+    "iri" : "https://w3id.org/DTFO/Crackdown_on_narcotics_inflow",
+    "baseIri" : "https://w3id.org/DTFO",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "A crackdown on narcotics inflow is a concerted effort by law enforcement to aggressively reduce the illegal importation and distribution of drugs",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Crackdown_on_narcotics_inflow"
+    },
+    "id" : "22",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://w3id.org/DTFO/Farmhouse",
+    "baseIri" : "https://w3id.org/DTFO",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "A farmhouse means a residential area amid beautiful landscapes",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Farmhouse"
+    },
+    "id" : "32",
+    "superClasses" : [ "9" ]
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "3",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "10",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "17",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "19",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "21",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "23",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "25",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "27",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "30",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "31",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "33",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "34",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "36",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "37",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "43",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "49",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "51",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "53",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "54",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "55",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "56",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "57",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "59",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "61",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "62",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "64",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "65",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "66",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "67",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "69",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "70",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "71",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "72",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "74",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "77",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "79",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "80",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "81",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "82",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "84",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "85",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "86",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "87",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "88",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "89",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "90",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "91",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "92",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "93",
+    "type" : "owl:objectProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "range" : "2",
+    "domain" : "1",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "0"
+  }, {
+    "iri" : "https://w3id.org/DTFO/isOwnedBy",
+    "baseIri" : "https://w3id.org/DTFO",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "isOwnedBy"
+    },
+    "domain" : "4",
+    "attributes" : [ "object" ],
+    "id" : "3"
+  }, {
+    "iri" : "https://w3id.org/DTFO/possesses",
+    "baseIri" : "https://w3id.org/DTFO",
+    "range" : "11",
+    "label" : {
+      "IRI-based" : "possesses"
+    },
+    "domain" : "5",
+    "attributes" : [ "object" ],
+    "id" : "10"
+  }, {
+    "range" : "2",
+    "domain" : "18",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "17"
+  }, {
+    "range" : "2",
+    "domain" : "20",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "19"
+  }, {
+    "range" : "2",
+    "domain" : "22",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "21"
+  }, {
+    "range" : "2",
+    "domain" : "24",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "23"
+  }, {
+    "range" : "2",
+    "domain" : "26",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "25"
+  }, {
+    "range" : "2",
+    "domain" : "28",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "27"
+  }, {
+    "range" : "9",
+    "domain" : "8",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "30"
+  }, {
+    "range" : "9",
+    "domain" : "32",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "31"
+  }, {
+    "iri" : "https://w3id.org/DTFO/isAccusedOf",
+    "baseIri" : "https://w3id.org/DTFO",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "isAccusedOf"
+    },
+    "domain" : "5",
+    "attributes" : [ "object" ],
+    "id" : "33"
+  }, {
+    "range" : "7",
+    "domain" : "35",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "34"
+  }, {
+    "range" : "7",
+    "domain" : "6",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "36"
+  }, {
+    "iri" : "https://w3id.org/DTFO/isWorth",
+    "baseIri" : "https://w3id.org/DTFO",
+    "range" : "39",
+    "label" : {
+      "IRI-based" : "isWorth"
+    },
+    "domain" : "38",
+    "attributes" : [ "object" ],
+    "id" : "37"
+  }, {
+    "iri" : "https://w3id.org/DTFO/hasLiabilityTowards",
+    "baseIri" : "https://w3id.org/DTFO",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "hasLiabilityTowards"
+    },
+    "domain" : "16",
+    "attributes" : [ "object" ],
+    "id" : "43"
+  }, {
+    "range" : "48",
+    "domain" : "50",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "49"
+  }, {
+    "range" : "48",
+    "domain" : "52",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "51"
+  }, {
+    "range" : "48",
+    "domain" : "47",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "53"
+  }, {
+    "range" : "44",
+    "domain" : "46",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "54"
+  }, {
+    "iri" : "https://w3id.org/DTFO/amassedThrough",
+    "baseIri" : "https://w3id.org/DTFO",
+    "range" : "48",
+    "label" : {
+      "IRI-based" : "amassedThrough"
+    },
+    "domain" : "4",
+    "attributes" : [ "object" ],
+    "id" : "55"
+  }, {
+    "range" : "44",
+    "domain" : "45",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "56"
+  }, {
+    "range" : "48",
+    "domain" : "58",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "57"
+  }, {
+    "range" : "48",
+    "domain" : "60",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "59"
+  }, {
+    "iri" : "https://w3id.org/DTFO/resultsFrom",
+    "baseIri" : "https://w3id.org/DTFO",
+    "range" : "48",
+    "label" : {
+      "IRI-based" : "resultsFrom"
+    },
+    "domain" : "4",
+    "attributes" : [ "object" ],
+    "id" : "61"
+  }, {
+    "range" : "13",
+    "domain" : "63",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "62"
+  }, {
+    "range" : "13",
+    "domain" : "14",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "64"
+  }, {
+    "iri" : "https://w3id.org/DTFO/hasRegisteredCase",
+    "baseIri" : "https://w3id.org/DTFO",
+    "range" : "41",
+    "label" : {
+      "IRI-based" : "hasRegisteredCase"
+    },
+    "domain" : "44",
+    "attributes" : [ "object" ],
+    "id" : "65"
+  }, {
+    "range" : "13",
+    "domain" : "12",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "66"
+  }, {
+    "iri" : "https://w3id.org/DTFO/isArrestedFor",
+    "baseIri" : "https://w3id.org/DTFO",
+    "range" : "48",
+    "label" : {
+      "IRI-based" : "isArrestedFor"
+    },
+    "domain" : "5",
+    "attributes" : [ "object" ],
+    "id" : "67"
+  }, {
+    "iri" : "https://w3id.org/DTFO/securesReleaseOf",
+    "baseIri" : "https://w3id.org/DTFO",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "securesReleaseOf"
+    },
+    "domain" : "5",
+    "attributes" : [ "object" ],
+    "id" : "69"
+  }, {
+    "iri" : "https://w3id.org/DTFO/smuggles",
+    "baseIri" : "https://w3id.org/DTFO",
+    "range" : "11",
+    "label" : {
+      "IRI-based" : "smuggles"
+    },
+    "domain" : "5",
+    "attributes" : [ "object" ],
+    "id" : "70"
+  }, {
+    "range" : "4",
+    "domain" : "68",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "71"
+  }, {
+    "range" : "4",
+    "domain" : "9",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "72"
+  }, {
+    "iri" : "https://w3id.org/DTFO/isLocatedIn",
+    "baseIri" : "https://w3id.org/DTFO",
+    "range" : "76",
+    "label" : {
+      "IRI-based" : "isLocatedIn"
+    },
+    "domain" : "75",
+    "attributes" : [ "object" ],
+    "id" : "74"
+  }, {
+    "iri" : "https://w3id.org/DTFO/hasArrested",
+    "baseIri" : "https://w3id.org/DTFO",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "hasArrested"
+    },
+    "domain" : "78",
+    "attributes" : [ "object" ],
+    "id" : "77"
+  }, {
+    "iri" : "https://w3id.org/DTFO/searchesLocation",
+    "baseIri" : "https://w3id.org/DTFO",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "searchesLocation"
+    },
+    "domain" : "28",
+    "attributes" : [ "object" ],
+    "id" : "79"
+  }, {
+    "iri" : "https://w3id.org/DTFO/conductsInvestigation",
+    "baseIri" : "https://w3id.org/DTFO",
+    "range" : "41",
+    "label" : {
+      "IRI-based" : "conductsInvestigation"
+    },
+    "domain" : "44",
+    "attributes" : [ "object" ],
+    "id" : "80"
+  }, {
+    "iri" : "https://w3id.org/DTFO/isFoundingMemberOf",
+    "baseIri" : "https://w3id.org/DTFO",
+    "range" : "16",
+    "label" : {
+      "IRI-based" : "isFoundingMemberOf"
+    },
+    "domain" : "5",
+    "attributes" : [ "object" ],
+    "id" : "81"
+  }, {
+    "iri" : "https://w3id.org/DTFO/isMemberOf",
+    "baseIri" : "https://w3id.org/DTFO",
+    "range" : "83",
+    "label" : {
+      "IRI-based" : "isMemberOf"
+    },
+    "domain" : "5",
+    "attributes" : [ "object" ],
+    "id" : "82"
+  }, {
+    "iri" : "https://w3id.org/DTFO/produces",
+    "baseIri" : "https://w3id.org/DTFO",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "produces"
+    },
+    "domain" : "16",
+    "attributes" : [ "object" ],
+    "id" : "84"
+  }, {
+    "iri" : "https://w3id.org/DTFO/isArrestedBy",
+    "baseIri" : "https://w3id.org/DTFO",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "isArrestedBy"
+    },
+    "domain" : "5",
+    "attributes" : [ "object" ],
+    "id" : "85"
+  }, {
+    "range" : "41",
+    "domain" : "73",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "86"
+  }, {
+    "range" : "41",
+    "domain" : "40",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "87"
+  }, {
+    "range" : "16",
+    "domain" : "15",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "88"
+  }, {
+    "range" : "16",
+    "domain" : "42",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "89"
+  }, {
+    "range" : "16",
+    "domain" : "29",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "90"
+  }, {
+    "range" : "16",
+    "domain" : "78",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "91"
+  }, {
+    "iri" : "https://w3id.org/DTFO/isInvolvedIn",
+    "baseIri" : "https://w3id.org/DTFO",
+    "range" : "41",
+    "label" : {
+      "IRI-based" : "isInvolvedIn"
+    },
+    "domain" : "5",
+    "attributes" : [ "object" ],
+    "id" : "92"
+  }, {
+    "iri" : "https://w3id.org/DTFO/hasSeized",
+    "baseIri" : "https://w3id.org/DTFO",
+    "range" : "11",
+    "label" : {
+      "IRI-based" : "hasSeized"
+    },
+    "domain" : "78",
+    "attributes" : [ "object" ],
+    "id" : "93"
+  } ]
+}
