@@ -1,0 +1,430 @@
+@prefix : <https://w3id.org/DTFO/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <https://w3id.org/DTFO/> .
+
+<https://w3id.org/DTFO/> rdf:type owl:Ontology ;
+                          <http://purl.org/dc/elements/1.1/publisher> <http://shodhguru.epizy.com/> ;
+                          <http://purl.org/dc/terms/created> "2025-03-10" ;
+                          <http://purl.org/dc/terms/creator> "Mayank Kejariwal" ,
+                                                             "Nandana Mihindukoolasuriya" ,
+                                                             "Sanju Tiwari" ;
+                          <http://purl.org/dc/terms/license> <http://purl.org/NET/rdflicense/cc-by4.0> ;
+                          <http://purl.org/dc/terms/modified> "2025-03-10" ;
+                          <http://purl.org/dc/terms/title> "An ontology that represents concepts in the drug trafficking domain."@en ;
+                          <http://purl.org/vocab/vann/preferredNamespacePrefix> "dtfo" ;
+                          <http://purl.org/vocab/vann/preferredNamespaceUri> <https://w3id.org/DTFO/> ;
+                          rdfs:comment "A drug trafficking ontology is a structured representation of concepts, relationships, and entities related to the illegal trade, distribution, and transportation of drugs, typically used for analysis and understanding within law enforcement or research contexts." ;
+                          rdfs:label "DTFO: Drug Trafficking Ontology" ;
+                          owl:versionInfo 2.0 .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.org/dc/elements/1.1/publisher
+<http://purl.org/dc/elements/1.1/publisher> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/created
+<http://purl.org/dc/terms/created> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/creator
+<http://purl.org/dc/terms/creator> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/modified
+<http://purl.org/dc/terms/modified> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/title
+<http://purl.org/dc/terms/title> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/vocab/vann/preferredNamespacePrefix
+<http://purl.org/vocab/vann/preferredNamespacePrefix> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/vocab/vann/preferredNamespaceUri
+<http://purl.org/vocab/vann/preferredNamespaceUri> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  https://w3id.org/DTFO/amassedThrough
+:amassedThrough rdf:type owl:ObjectProperty ;
+                rdfs:domain :Asset ;
+                rdfs:range :Illegal_action .
+
+
+###  https://w3id.org/DTFO/conductsInvestigation
+:conductsInvestigation rdf:type owl:ObjectProperty ;
+                       rdfs:domain :Legal_entity ;
+                       rdfs:range :Case .
+
+
+###  https://w3id.org/DTFO/hasArrested
+:hasArrested rdf:type owl:ObjectProperty ;
+             rdfs:domain :Police ;
+             rdfs:range :Person .
+
+
+###  https://w3id.org/DTFO/hasLiabilityTowards
+:hasLiabilityTowards rdf:type owl:ObjectProperty ;
+                     rdfs:domain :Organization ;
+                     rdfs:range :Person .
+
+
+###  https://w3id.org/DTFO/hasRegisteredCase
+:hasRegisteredCase rdf:type owl:ObjectProperty ;
+                   rdfs:domain :Legal_entity ;
+                   rdfs:range :Case .
+
+
+###  https://w3id.org/DTFO/hasSeized
+:hasSeized rdf:type owl:ObjectProperty ;
+           rdfs:domain :Police ;
+           rdfs:range :Contraband .
+
+
+###  https://w3id.org/DTFO/isAccusedOf
+:isAccusedOf rdf:type owl:ObjectProperty ;
+             rdfs:domain :Person ;
+             rdfs:range :Legal_action .
+
+
+###  https://w3id.org/DTFO/isArrestedBy
+:isArrestedBy rdf:type owl:ObjectProperty ;
+              rdfs:domain :Person ;
+              rdfs:range :Person .
+
+
+###  https://w3id.org/DTFO/isArrestedFor
+:isArrestedFor rdf:type owl:ObjectProperty ;
+               rdfs:domain :Person ;
+               rdfs:range :Illegal_action .
+
+
+###  https://w3id.org/DTFO/isFoundingMemberOf
+:isFoundingMemberOf rdf:type owl:ObjectProperty ;
+                    rdfs:domain :Person ;
+                    rdfs:range :Organization .
+
+
+###  https://w3id.org/DTFO/isInvolvedIn
+:isInvolvedIn rdf:type owl:ObjectProperty ;
+              rdfs:domain :Person ;
+              rdfs:range :Case .
+
+
+###  https://w3id.org/DTFO/isLocatedIn
+:isLocatedIn rdf:type owl:ObjectProperty ;
+             rdfs:domain :Asset ,
+                         :Contraband ,
+                         :Illegal_action ,
+                         :Infrastructure ,
+                         :Legal_action ,
+                         :Organization ,
+                         :Person .
+
+
+###  https://w3id.org/DTFO/isMemberOf
+:isMemberOf rdf:type owl:ObjectProperty ;
+            rdfs:domain :Person ;
+            rdfs:range :Police ,
+                       :Syndicate .
+
+
+###  https://w3id.org/DTFO/isOwnedBy
+:isOwnedBy rdf:type owl:ObjectProperty ;
+           rdfs:domain :Asset ;
+           rdfs:range :Person .
+
+
+###  https://w3id.org/DTFO/isWorth
+:isWorth rdf:type owl:ObjectProperty ;
+         rdfs:domain :Asset ,
+                     :Contraband ;
+         rdfs:range :Currency .
+
+
+###  https://w3id.org/DTFO/possesses
+:possesses rdf:type owl:ObjectProperty ;
+           rdfs:domain :Person ;
+           rdfs:range :Contraband .
+
+
+###  https://w3id.org/DTFO/produces
+:produces rdf:type owl:ObjectProperty ;
+          rdfs:domain :Organization ;
+          rdfs:range :Product .
+
+
+###  https://w3id.org/DTFO/resultsFrom
+:resultsFrom rdf:type owl:ObjectProperty ;
+             rdfs:domain :Asset ;
+             rdfs:range :Illegal_action .
+
+
+###  https://w3id.org/DTFO/searchesLocation
+:searchesLocation rdf:type owl:ObjectProperty ;
+                  rdfs:domain :Search ;
+                  rdfs:range :Person .
+
+
+###  https://w3id.org/DTFO/securesReleaseOf
+:securesReleaseOf rdf:type owl:ObjectProperty ;
+                  rdfs:domain :Person ;
+                  rdfs:range :Person .
+
+
+###  https://w3id.org/DTFO/smuggles
+:smuggles rdf:type owl:ObjectProperty ;
+          rdfs:domain :Person ;
+          rdfs:range :Contraband .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  https://w3id.org/DTFO/Arrest
+:Arrest rdf:type owl:Class ;
+        rdfs:subClassOf :Legal_action ;
+        rdfs:isDefinedBy "Arrest is the legal action of taking someone into custody, typically by law enforcement, for alleged criminal activity" .
+
+
+###  https://w3id.org/DTFO/Asset
+:Asset rdf:type owl:Class ;
+       rdfs:isDefinedBy "an asset is any valuable item, such as money, property, or goods, that is obtained or used in illegal trade activities." .
+
+
+###  https://w3id.org/DTFO/Bank_fraud_case
+:Bank_fraud_case rdf:type owl:Class ;
+                 rdfs:subClassOf :Case ;
+                 rdfs:isDefinedBy "Bank fraud is the illegal act of obtaining money or assets from a bank or financial institution" .
+
+
+###  https://w3id.org/DTFO/Bank_loan_fraud
+:Bank_loan_fraud rdf:type owl:Class ;
+                 rdfs:subClassOf :Illegal_action ;
+                 rdfs:isDefinedBy "Bank loan fraud is the act of obtaining funds from a bank through deceptive means or false information" .
+
+
+###  https://w3id.org/DTFO/Booking_under_law
+:Booking_under_law rdf:type owl:Class ;
+                   rdfs:subClassOf :Legal_action ;
+                   rdfs:isDefinedBy "Booking under law refers to the official process of recording details of an arrestee into police records, including personal information and the charges filed against them" .
+
+
+###  https://w3id.org/DTFO/Border_checkpoints
+:Border_checkpoints rdf:type owl:Class ;
+                    rdfs:subClassOf :Infrastructure ;
+                    rdfs:isDefinedBy "Border checkpoints are designated locations where authorities inspect people, goods, and vehicles crossing national or regional borders" .
+
+
+###  https://w3id.org/DTFO/Bulk_drugs
+:Bulk_drugs rdf:type owl:Class ;
+            rdfs:subClassOf :Product ;
+            rdfs:isDefinedBy "Bulk drug refers to a pharmaceutical substance produced in large quantities, typically used as an active ingredient in drug formulations" .
+
+
+###  https://w3id.org/DTFO/Case
+:Case rdf:type owl:Class ;
+      rdfs:isDefinedBy "A case is a specific instance or example of something" .
+
+
+###  https://w3id.org/DTFO/Central_bureau_of_investigation
+:Central_bureau_of_investigation rdf:type owl:Class ;
+                                 rdfs:subClassOf :Legal_entity ;
+                                 rdfs:isDefinedBy "The Central Bureau of Investigation (CBI) is India's premier investigative agency responsible for probing high-profile and sensitive cases, under the jurisdiction of the Government of India" .
+
+
+###  https://w3id.org/DTFO/Contraband
+:Contraband rdf:type owl:Class ;
+            rdfs:isDefinedBy "Drug trafficking is a global illicit trade involving the cultivation, manufacture, distribution and sale of substances which are subject to drug prohibition laws." .
+
+
+###  https://w3id.org/DTFO/Crackdown_on_narcotics_inflow
+:Crackdown_on_narcotics_inflow rdf:type owl:Class ;
+                               rdfs:subClassOf :Legal_action ;
+                               rdfs:isDefinedBy "A crackdown on narcotics inflow is a concerted effort by law enforcement to aggressively reduce the illegal importation and distribution of drugs" .
+
+
+###  https://w3id.org/DTFO/Currency
+:Currency rdf:type owl:Class ;
+          rdfs:isDefinedBy "a medium of exchange for the supply of goods and services." .
+
+
+###  https://w3id.org/DTFO/Drug_company
+:Drug_company rdf:type owl:Class ;
+              rdfs:subClassOf :Organization ;
+              rdfs:isDefinedBy "A drug company is an organization that researches, develops, manufactures, and markets pharmaceutical products" .
+
+
+###  https://w3id.org/DTFO/Drug_haul_case
+:Drug_haul_case rdf:type owl:Class ;
+                rdfs:subClassOf :Case ;
+                rdfs:isDefinedBy "A drug haul case is a legal incident involving the seizure of a significant quantity of illegal drugs by law enforcement authorities." .
+
+
+###  https://w3id.org/DTFO/Drug_intermediaries
+:Drug_intermediaries rdf:type owl:Class ;
+                     rdfs:subClassOf :Product ;
+                     rdfs:isDefinedBy "Drug intermediaries are entities or individuals involved in the distribution, trade, or sale of pharmaceutical products between manufacturers and end-users, such as wholesalers or distributors" .
+
+
+###  https://w3id.org/DTFO/Drug_trafficking
+:Drug_trafficking rdf:type owl:Class ;
+                  rdfs:subClassOf :Illegal_action ;
+                  rdfs:isDefinedBy "Drug trafficking is a global illicit trade involving the cultivation, manufacture, distribution and sale of substances which are subject to drug prohibition laws" .
+
+
+###  https://w3id.org/DTFO/Enforcement_directorate
+:Enforcement_directorate rdf:type owl:Class ;
+                         rdfs:subClassOf :Legal_entity ;
+                         rdfs:isDefinedBy "The Enforcement Directorate (ED) is an Indian law enforcement and economic intelligence agency responsible for enforcing economic laws and regulations, combating financial crimes, and investigating money laundering" .
+
+
+###  https://w3id.org/DTFO/Farmhouse
+:Farmhouse rdf:type owl:Class ;
+           rdfs:subClassOf :Real_estate ;
+           rdfs:isDefinedBy "A farmhouse means a residential area amid beautiful landscapes" .
+
+
+###  https://w3id.org/DTFO/Gold
+:Gold rdf:type owl:Class ;
+      rdfs:subClassOf :Asset ;
+      rdfs:isDefinedBy "a precious yellow metal that is used for making coins, jewellery." .
+
+
+###  https://w3id.org/DTFO/Government_schools_and_colleges
+:Government_schools_and_colleges rdf:type owl:Class ;
+                                 rdfs:subClassOf :Infrastructure ;
+                                 rdfs:isDefinedBy "Government schools and colleges are educational institutions funded and managed by the government to provide free or subsidized education to the public" .
+
+
+###  https://w3id.org/DTFO/Illegal_action
+:Illegal_action rdf:type owl:Class ;
+                rdfs:isDefinedBy "An action is considered illegal when it goes against a specific law passed by a legislative authority" .
+
+
+###  https://w3id.org/DTFO/Infrastructure
+:Infrastructure rdf:type owl:Class ;
+                rdfs:isDefinedBy "Infrastructure is the basic facilities and system serving a country, region, or community" .
+
+
+###  https://w3id.org/DTFO/Legal_action
+:Legal_action rdf:type owl:Class ;
+              rdfs:isDefinedBy "Legal action is the process of using the judicial system to enforce or defend a legal right" .
+
+
+###  https://w3id.org/DTFO/Legal_entity
+:Legal_entity rdf:type owl:Class ;
+              rdfs:isDefinedBy "A legal entity is an organization or individual that has legal rights and obligations" .
+
+
+###  https://w3id.org/DTFO/Manufacturing
+:Manufacturing rdf:type owl:Class ;
+               rdfs:subClassOf :Illegal_action ;
+               rdfs:isDefinedBy "Manufacturing is the process of converting raw materials into finished products through the use of machinery, tools, and labor" .
+
+
+###  https://w3id.org/DTFO/Organization
+:Organization rdf:type owl:Class ;
+              rdfs:isDefinedBy "An organization is a structured entity formed to achieve specific goals or objectives, often through coordinated efforts and resources" .
+
+
+###  https://w3id.org/DTFO/Person
+:Person rdf:type owl:Class ;
+        rdfs:isDefinedBy "A person is a human being, typically regarded as an individual with distinct characteristics, rights, and responsibilities" .
+
+
+###  https://w3id.org/DTFO/Plots_of_land
+:Plots_of_land rdf:type owl:Class ;
+               rdfs:subClassOf :Real_estate ;
+               rdfs:isDefinedBy "any piece of land held by a single occupier, or held in common by several co-occupiers" .
+
+
+###  https://w3id.org/DTFO/Police
+:Police rdf:type owl:Class ;
+        rdfs:subClassOf :Organization ;
+        rdfs:isDefinedBy "Police are government agencies responsible for maintaining public order, enforcing laws, and investigating crimes within a jurisdiction" .
+
+
+###  https://w3id.org/DTFO/Possession
+:Possession rdf:type owl:Class ;
+            rdfs:subClassOf :Illegal_action ;
+            rdfs:isDefinedBy "Possession is the act of having or owning something, whether tangible or intangible" .
+
+
+###  https://w3id.org/DTFO/Product
+:Product rdf:type owl:Class ;
+         rdfs:isDefinedBy "A product is a tangible or intangible item created through a process to satisfy a specific need or want in the market" .
+
+
+###  https://w3id.org/DTFO/Raid
+:Raid rdf:type owl:Class ;
+      rdfs:subClassOf :Legal_action ;
+      rdfs:isDefinedBy "A raid is a sudden and organized law enforcement operation to search premises, often to seize illegal goods or arrest suspects" .
+
+
+###  https://w3id.org/DTFO/Real_estate
+:Real_estate rdf:type owl:Class ;
+             rdfs:subClassOf :Asset ;
+             rdfs:isDefinedBy "Real estate is property consisting of land and the buildings" .
+
+
+###  https://w3id.org/DTFO/Resolution_of_boundary_disputes
+:Resolution_of_boundary_disputes rdf:type owl:Class ;
+                                 rdfs:subClassOf :Legal_action ;
+                                 rdfs:isDefinedBy "Resolution of a boundary dispute is the settlement of conflicting claims over territorial borders between two or more parties" .
+
+
+###  https://w3id.org/DTFO/Search
+:Search rdf:type owl:Class ;
+        rdfs:subClassOf :Legal_action ;
+        rdfs:isDefinedBy "A search is the act of systematically looking for something, often conducted by authorities to find evidence or contraband" .
+
+
+###  https://w3id.org/DTFO/Seizing
+:Seizing rdf:type owl:Class ;
+         rdfs:subClassOf :Legal_action ;
+         rdfs:isDefinedBy "Seizing is the legal act of taking possession of property, often by authorities, due to suspicion of illegal activity or as evidence" .
+
+
+###  https://w3id.org/DTFO/Smuggling
+:Smuggling rdf:type owl:Class ;
+           rdfs:subClassOf :Illegal_action ;
+           rdfs:isDefinedBy "Smuggling is the illegal transportation of goods or people across borders to avoid customs duties or import/export restrictions" .
+
+
+###  https://w3id.org/DTFO/Sports_academy
+:Sports_academy rdf:type owl:Class ;
+                rdfs:subClassOf :Infrastructure ;
+                rdfs:isDefinedBy "A sports academy is a specialized institution that provides training, coaching, and development programs for athletes in various sports disciplines" .
+
+
+###  https://w3id.org/DTFO/Syndicate
+:Syndicate rdf:type owl:Class ;
+           rdfs:subClassOf :Organization ;
+           rdfs:isDefinedBy "A syndicate is a group of individuals or organizations formed to carry out a specific enterprise, often involving collaboration for mutual benefit or profit" .
+
+
+###  https://w3id.org/DTFO/University
+:University rdf:type owl:Class ;
+            rdfs:subClassOf :Organization ;
+            rdfs:isDefinedBy "A university is an institution of higher education that offers academic degrees and conducts research across various fields of study" .
+
+
+###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

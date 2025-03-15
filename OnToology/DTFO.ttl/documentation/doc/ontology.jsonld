@@ -1,0 +1,596 @@
+[ {
+  "@id" : "http://purl.org/dc/elements/1.1/publisher",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/created",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/creator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/license",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/modified",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/vocab/vann/preferredNamespacePrefix",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/vocab/vann/preferredNamespaceUri",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://w3id.org/DTFO/",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://purl.org/dc/elements/1.1/publisher" : [ {
+    "@id" : "http://shodhguru.epizy.com/"
+  } ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@value" : "2025-03-10"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "Mayank Kejariwal"
+  }, {
+    "@value" : "Nandana Mihindukoolasuriya"
+  }, {
+    "@value" : "Sanju Tiwari"
+  } ],
+  "http://purl.org/dc/terms/license" : [ {
+    "@id" : "http://purl.org/NET/rdflicense/cc-by4.0"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@value" : "2025-03-10"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "en",
+    "@value" : "An ontology that represents concepts in the drug trafficking domain."
+  } ],
+  "http://purl.org/vocab/vann/preferredNamespacePrefix" : [ {
+    "@value" : "dtfo"
+  } ],
+  "http://purl.org/vocab/vann/preferredNamespaceUri" : [ {
+    "@id" : "https://w3id.org/DTFO/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A drug trafficking ontology is a structured representation of concepts, relationships, and entities related to the illegal trade, distribution, and transportation of drugs, typically used for analysis and understanding within law enforcement or research contexts."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "DTFO: Drug Trafficking Ontology"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "2.0"
+  } ]
+}, {
+  "@id" : "https://w3id.org/DTFO/Arrest",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "Arrest is the legal action of taking someone into custody, typically by law enforcement, for alleged criminal activity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/DTFO/Legal_action"
+  } ]
+}, {
+  "@id" : "https://w3id.org/DTFO/Asset",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "an asset is any valuable item, such as money, property, or goods, that is obtained or used in illegal trade activities."
+  } ]
+}, {
+  "@id" : "https://w3id.org/DTFO/Bank_fraud_case",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "Bank fraud is the illegal act of obtaining money or assets from a bank or financial institution"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/DTFO/Case"
+  } ]
+}, {
+  "@id" : "https://w3id.org/DTFO/Bank_loan_fraud",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "Bank loan fraud is the act of obtaining funds from a bank through deceptive means or false information"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/DTFO/Illegal_action"
+  } ]
+}, {
+  "@id" : "https://w3id.org/DTFO/Booking_under_law",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "Booking under law refers to the official process of recording details of an arrestee into police records, including personal information and the charges filed against them"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/DTFO/Legal_action"
+  } ]
+}, {
+  "@id" : "https://w3id.org/DTFO/Border_checkpoints",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "Border checkpoints are designated locations where authorities inspect people, goods, and vehicles crossing national or regional borders"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/DTFO/Infrastructure"
+  } ]
+}, {
+  "@id" : "https://w3id.org/DTFO/Bulk_drugs",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "Bulk drug refers to a pharmaceutical substance produced in large quantities, typically used as an active ingredient in drug formulations"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/DTFO/Product"
+  } ]
+}, {
+  "@id" : "https://w3id.org/DTFO/Case",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "A case is a specific instance or example of something"
+  } ]
+}, {
+  "@id" : "https://w3id.org/DTFO/Central_bureau_of_investigation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "The Central Bureau of Investigation (CBI) is India's premier investigative agency responsible for probing high-profile and sensitive cases, under the jurisdiction of the Government of India"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/DTFO/Legal_entity"
+  } ]
+}, {
+  "@id" : "https://w3id.org/DTFO/Contraband",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "Drug trafficking is a global illicit trade involving the cultivation, manufacture, distribution and sale of substances which are subject to drug prohibition laws."
+  } ]
+}, {
+  "@id" : "https://w3id.org/DTFO/Crackdown_on_narcotics_inflow",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "A crackdown on narcotics inflow is a concerted effort by law enforcement to aggressively reduce the illegal importation and distribution of drugs"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/DTFO/Legal_action"
+  } ]
+}, {
+  "@id" : "https://w3id.org/DTFO/Currency",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "a medium of exchange for the supply of goods and services."
+  } ]
+}, {
+  "@id" : "https://w3id.org/DTFO/Drug_company",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "A drug company is an organization that researches, develops, manufactures, and markets pharmaceutical products"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/DTFO/Organization"
+  } ]
+}, {
+  "@id" : "https://w3id.org/DTFO/Drug_haul_case",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "A drug haul case is a legal incident involving the seizure of a significant quantity of illegal drugs by law enforcement authorities."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/DTFO/Case"
+  } ]
+}, {
+  "@id" : "https://w3id.org/DTFO/Drug_intermediaries",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "Drug intermediaries are entities or individuals involved in the distribution, trade, or sale of pharmaceutical products between manufacturers and end-users, such as wholesalers or distributors"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/DTFO/Product"
+  } ]
+}, {
+  "@id" : "https://w3id.org/DTFO/Drug_trafficking",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "Drug trafficking is a global illicit trade involving the cultivation, manufacture, distribution and sale of substances which are subject to drug prohibition laws"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/DTFO/Illegal_action"
+  } ]
+}, {
+  "@id" : "https://w3id.org/DTFO/Enforcement_directorate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "The Enforcement Directorate (ED) is an Indian law enforcement and economic intelligence agency responsible for enforcing economic laws and regulations, combating financial crimes, and investigating money laundering"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/DTFO/Legal_entity"
+  } ]
+}, {
+  "@id" : "https://w3id.org/DTFO/Farmhouse",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "A farmhouse means a residential area amid beautiful landscapes"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/DTFO/Real_estate"
+  } ]
+}, {
+  "@id" : "https://w3id.org/DTFO/Gold",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "a precious yellow metal that is used for making coins, jewellery."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/DTFO/Asset"
+  } ]
+}, {
+  "@id" : "https://w3id.org/DTFO/Government_schools_and_colleges",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "Government schools and colleges are educational institutions funded and managed by the government to provide free or subsidized education to the public"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/DTFO/Infrastructure"
+  } ]
+}, {
+  "@id" : "https://w3id.org/DTFO/Illegal_action",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "An action is considered illegal when it goes against a specific law passed by a legislative authority"
+  } ]
+}, {
+  "@id" : "https://w3id.org/DTFO/Infrastructure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "Infrastructure is the basic facilities and system serving a country, region, or community"
+  } ]
+}, {
+  "@id" : "https://w3id.org/DTFO/Legal_action",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "Legal action is the process of using the judicial system to enforce or defend a legal right"
+  } ]
+}, {
+  "@id" : "https://w3id.org/DTFO/Legal_entity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "A legal entity is an organization or individual that has legal rights and obligations"
+  } ]
+}, {
+  "@id" : "https://w3id.org/DTFO/Manufacturing",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "Manufacturing is the process of converting raw materials into finished products through the use of machinery, tools, and labor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/DTFO/Illegal_action"
+  } ]
+}, {
+  "@id" : "https://w3id.org/DTFO/Organization",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "An organization is a structured entity formed to achieve specific goals or objectives, often through coordinated efforts and resources"
+  } ]
+}, {
+  "@id" : "https://w3id.org/DTFO/Person",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "A person is a human being, typically regarded as an individual with distinct characteristics, rights, and responsibilities"
+  } ]
+}, {
+  "@id" : "https://w3id.org/DTFO/Plots_of_land",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "any piece of land held by a single occupier, or held in common by several co-occupiers"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/DTFO/Real_estate"
+  } ]
+}, {
+  "@id" : "https://w3id.org/DTFO/Police",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "Police are government agencies responsible for maintaining public order, enforcing laws, and investigating crimes within a jurisdiction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/DTFO/Organization"
+  } ]
+}, {
+  "@id" : "https://w3id.org/DTFO/Possession",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "Possession is the act of having or owning something, whether tangible or intangible"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/DTFO/Illegal_action"
+  } ]
+}, {
+  "@id" : "https://w3id.org/DTFO/Product",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "A product is a tangible or intangible item created through a process to satisfy a specific need or want in the market"
+  } ]
+}, {
+  "@id" : "https://w3id.org/DTFO/Raid",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "A raid is a sudden and organized law enforcement operation to search premises, often to seize illegal goods or arrest suspects"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/DTFO/Legal_action"
+  } ]
+}, {
+  "@id" : "https://w3id.org/DTFO/Real_estate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "Real estate is property consisting of land and the buildings"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/DTFO/Asset"
+  } ]
+}, {
+  "@id" : "https://w3id.org/DTFO/Resolution_of_boundary_disputes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "Resolution of a boundary dispute is the settlement of conflicting claims over territorial borders between two or more parties"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/DTFO/Legal_action"
+  } ]
+}, {
+  "@id" : "https://w3id.org/DTFO/Search",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "A search is the act of systematically looking for something, often conducted by authorities to find evidence or contraband"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/DTFO/Legal_action"
+  } ]
+}, {
+  "@id" : "https://w3id.org/DTFO/Seizing",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "Seizing is the legal act of taking possession of property, often by authorities, due to suspicion of illegal activity or as evidence"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/DTFO/Legal_action"
+  } ]
+}, {
+  "@id" : "https://w3id.org/DTFO/Smuggling",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "Smuggling is the illegal transportation of goods or people across borders to avoid customs duties or import/export restrictions"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/DTFO/Illegal_action"
+  } ]
+}, {
+  "@id" : "https://w3id.org/DTFO/Sports_academy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "A sports academy is a specialized institution that provides training, coaching, and development programs for athletes in various sports disciplines"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/DTFO/Infrastructure"
+  } ]
+}, {
+  "@id" : "https://w3id.org/DTFO/Syndicate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "A syndicate is a group of individuals or organizations formed to carry out a specific enterprise, often involving collaboration for mutual benefit or profit"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/DTFO/Organization"
+  } ]
+}, {
+  "@id" : "https://w3id.org/DTFO/University",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "A university is an institution of higher education that offers academic degrees and conducts research across various fields of study"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/DTFO/Organization"
+  } ]
+}, {
+  "@id" : "https://w3id.org/DTFO/amassedThrough",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/DTFO/Asset"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/DTFO/Illegal_action"
+  } ]
+}, {
+  "@id" : "https://w3id.org/DTFO/conductsInvestigation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/DTFO/Legal_entity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/DTFO/Case"
+  } ]
+}, {
+  "@id" : "https://w3id.org/DTFO/hasArrested",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/DTFO/Police"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/DTFO/Person"
+  } ]
+}, {
+  "@id" : "https://w3id.org/DTFO/hasLiabilityTowards",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/DTFO/Organization"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/DTFO/Person"
+  } ]
+}, {
+  "@id" : "https://w3id.org/DTFO/hasRegisteredCase",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/DTFO/Legal_entity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/DTFO/Case"
+  } ]
+}, {
+  "@id" : "https://w3id.org/DTFO/hasSeized",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/DTFO/Police"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/DTFO/Contraband"
+  } ]
+}, {
+  "@id" : "https://w3id.org/DTFO/isAccusedOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/DTFO/Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/DTFO/Legal_action"
+  } ]
+}, {
+  "@id" : "https://w3id.org/DTFO/isArrestedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/DTFO/Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/DTFO/Person"
+  } ]
+}, {
+  "@id" : "https://w3id.org/DTFO/isArrestedFor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/DTFO/Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/DTFO/Illegal_action"
+  } ]
+}, {
+  "@id" : "https://w3id.org/DTFO/isFoundingMemberOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/DTFO/Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/DTFO/Organization"
+  } ]
+}, {
+  "@id" : "https://w3id.org/DTFO/isInvolvedIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/DTFO/Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/DTFO/Case"
+  } ]
+}, {
+  "@id" : "https://w3id.org/DTFO/isLocatedIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/DTFO/Asset"
+  }, {
+    "@id" : "https://w3id.org/DTFO/Contraband"
+  }, {
+    "@id" : "https://w3id.org/DTFO/Illegal_action"
+  }, {
+    "@id" : "https://w3id.org/DTFO/Infrastructure"
+  }, {
+    "@id" : "https://w3id.org/DTFO/Legal_action"
+  }, {
+    "@id" : "https://w3id.org/DTFO/Organization"
+  }, {
+    "@id" : "https://w3id.org/DTFO/Person"
+  } ]
+}, {
+  "@id" : "https://w3id.org/DTFO/isMemberOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/DTFO/Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/DTFO/Police"
+  }, {
+    "@id" : "https://w3id.org/DTFO/Syndicate"
+  } ]
+}, {
+  "@id" : "https://w3id.org/DTFO/isOwnedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/DTFO/Asset"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/DTFO/Person"
+  } ]
+}, {
+  "@id" : "https://w3id.org/DTFO/isWorth",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/DTFO/Asset"
+  }, {
+    "@id" : "https://w3id.org/DTFO/Contraband"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/DTFO/Currency"
+  } ]
+}, {
+  "@id" : "https://w3id.org/DTFO/possesses",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/DTFO/Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/DTFO/Contraband"
+  } ]
+}, {
+  "@id" : "https://w3id.org/DTFO/produces",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/DTFO/Organization"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/DTFO/Product"
+  } ]
+}, {
+  "@id" : "https://w3id.org/DTFO/resultsFrom",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/DTFO/Asset"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/DTFO/Illegal_action"
+  } ]
+}, {
+  "@id" : "https://w3id.org/DTFO/searchesLocation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/DTFO/Search"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/DTFO/Person"
+  } ]
+}, {
+  "@id" : "https://w3id.org/DTFO/securesReleaseOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/DTFO/Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/DTFO/Person"
+  } ]
+}, {
+  "@id" : "https://w3id.org/DTFO/smuggles",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/DTFO/Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/DTFO/Contraband"
+  } ]
+} ]

@@ -2,7 +2,7 @@ digraph ar2dtool_diagram {
 rankdir=LR;
 size="1501"
 node [shape = rectangle, color="orange"]; "dtfo:Asset" "dtfo:Case" "dtfo:Organization" "dtfo:Person" "dtfo:Contraband" "dtfo:Currency" "dtfo:Legal_entity" "dtfo:Legal_action" "dtfo:Illegal_action" "dtfo:Product" "dtfo:Search" "dtfo:Police" ; /*classes style*/
-	"dtfo:" -> "https://w3id.org/def/drug-trafficking-onto#" [ label = "ns0:preferredNamespaceUri" ];
+	"dtfo:" -> "dtfo:" [ label = "ns0:preferredNamespaceUri" ];
 	"dtfo:" -> "http://shodhguru.epizy.com/" [ label = "dc11:publisher" ];
 	"dtfo:" -> "http://purl.org/NET/rdflicense/cc-by4.0" [ label = "dc:license" ];
 	"dtfo:Legal_entity" -> "dtfo:Case" [ label = "dtfo:conductsInvestigation" ];
