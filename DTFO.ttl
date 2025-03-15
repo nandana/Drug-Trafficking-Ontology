@@ -1,4 +1,4 @@
-@prefix : <http://www.semanticweb.org/iceth/ontologies/2024/1/untitled-ontology-40> .
+@prefix : <https://w3id.org/DTFO/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -7,21 +7,18 @@
 @prefix dc11: <http://purl.org/dc/elements/1.1/> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix ns0: <http://purl.org/vocab/vann/> .
-@base <http://www.semanticweb.org/iceth/ontologies/2024/1/untitled-ontology-40> .
+@base <https://w3id.org/DTFO/> .
 
 
-<http://www.semanticweb.org/iceth/ontologies/2024/1/untitled-ontology-40>   a owl:Ontology ;
+<https://w3id.org/DTFO/>   a owl:Ontology ;
                                                                            rdfs:comment "A drug trafficking ontology is a structured representation of concepts, relationships, and entities related to the illegal trade, distribution, and transportation of drugs, typically used for analysis and understanding within law enforcement or research contexts." ;
-                                                                           rdfs:isDefinedBy """Sanju Tiwari
-Mayank Kejariwal
-Nandana Mihindukoolasuriya""" ;
                                                                             dc11:publisher <http://shodhguru.epizy.com/> ;
                                                                             dc:created "2024-07-10" ;
                                                                             dc:creator "Sanju Tiwari" ;
                                                                             dc:creator "Mayank Kejariwal" ;
                                                                             dc:creator "Nandana Mihindukoolasuriya" ;
                                                                             dc:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
-                                                                            dc:modified "2024-07-10" ;
+                                                                            dc:modified "2025-03-10" ;
                                                                             dc:title "An ontology that represents concepts in the drug trafficking domain."@en ;
                                                                             ns0:preferredNamespacePrefix "dtfo" ;
                                                                             ns0:preferredNamespaceUri <https://w3id.org/def/drug-trafficking-onto#> ;
@@ -33,369 +30,369 @@ Nandana Mihindukoolasuriya""" ;
 #    Object Properties
 #################################################################
 
-###  https://schema.org/amassedThrough
-<https://schema.org/amassedThrough> rdf:type owl:ObjectProperty ;
-                                    rdfs:domain <https://schema.org/Asset> ;
-                                    rdfs:range <https://schema.org/Illegal_action> .
+###  https://w3id.org/DTFO/amassedThrough
+<https://w3id.org/DTFO/amassedThrough> rdf:type owl:ObjectProperty ;
+                                    rdfs:domain <https://w3id.org/DTFO/Asset> ;
+                                    rdfs:range <https://w3id.org/DTFO/Illegal_action> .
 
 
-###  https://schema.org/conductsInvestigation
-<https://schema.org/conductsInvestigation> rdf:type owl:ObjectProperty ;
-                                           rdfs:domain <https://schema.org/Legal_entity> ;
-                                           rdfs:range <https://schema.org/Case> .
+###  https://w3id.org/DTFO/conductsInvestigation
+<https://w3id.org/DTFO/conductsInvestigation> rdf:type owl:ObjectProperty ;
+                                           rdfs:domain <https://w3id.org/DTFO/Legal_entity> ;
+                                           rdfs:range <https://w3id.org/DTFO/Case> .
 
 
-###  https://schema.org/hasArrested
-<https://schema.org/hasArrested> rdf:type owl:ObjectProperty ;
-                                 rdfs:domain <https://schema.org/Police> ;
-                                 rdfs:range <https://schema.org/Person> .
+###  https://w3id.org/DTFO/hasArrested
+<https://w3id.org/DTFO/hasArrested> rdf:type owl:ObjectProperty ;
+                                 rdfs:domain <https://w3id.org/DTFO/Police> ;
+                                 rdfs:range <https://w3id.org/DTFO/Person> .
 
 
-###  https://schema.org/hasLiabilityTowards
-<https://schema.org/hasLiabilityTowards> rdf:type owl:ObjectProperty ;
-                                         rdfs:domain <https://schema.org/Organization> ;
-                                         rdfs:range <https://schema.org/Person> .
+###  https://w3id.org/DTFO/hasLiabilityTowards
+<https://w3id.org/DTFO/hasLiabilityTowards> rdf:type owl:ObjectProperty ;
+                                         rdfs:domain <https://w3id.org/DTFO/Organization> ;
+                                         rdfs:range <https://w3id.org/DTFO/Person> .
 
 
-###  https://schema.org/hasRegisteredCase
-<https://schema.org/hasRegisteredCase> rdf:type owl:ObjectProperty ;
-                                       rdfs:domain <https://schema.org/Legal_entity> ;
-                                       rdfs:range <https://schema.org/Case> .
+###  https://w3id.org/DTFO/hasRegisteredCase
+<https://w3id.org/DTFO/hasRegisteredCase> rdf:type owl:ObjectProperty ;
+                                       rdfs:domain <https://w3id.org/DTFO/Legal_entity> ;
+                                       rdfs:range <https://w3id.org/DTFO/Case> .
 
 
-###  https://schema.org/hasSeized
-<https://schema.org/hasSeized> rdf:type owl:ObjectProperty ;
-                               rdfs:domain <https://schema.org/Police> ;
-                               rdfs:range <https://schema.org/Contraband> .
+###  https://w3id.org/DTFO/hasSeized
+<https://w3id.org/DTFO/hasSeized> rdf:type owl:ObjectProperty ;
+                               rdfs:domain <https://w3id.org/DTFO/Police> ;
+                               rdfs:range <https://w3id.org/DTFO/Contraband> .
 
 
-###  https://schema.org/isAccusedOf
-<https://schema.org/isAccusedOf> rdf:type owl:ObjectProperty ;
-                                 rdfs:domain <https://schema.org/Person> ;
-                                 rdfs:range <https://schema.org/Legal_action> .
+###  https://w3id.org/DTFO/isAccusedOf
+<https://w3id.org/DTFO/isAccusedOf> rdf:type owl:ObjectProperty ;
+                                 rdfs:domain <https://w3id.org/DTFO/Person> ;
+                                 rdfs:range <https://w3id.org/DTFO/Legal_action> .
 
 
-###  https://schema.org/isArrestedBy
-<https://schema.org/isArrestedBy> rdf:type owl:ObjectProperty ;
-                                  rdfs:domain <https://schema.org/Person> ;
-                                  rdfs:range <https://schema.org/Person> .
+###  https://w3id.org/DTFO/isArrestedBy
+<https://w3id.org/DTFO/isArrestedBy> rdf:type owl:ObjectProperty ;
+                                  rdfs:domain <https://w3id.org/DTFO/Person> ;
+                                  rdfs:range <https://w3id.org/DTFO/Person> .
 
 
-###  https://schema.org/isArrestedFor
-<https://schema.org/isArrestedFor> rdf:type owl:ObjectProperty ;
-                                   rdfs:domain <https://schema.org/Person> ;
-                                   rdfs:range <https://schema.org/Illegal_action> .
+###  https://w3id.org/DTFO/isArrestedFor
+<https://w3id.org/DTFO/isArrestedFor> rdf:type owl:ObjectProperty ;
+                                   rdfs:domain <https://w3id.org/DTFO/Person> ;
+                                   rdfs:range <https://w3id.org/DTFO/Illegal_action> .
 
 
-###  https://schema.org/isFoundingMemberOf
-<https://schema.org/isFoundingMemberOf> rdf:type owl:ObjectProperty ;
-                                        rdfs:domain <https://schema.org/Person> ;
-                                        rdfs:range <https://schema.org/Organization> .
+###  https://w3id.org/DTFO/isFoundingMemberOf
+<https://w3id.org/DTFO/isFoundingMemberOf> rdf:type owl:ObjectProperty ;
+                                        rdfs:domain <https://w3id.org/DTFO/Person> ;
+                                        rdfs:range <https://w3id.org/DTFO/Organization> .
 
 
-###  https://schema.org/isInvolvedIn
-<https://schema.org/isInvolvedIn> rdf:type owl:ObjectProperty ;
-                                  rdfs:domain <https://schema.org/Person> ;
-                                  rdfs:range <https://schema.org/Case> .
+###  https://w3id.org/DTFO/isInvolvedIn
+<https://w3id.org/DTFO/isInvolvedIn> rdf:type owl:ObjectProperty ;
+                                  rdfs:domain <https://w3id.org/DTFO/Person> ;
+                                  rdfs:range <https://w3id.org/DTFO/Case> .
 
 
-###  https://schema.org/isLocatedIn
-<https://schema.org/isLocatedIn> rdf:type owl:ObjectProperty ;
-                                 rdfs:domain <https://schema.org/Asset> ,
-                                             <https://schema.org/Contraband> ,
-                                             <https://schema.org/Illegal_action> ,
-                                             <https://schema.org/Infrastructure> ,
-                                             <https://schema.org/Legal_action> ,
-                                             <https://schema.org/Organization> ,
-                                             <https://schema.org/Person> .
+###  https://w3id.org/DTFO/isLocatedIn
+<https://w3id.org/DTFO/isLocatedIn> rdf:type owl:ObjectProperty ;
+                                 rdfs:domain <https://w3id.org/DTFO/Asset> ,
+                                             <https://w3id.org/DTFO/Contraband> ,
+                                             <https://w3id.org/DTFO/Illegal_action> ,
+                                             <https://w3id.org/DTFO/Infrastructure> ,
+                                             <https://w3id.org/DTFO/Legal_action> ,
+                                             <https://w3id.org/DTFO/Organization> ,
+                                             <https://w3id.org/DTFO/Person> .
 
 
-###  https://schema.org/isMemberOf
-<https://schema.org/isMemberOf> rdf:type owl:ObjectProperty ;
-                                rdfs:domain <https://schema.org/Person> ;
-                                rdfs:range <https://schema.org/Police> ,
-                                           <https://schema.org/Syndicate> .
+###  https://w3id.org/DTFO/isMemberOf
+<https://w3id.org/DTFO/isMemberOf> rdf:type owl:ObjectProperty ;
+                                rdfs:domain <https://w3id.org/DTFO/Person> ;
+                                rdfs:range <https://w3id.org/DTFO/Police> ,
+                                           <https://w3id.org/DTFO/Syndicate> .
 
 
-###  https://schema.org/isOwnedBy
-<https://schema.org/isOwnedBy> rdf:type owl:ObjectProperty ;
-                               rdfs:domain <https://schema.org/Asset> ;
-                               rdfs:range <https://schema.org/Person> .
+###  https://w3id.org/DTFO/isOwnedBy
+<https://w3id.org/DTFO/isOwnedBy> rdf:type owl:ObjectProperty ;
+                               rdfs:domain <https://w3id.org/DTFO/Asset> ;
+                               rdfs:range <https://w3id.org/DTFO/Person> .
 
 
-###  https://schema.org/isWorth
-<https://schema.org/isWorth> rdf:type owl:ObjectProperty ;
-                             rdfs:domain <https://schema.org/Asset> ,
-                                         <https://schema.org/Contraband> ;
-                             rdfs:range <https://schema.org/Currency> .
+###  https://w3id.org/DTFO/isWorth
+<https://w3id.org/DTFO/isWorth> rdf:type owl:ObjectProperty ;
+                             rdfs:domain <https://w3id.org/DTFO/Asset> ,
+                                         <https://w3id.org/DTFO/Contraband> ;
+                             rdfs:range <https://w3id.org/DTFO/Currency> .
 
 
-###  https://schema.org/possesses
-<https://schema.org/possesses> rdf:type owl:ObjectProperty ;
-                               rdfs:domain <https://schema.org/Person> ;
-                               rdfs:range <https://schema.org/Contraband> .
+###  https://w3id.org/DTFO/possesses
+<https://w3id.org/DTFO/possesses> rdf:type owl:ObjectProperty ;
+                               rdfs:domain <https://w3id.org/DTFO/Person> ;
+                               rdfs:range <https://w3id.org/DTFO/Contraband> .
 
 
-###  https://schema.org/produces
-<https://schema.org/produces> rdf:type owl:ObjectProperty ;
-                              rdfs:domain <https://schema.org/Organization> ;
-                              rdfs:range <https://schema.org/Product> .
+###  https://w3id.org/DTFO/produces
+<https://w3id.org/DTFO/produces> rdf:type owl:ObjectProperty ;
+                              rdfs:domain <https://w3id.org/DTFO/Organization> ;
+                              rdfs:range <https://w3id.org/DTFO/Product> .
 
 
-###  https://schema.org/resultsFrom
-<https://schema.org/resultsFrom> rdf:type owl:ObjectProperty ;
-                                 rdfs:domain <https://schema.org/Asset> ;
-                                 rdfs:range <https://schema.org/Illegal_action> .
+###  https://w3id.org/DTFO/resultsFrom
+<https://w3id.org/DTFO/resultsFrom> rdf:type owl:ObjectProperty ;
+                                 rdfs:domain <https://w3id.org/DTFO/Asset> ;
+                                 rdfs:range <https://w3id.org/DTFO/Illegal_action> .
 
 
-###  https://schema.org/searchesLocation
-<https://schema.org/searchesLocation> rdf:type owl:ObjectProperty ;
-                                      rdfs:domain <https://schema.org/Search> ;
-                                      rdfs:range <https://schema.org/Person> .
+###  https://w3id.org/DTFO/searchesLocation
+<https://w3id.org/DTFO/searchesLocation> rdf:type owl:ObjectProperty ;
+                                      rdfs:domain <https://w3id.org/DTFO/Search> ;
+                                      rdfs:range <https://w3id.org/DTFO/Person> .
 
 
-###  https://schema.org/securesReleaseOf
-<https://schema.org/securesReleaseOf> rdf:type owl:ObjectProperty ;
-                                      rdfs:domain <https://schema.org/Person> ;
-                                      rdfs:range <https://schema.org/Person> .
+###  https://w3id.org/DTFO/securesReleaseOf
+<https://w3id.org/DTFO/securesReleaseOf> rdf:type owl:ObjectProperty ;
+                                      rdfs:domain <https://w3id.org/DTFO/Person> ;
+                                      rdfs:range <https://w3id.org/DTFO/Person> .
 
 
-###  https://schema.org/smuggles
-<https://schema.org/smuggles> rdf:type owl:ObjectProperty ;
-                              rdfs:domain <https://schema.org/Person> ;
-                              rdfs:range <https://schema.org/Contraband> .
+###  https://w3id.org/DTFO/smuggles
+<https://w3id.org/DTFO/smuggles> rdf:type owl:ObjectProperty ;
+                              rdfs:domain <https://w3id.org/DTFO/Person> ;
+                              rdfs:range <https://w3id.org/DTFO/Contraband> .
 
 
 #################################################################
 #    Classes
 #################################################################
 
-###  https://schema.org/Arrest
-<https://schema.org/Arrest> rdf:type owl:Class ;
-                            rdfs:subClassOf <https://schema.org/Legal_action> ;
+###  https://w3id.org/DTFO/Arrest
+<https://w3id.org/DTFO/Arrest> rdf:type owl:Class ;
+                            rdfs:subClassOf <https://w3id.org/DTFO/Legal_action> ;
                             rdfs:isDefinedBy "Arrest is the legal action of taking someone into custody, typically by law enforcement, for alleged criminal activity" .
 
 
-###  https://schema.org/Asset
-<https://schema.org/Asset> rdf:type owl:Class ;
+###  https://w3id.org/DTFO/Asset
+<https://w3id.org/DTFO/Asset> rdf:type owl:Class ;
                            rdfs:isDefinedBy "an asset is any valuable item, such as money, property, or goods, that is obtained or used in illegal trade activities." .
 
 
-###  https://schema.org/Bank_fraud_case
-<https://schema.org/Bank_fraud_case> rdf:type owl:Class ;
-                                     rdfs:subClassOf <https://schema.org/Case> ;
+###  https://w3id.org/DTFO/Bank_fraud_case
+<https://w3id.org/DTFO/Bank_fraud_case> rdf:type owl:Class ;
+                                     rdfs:subClassOf <https://w3id.org/DTFO/Case> ;
                                      rdfs:isDefinedBy "Bank fraud is the illegal act of obtaining money or assets from a bank or financial institution" .
 
 
-###  https://schema.org/Bank_loan_fraud
-<https://schema.org/Bank_loan_fraud> rdf:type owl:Class ;
-                                     rdfs:subClassOf <https://schema.org/Illegal_action> ;
+###  https://w3id.org/DTFO/Bank_loan_fraud
+<https://w3id.org/DTFO/Bank_loan_fraud> rdf:type owl:Class ;
+                                     rdfs:subClassOf <https://w3id.org/DTFO/Illegal_action> ;
                                      rdfs:isDefinedBy "Bank loan fraud is the act of obtaining funds from a bank through deceptive means or false information" .
 
 
-###  https://schema.org/Booking_under_law
-<https://schema.org/Booking_under_law> rdf:type owl:Class ;
-                                       rdfs:subClassOf <https://schema.org/Legal_action> ;
+###  https://w3id.org/DTFO/Booking_under_law
+<https://w3id.org/DTFO/Booking_under_law> rdf:type owl:Class ;
+                                       rdfs:subClassOf <https://w3id.org/DTFO/Legal_action> ;
                                        rdfs:isDefinedBy "Booking under law refers to the official process of recording details of an arrestee into police records, including personal information and the charges filed against them" .
 
 
-###  https://schema.org/Border_checkpoints
-<https://schema.org/Border_checkpoints> rdf:type owl:Class ;
-                                        rdfs:subClassOf <https://schema.org/Infrastructure> ;
+###  https://w3id.org/DTFO/Border_checkpoints
+<https://w3id.org/DTFO/Border_checkpoints> rdf:type owl:Class ;
+                                        rdfs:subClassOf <https://w3id.org/DTFO/Infrastructure> ;
                                         rdfs:isDefinedBy "Border checkpoints are designated locations where authorities inspect people, goods, and vehicles crossing national or regional borders" .
 
 
-###  https://schema.org/Bulk_drugs
-<https://schema.org/Bulk_drugs> rdf:type owl:Class ;
-                                rdfs:subClassOf <https://schema.org/Product> ;
+###  https://w3id.org/DTFO/Bulk_drugs
+<https://w3id.org/DTFO/Bulk_drugs> rdf:type owl:Class ;
+                                rdfs:subClassOf <https://w3id.org/DTFO/Product> ;
                                 rdfs:isDefinedBy "Bulk drug refers to a pharmaceutical substance produced in large quantities, typically used as an active ingredient in drug formulations" .
 
 
-###  https://schema.org/Case
-<https://schema.org/Case> rdf:type owl:Class ;
+###  https://w3id.org/DTFO/Case
+<https://w3id.org/DTFO/Case> rdf:type owl:Class ;
                           rdfs:isDefinedBy "A case is a specific instance or example of something" .
 
 
-###  https://schema.org/Central_bureau_of_investigation
-<https://schema.org/Central_bureau_of_investigation> rdf:type owl:Class ;
-                                                     rdfs:subClassOf <https://schema.org/Legal_entity> ;
+###  https://w3id.org/DTFO/Central_bureau_of_investigation
+<https://w3id.org/DTFO/Central_bureau_of_investigation> rdf:type owl:Class ;
+                                                     rdfs:subClassOf <https://w3id.org/DTFO/Legal_entity> ;
                                                      rdfs:isDefinedBy "The Central Bureau of Investigation (CBI) is India's premier investigative agency responsible for probing high-profile and sensitive cases, under the jurisdiction of the Government of India" .
 
 
-###  https://schema.org/Contraband
-<https://schema.org/Contraband> rdf:type owl:Class ;
+###  https://w3id.org/DTFO/Contraband
+<https://w3id.org/DTFO/Contraband> rdf:type owl:Class ;
                                 rdfs:isDefinedBy "Drug trafficking is a global illicit trade involving the cultivation, manufacture, distribution and sale of substances which are subject to drug prohibition laws." .
 
 
-###  https://schema.org/Crackdown_on_narcotics_inflow
-<https://schema.org/Crackdown_on_narcotics_inflow> rdf:type owl:Class ;
-                                                   rdfs:subClassOf <https://schema.org/Legal_action> ;
+###  https://w3id.org/DTFO/Crackdown_on_narcotics_inflow
+<https://w3id.org/DTFO/Crackdown_on_narcotics_inflow> rdf:type owl:Class ;
+                                                   rdfs:subClassOf <https://w3id.org/DTFO/Legal_action> ;
                                                    rdfs:isDefinedBy "A crackdown on narcotics inflow is a concerted effort by law enforcement to aggressively reduce the illegal importation and distribution of drugs" .
 
 
-###  https://schema.org/Currency
-<https://schema.org/Currency> rdf:type owl:Class ;
+###  https://w3id.org/DTFO/Currency
+<https://w3id.org/DTFO/Currency> rdf:type owl:Class ;
                               rdfs:isDefinedBy "a medium of exchange for the supply of goods and services." .
 
 
-###  https://schema.org/Drug_company
-<https://schema.org/Drug_company> rdf:type owl:Class ;
-                                  rdfs:subClassOf <https://schema.org/Organization> ;
+###  https://w3id.org/DTFO/Drug_company
+<https://w3id.org/DTFO/Drug_company> rdf:type owl:Class ;
+                                  rdfs:subClassOf <https://w3id.org/DTFO/Organization> ;
                                   rdfs:isDefinedBy "A drug company is an organization that researches, develops, manufactures, and markets pharmaceutical products" .
 
 
-###  https://schema.org/Drug_haul_case
-<https://schema.org/Drug_haul_case> rdf:type owl:Class ;
-                                    rdfs:subClassOf <https://schema.org/Case> ;
+###  https://w3id.org/DTFO/Drug_haul_case
+<https://w3id.org/DTFO/Drug_haul_case> rdf:type owl:Class ;
+                                    rdfs:subClassOf <https://w3id.org/DTFO/Case> ;
                                     rdfs:isDefinedBy "A drug haul case is a legal incident involving the seizure of a significant quantity of illegal drugs by law enforcement authorities." .
 
 
-###  https://schema.org/Drug_intermediaries
-<https://schema.org/Drug_intermediaries> rdf:type owl:Class ;
-                                         rdfs:subClassOf <https://schema.org/Product> ;
+###  https://w3id.org/DTFO/Drug_intermediaries
+<https://w3id.org/DTFO/Drug_intermediaries> rdf:type owl:Class ;
+                                         rdfs:subClassOf <https://w3id.org/DTFO/Product> ;
                                          rdfs:isDefinedBy "Drug intermediaries are entities or individuals involved in the distribution, trade, or sale of pharmaceutical products between manufacturers and end-users, such as wholesalers or distributors" .
 
 
-###  https://schema.org/Drug_trafficking
-<https://schema.org/Drug_trafficking> rdf:type owl:Class ;
-                                      rdfs:subClassOf <https://schema.org/Illegal_action> ;
+###  https://w3id.org/DTFO/Drug_trafficking
+<https://w3id.org/DTFO/Drug_trafficking> rdf:type owl:Class ;
+                                      rdfs:subClassOf <https://w3id.org/DTFO/Illegal_action> ;
                                       rdfs:isDefinedBy "Drug trafficking is a global illicit trade involving the cultivation, manufacture, distribution and sale of substances which are subject to drug prohibition laws" .
 
 
-###  https://schema.org/Enforcement_directorate
-<https://schema.org/Enforcement_directorate> rdf:type owl:Class ;
-                                             rdfs:subClassOf <https://schema.org/Legal_entity> ;
+###  https://w3id.org/DTFO/Enforcement_directorate
+<https://w3id.org/DTFO/Enforcement_directorate> rdf:type owl:Class ;
+                                             rdfs:subClassOf <https://w3id.org/DTFO/Legal_entity> ;
                                              rdfs:isDefinedBy "The Enforcement Directorate (ED) is an Indian law enforcement and economic intelligence agency responsible for enforcing economic laws and regulations, combating financial crimes, and investigating money laundering" .
 
 
-###  https://schema.org/Farmhouse
-<https://schema.org/Farmhouse> rdf:type owl:Class ;
-                               rdfs:subClassOf <https://schema.org/Real_estate> ;
+###  https://w3id.org/DTFO/Farmhouse
+<https://w3id.org/DTFO/Farmhouse> rdf:type owl:Class ;
+                               rdfs:subClassOf <https://w3id.org/DTFO/Real_estate> ;
                                rdfs:isDefinedBy "A farmhouse means a residential area amid beautiful landscapes" .
 
 
-###  https://schema.org/Gold
-<https://schema.org/Gold> rdf:type owl:Class ;
-                          rdfs:subClassOf <https://schema.org/Asset> ;
+###  https://w3id.org/DTFO/Gold
+<https://w3id.org/DTFO/Gold> rdf:type owl:Class ;
+                          rdfs:subClassOf <https://w3id.org/DTFO/Asset> ;
                           rdfs:isDefinedBy "a precious yellow metal that is used for making coins, jewellery." .
 
 
-###  https://schema.org/Government_schools_and_colleges
-<https://schema.org/Government_schools_and_colleges> rdf:type owl:Class ;
-                                                     rdfs:subClassOf <https://schema.org/Infrastructure> ;
+###  https://w3id.org/DTFO/Government_schools_and_colleges
+<https://w3id.org/DTFO/Government_schools_and_colleges> rdf:type owl:Class ;
+                                                     rdfs:subClassOf <https://w3id.org/DTFO/Infrastructure> ;
                                                      rdfs:isDefinedBy "Government schools and colleges are educational institutions funded and managed by the government to provide free or subsidized education to the public" .
 
 
-###  https://schema.org/Illegal_action
-<https://schema.org/Illegal_action> rdf:type owl:Class ;
+###  https://w3id.org/DTFO/Illegal_action
+<https://w3id.org/DTFO/Illegal_action> rdf:type owl:Class ;
                                     rdfs:isDefinedBy "An action is considered illegal when it goes against a specific law passed by a legislative authority" .
 
 
-###  https://schema.org/Infrastructure
-<https://schema.org/Infrastructure> rdf:type owl:Class ;
+###  https://w3id.org/DTFO/Infrastructure
+<https://w3id.org/DTFO/Infrastructure> rdf:type owl:Class ;
                                     rdfs:isDefinedBy "Infrastructure is the basic facilities and system serving a country, region, or community" .
 
 
-###  https://schema.org/Legal_action
-<https://schema.org/Legal_action> rdf:type owl:Class ;
+###  https://w3id.org/DTFO/Legal_action
+<https://w3id.org/DTFO/Legal_action> rdf:type owl:Class ;
                                   rdfs:isDefinedBy "Legal action is the process of using the judicial system to enforce or defend a legal right" .
 
 
-###  https://schema.org/Legal_entity
-<https://schema.org/Legal_entity> rdf:type owl:Class ;
+###  https://w3id.org/DTFO/Legal_entity
+<https://w3id.org/DTFO/Legal_entity> rdf:type owl:Class ;
                                   rdfs:isDefinedBy "A legal entity is an organization or individual that has legal rights and obligations" .
 
 
-###  https://schema.org/Manufacturing
-<https://schema.org/Manufacturing> rdf:type owl:Class ;
-                                   rdfs:subClassOf <https://schema.org/Illegal_action> ;
+###  https://w3id.org/DTFO/Manufacturing
+<https://w3id.org/DTFO/Manufacturing> rdf:type owl:Class ;
+                                   rdfs:subClassOf <https://w3id.org/DTFO/Illegal_action> ;
                                    rdfs:isDefinedBy "Manufacturing is the process of converting raw materials into finished products through the use of machinery, tools, and labor" .
 
 
-###  https://schema.org/Organization
-<https://schema.org/Organization> rdf:type owl:Class ;
+###  https://w3id.org/DTFO/Organization
+<https://w3id.org/DTFO/Organization> rdf:type owl:Class ;
                                   rdfs:isDefinedBy "An organization is a structured entity formed to achieve specific goals or objectives, often through coordinated efforts and resources" .
 
 
-###  https://schema.org/Person
-<https://schema.org/Person> rdf:type owl:Class ;
+###  https://w3id.org/DTFO/Person
+<https://w3id.org/DTFO/Person> rdf:type owl:Class ;
                             rdfs:isDefinedBy "A person is a human being, typically regarded as an individual with distinct characteristics, rights, and responsibilities" .
 
 
-###  https://schema.org/Plots_of_land
-<https://schema.org/Plots_of_land> rdf:type owl:Class ;
-                                   rdfs:subClassOf <https://schema.org/Real_estate> ;
+###  https://w3id.org/DTFO/Plots_of_land
+<https://w3id.org/DTFO/Plots_of_land> rdf:type owl:Class ;
+                                   rdfs:subClassOf <https://w3id.org/DTFO/Real_estate> ;
                                    rdfs:isDefinedBy "any piece of land held by a single occupier, or held in common by several co-occupiers" .
 
 
-###  https://schema.org/Police
-<https://schema.org/Police> rdf:type owl:Class ;
-                            rdfs:subClassOf <https://schema.org/Organization> ;
+###  https://w3id.org/DTFO/Police
+<https://w3id.org/DTFO/Police> rdf:type owl:Class ;
+                            rdfs:subClassOf <https://w3id.org/DTFO/Organization> ;
                             rdfs:isDefinedBy "Police are government agencies responsible for maintaining public order, enforcing laws, and investigating crimes within a jurisdiction" .
 
 
-###  https://schema.org/Possession
-<https://schema.org/Possession> rdf:type owl:Class ;
-                                rdfs:subClassOf <https://schema.org/Illegal_action> ;
+###  https://w3id.org/DTFO/Possession
+<https://w3id.org/DTFO/Possession> rdf:type owl:Class ;
+                                rdfs:subClassOf <https://w3id.org/DTFO/Illegal_action> ;
                                 rdfs:isDefinedBy "Possession is the act of having or owning something, whether tangible or intangible" .
 
 
-###  https://schema.org/Product
-<https://schema.org/Product> rdf:type owl:Class ;
+###  https://w3id.org/DTFO/Product
+<https://w3id.org/DTFO/Product> rdf:type owl:Class ;
                              rdfs:isDefinedBy "A product is a tangible or intangible item created through a process to satisfy a specific need or want in the market" .
 
 
-###  https://schema.org/Raid
-<https://schema.org/Raid> rdf:type owl:Class ;
-                          rdfs:subClassOf <https://schema.org/Legal_action> ;
+###  https://w3id.org/DTFO/Raid
+<https://w3id.org/DTFO/Raid> rdf:type owl:Class ;
+                          rdfs:subClassOf <https://w3id.org/DTFO/Legal_action> ;
                           rdfs:isDefinedBy "A raid is a sudden and organized law enforcement operation to search premises, often to seize illegal goods or arrest suspects" .
 
 
-###  https://schema.org/Real_estate
-<https://schema.org/Real_estate> rdf:type owl:Class ;
-                                 rdfs:subClassOf <https://schema.org/Asset> ;
+###  https://w3id.org/DTFO/Real_estate
+<https://w3id.org/DTFO/Real_estate> rdf:type owl:Class ;
+                                 rdfs:subClassOf <https://w3id.org/DTFO/Asset> ;
                                  rdfs:isDefinedBy "Real estate is property consisting of land and the buildings" .
 
 
-###  https://schema.org/Resolution_of_boundary_disputes
-<https://schema.org/Resolution_of_boundary_disputes> rdf:type owl:Class ;
-                                                     rdfs:subClassOf <https://schema.org/Legal_action> ;
+###  https://w3id.org/DTFO/Resolution_of_boundary_disputes
+<https://w3id.org/DTFO/Resolution_of_boundary_disputes> rdf:type owl:Class ;
+                                                     rdfs:subClassOf <https://w3id.org/DTFO/Legal_action> ;
                                                      rdfs:isDefinedBy "Resolution of a boundary dispute is the settlement of conflicting claims over territorial borders between two or more parties" .
 
 
-###  https://schema.org/Search
-<https://schema.org/Search> rdf:type owl:Class ;
-                            rdfs:subClassOf <https://schema.org/Legal_action> ;
+###  https://w3id.org/DTFO/Search
+<https://w3id.org/DTFO/Search> rdf:type owl:Class ;
+                            rdfs:subClassOf <https://w3id.org/DTFO/Legal_action> ;
                             rdfs:isDefinedBy "A search is the act of systematically looking for something, often conducted by authorities to find evidence or contraband" .
 
 
-###  https://schema.org/Seizing
-<https://schema.org/Seizing> rdf:type owl:Class ;
-                             rdfs:subClassOf <https://schema.org/Legal_action> ;
+###  https://w3id.org/DTFO/Seizing
+<https://w3id.org/DTFO/Seizing> rdf:type owl:Class ;
+                             rdfs:subClassOf <https://w3id.org/DTFO/Legal_action> ;
                              rdfs:isDefinedBy "Seizing is the legal act of taking possession of property, often by authorities, due to suspicion of illegal activity or as evidence" .
 
 
-###  https://schema.org/Smuggling
-<https://schema.org/Smuggling> rdf:type owl:Class ;
-                               rdfs:subClassOf <https://schema.org/Illegal_action> ;
+###  https://w3id.org/DTFO/Smuggling
+<https://w3id.org/DTFO/Smuggling> rdf:type owl:Class ;
+                               rdfs:subClassOf <https://w3id.org/DTFO/Illegal_action> ;
                                rdfs:isDefinedBy "Smuggling is the illegal transportation of goods or people across borders to avoid customs duties or import/export restrictions" .
 
 
-###  https://schema.org/Sports_academy
-<https://schema.org/Sports_academy> rdf:type owl:Class ;
-                                    rdfs:subClassOf <https://schema.org/Infrastructure> ;
+###  https://w3id.org/DTFO/Sports_academy
+<https://w3id.org/DTFO/Sports_academy> rdf:type owl:Class ;
+                                    rdfs:subClassOf <https://w3id.org/DTFO/Infrastructure> ;
                                     rdfs:isDefinedBy "A sports academy is a specialized institution that provides training, coaching, and development programs for athletes in various sports disciplines" .
 
 
-###  https://schema.org/Syndicate
-<https://schema.org/Syndicate> rdf:type owl:Class ;
-                               rdfs:subClassOf <https://schema.org/Organization> ;
+###  https://w3id.org/DTFO/Syndicate
+<https://w3id.org/DTFO/Syndicate> rdf:type owl:Class ;
+                               rdfs:subClassOf <https://w3id.org/DTFO/Organization> ;
                                rdfs:isDefinedBy "A syndicate is a group of individuals or organizations formed to carry out a specific enterprise, often involving collaboration for mutual benefit or profit" .
 
 
-###  https://schema.org/University
-<https://schema.org/University> rdf:type owl:Class ;
-                                rdfs:subClassOf <https://schema.org/Organization> ;
+###  https://w3id.org/DTFO/University
+<https://w3id.org/DTFO/University> rdf:type owl:Class ;
+                                rdfs:subClassOf <https://w3id.org/DTFO/Organization> ;
                                 rdfs:isDefinedBy "A university is an institution of higher education that offers academic degrees and conducts research across various fields of study" .
 
 
